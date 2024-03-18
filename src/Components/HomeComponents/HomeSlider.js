@@ -18,7 +18,6 @@ const HomeSlider = () => {
             });
         }
     }, []);
-    // console.log(currentIndex);
     const handleNextSlide = () => {
         if (currentIndex === 3 - 1) {
             // If on last slide, go to first slide
@@ -31,7 +30,6 @@ const HomeSlider = () => {
 
     const handlePrevSlide = () => {
         if (currentIndex === 0) {
-            // If on first slide, go to last slide
             swiperRef.current.swiper.slideTo(3 - 1);
             setCurrentIndex(3 - 1);
         } else {
@@ -51,25 +49,33 @@ const HomeSlider = () => {
         onSwiper={(swiper) => console.log("swiper")}
         >
             <SwiperSlide>
-                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem]'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[90%] object-cover'/>
+                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
+                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
+                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Hello world!</div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem]'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[90%] object-cover'/>
+                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
+                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
+                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Welcome To</div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem]'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[90%] object-cover'/>
+                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
+                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
+                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div>
                 </div>
             </SwiperSlide>
         </Swiper>
 
-        <div className="absolute top-[50%] flex justify-between items-center z-[100] w-full px-[2rem] md:px-[3rem]">
+        <div className="absolute top-[45%] md:top-[50%] flex justify-between items-center z-[100] w-full px-[2rem] md:px-[1rem]">
             <div className="text-3xl cursor-pointer text-white md:text-black" onClick={handlePrevSlide}><BsArrowLeftCircle /></div>
             <div className="text-3xl cursor-pointer text-white md:text-black"  onClick={handleNextSlide}><BsArrowRightCircle /></div>
+        </div>
+        <div className='absolute bottom-[1rem] md:bottom-[2rem] z-[50] left-[40%] md:left-[50%] flex gap-[1rem]'>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==0?"bg-white":"bg-slate-600"}`}></div>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==1?"bg-white":"bg-slate-600"}`}></div>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==2?"bg-white":"bg-slate-600"}`}></div>
         </div>
     </div>
   );
