@@ -1,44 +1,44 @@
-import styles from "./Tracks.css";
+import styles from"./Tracks.module.css";
 
 const Tracks = () => {
     return(
         <div>
-        <div className='header'>
+        <div className={styles.header}>
             <h1><b>Tracks</b></h1>
         </div>
-        <div className='container'>
-        <div className='left'>
-            <div id='lcard'>
+        <div className={styles.container}>
+        <div className={styles.left}>
+            <div className={styles.lcard}>
                 <h3>TT1:</h3>
                 <h2>Power Converters, Devices, EMI/EMC and Packaging</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT3:</h3>
                 <h2>Transportation</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT5:</h3>
                 <h2>Renewable Energy Systems and Energy Storage</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT7:</h3>
                 <h2>Power Engineering Educations and Issues</h2>
             </div>
         </div>
-        <div className='right'>
-            <div id='lcard'>
+        <div className={styles.right}>
+            <div className={styles.lcard}>
                 <h3>TT2:</h3>
             <h2>Electrical Machines and Industrial Drives</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT4:</h3>
                 <h2>Control and Automation</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT6:</h3>
                 <h2>Smart Grids & Power Quality</h2>
             </div>
-            <div id='lcard'>
+            <div className={styles.lcard}>
                 <h3>TT8:</h3>
                 <h2>Applications of AI and ML Techniques to Power Electronics</h2>
             </div>
@@ -49,4 +49,4 @@ const Tracks = () => {
 
 
 }
-export default Tracks
+export default Tracks;
