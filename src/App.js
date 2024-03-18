@@ -1,11 +1,13 @@
-import './App.css';
-import Home from "./Pages/Home";
-function App() {
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import AboutUsComponent from './Components/About/About';
+
+
+export const App = () => {
   return (
-    <>
-      <Home />
-    </>
+    <div>
+       <Navbar/>
+    <AboutUsComponent/></div>
   );
 }
-
 export default App;
