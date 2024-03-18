@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: maroon;
+    font-weight: bolder;
+  }
+.container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    grid-template-rows: 50% auto auto auto;
+    gap: 60px;
+    padding-top: 10px;
+    font-size: small;
+  }
+  .container .left #lcard{
+    border-radius: 5%;
+    padding: 0% 3% 3% 3%;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
+  }
+  .container .right #lcard{
+    border-radius: 5%;
+    padding: 0% 3% 3% 3%;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
+  }
+  
