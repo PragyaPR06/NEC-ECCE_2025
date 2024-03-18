@@ -85,5 +85,42 @@
     }
   }
 
+  @media (max-width: 600px) {
+    .topBar {
+      .hamburger {
+        display: block;
+      }
+      .logos,
+      .rightLogos {
+        display: none;
+      }
+    }
+    .logos, .rightLogos {
+      img {
+        display: none; // Hide all logos initially
+      }
+      img:nth-child(-n+2) {
+        display: inline;
+      }
+    }
+
+    .navItems {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      .navItem {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #f1f1f1;
+      }
+      .dropdownContent {
+        position: relative;
+        box-shadow: none;
+        li {
+          padding: 15px;
+        }
+      }
+    }
+  }
 }
 
