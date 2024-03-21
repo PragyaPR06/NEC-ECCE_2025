@@ -1,0 +1,80 @@
+.anekTamilSponsors {
+    text-align: center;
+    font-family: "Anek Tamil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 97;
+    color: blue;
+    font-size: 30px;
+
+    h2 span {
+        color: orange;
+    }
+}
+
+.anekTamilAboutUs {
+    font-family: "Anek Tamil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 97;
+    color: blue;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-left: 1%;
+    text-align: center;
+
+    h2 span {
+        color: orange;
+    }
+}
+
+.anekTamilAboutUsInfo {
+    font-family: "Anek Tamil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 97;
+    font-size: 20px;
+    color: rgb(53, 49, 49);
+    padding-left: 1%;
+}
+
+.aboutUsInfo p span {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.anekTamilAboutUsPara {
+    font-family: "Anek Tamil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 97;
+    font-size: 15px;
+    color: rgb(53, 49, 49);
+    padding-left: 1%;
+    padding:1rem;
+}
+
+.sponsorsImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 105px;
+}
+
+.sponsor_1 {
+    width: 13%;
+}
+
+.aboutVideoSection {
+    text-align: center; /* Centers iframe horizontally */
+}
+
+#about-video {
+    margin: 0 auto; /* Centers iframe horizontally */
+    display: block; /* Ensures iframe is treated as a block element */
+}
