@@ -21,8 +21,7 @@
     gap: 1rem;
   }
   .container .left .lcard,.container .right .lcard{
-    /* font-size:clamp(1rem,4vw,1.3rem); */
-    font-size:large;
+    font-size:clamp(.9rem,4vw,1.2rem);
     padding-left: 2rem;
     display: flex;
     justify-content: center;
@@ -39,3 +38,16 @@
      box-shadow:-5px 5px  10px slategray ;
   }
   
+  /*BREAKPOINTS*/
+/* For small devices */
+@media screen and (max-width: 400px) {
+  .container {
+    margin-inline: 1rem;
+    display: grid;
+    grid-template-columns:320px;
+    justify-content: center;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+

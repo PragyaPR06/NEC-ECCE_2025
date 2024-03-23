@@ -84,7 +84,7 @@ img {
 }
 
 .card__img {
-  width: 280px;
+  width: 200px;
   height: 313px;
   border-radius: 1.5rem;
   object-fit:fill;
@@ -212,10 +212,10 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
   .card__img {
-    width: 348px;
+    width: 310px;
   }
   .card__data {
-    width: 316px;
+    width: 300px;
     padding-inline: 2.5rem;
   }
 }
