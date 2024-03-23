@@ -84,8 +84,10 @@ img {
 }
 
 .card__img {
-  width: 328px;
+  width: 280px;
+  height: 313px;
   border-radius: 1.5rem;
+  object-fit:fill;
 }
 
 .card__data {
@@ -116,12 +118,7 @@ img {
   margin-bottom: .75rem;
 }
 
-.card__button {
-  text-decoration: none;
-  font-size: var(--small-font-size);
-  font-weight: 500;
-  color: var(--first-color);
-}
+
 
 .card__button:hover {
   text-decoration: underline;
