@@ -19,7 +19,7 @@ const HomeSlider = () => {
         }
     }, []);
     const handleNextSlide = () => {
-        if (currentIndex === 3 - 1) {
+        if (currentIndex === 5 - 1) {
             // If on last slide, go to first slide
             swiperRef.current.swiper.slideTo(0);
             setCurrentIndex(0);
@@ -50,20 +50,32 @@ const HomeSlider = () => {
         >
             <SwiperSlide>
                 <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
-                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Hello world!</div>
+                    <img src='/HomeSlider/conference4.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Hello world!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
-                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Welcome To</div>
+                    <img src='/HomeSlider/conference5.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Welcome To</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
-                    <img src='/HomeSlider/conference1.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover'/>
-                    <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div>
+                    <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
+                    <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className='mx-auto w-[90%] h-[15rem] md:h-[35rem] relative'>
+                    <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
         </Swiper>
@@ -73,9 +85,11 @@ const HomeSlider = () => {
             <div className="text-3xl cursor-pointer text-white md:text-black"  onClick={handleNextSlide}><BsArrowRightCircle /></div>
         </div>
         <div className='absolute bottom-[1rem] md:bottom-[2rem] z-[50] left-[40%] md:left-[50%] flex gap-[1rem]'>
-            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==0?"bg-white":"bg-slate-600"}`}></div>
-            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==1?"bg-white":"bg-slate-600"}`}></div>
-            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex==2?"bg-white":"bg-slate-600"}`}></div>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex===0?"bg-white":"bg-slate-600"}`}></div>
+            {/* <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex===1?"bg-white":"bg-slate-600"}`}></div> */}
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex===2?"bg-white":"bg-slate-600"}`}></div>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex===3?"bg-white":"bg-slate-600"}`}></div>
+            <div className={`h-[.8rem] w-[.8rem] border border-black rounded-lg ${currentIndex===4?"bg-white":"bg-slate-600"}`}></div>
         </div>
     </div>
   );
