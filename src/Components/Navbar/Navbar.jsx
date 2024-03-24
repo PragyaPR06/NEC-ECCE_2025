@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.scss';
-import logo1 from "../Navbar/images/logo1.png"
-import logo2 from "../Navbar/images/logo2.jpg"
-import logo3 from "../Navbar/images/logo3.jpg"
-import logo4 from "../Navbar/images/logo4.jpg"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
