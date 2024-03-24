@@ -15,17 +15,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.topBar}>
-        <div className={styles.logos}>
-          <img src={logo1} alt="Logo 1" className={styles.logo} />
-          <img src={logo3} alt="Logo 3" className={styles.logo} />
-        </div>
         <button className={styles.hamburger} onClick={toggleHamburger}>
           &#9776;
         </button>
-        <div className={styles.rightLogos}>
-          <img src={logo4} alt="Logo 2" className={styles.logo} />
-          <img src={logo2} alt="Logo 4" className={styles.logo} />
-        </div>
       </div>
       <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ''}`}>
         <li className={styles.navItem}>Home</li>
