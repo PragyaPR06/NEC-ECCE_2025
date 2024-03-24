@@ -1,0 +1,143 @@
+.header_links{
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 10rem;
+  background-color: #d6ecf5;
+  border-bottom: 0.05rem solid #069;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 600;
+}
+
+.header_links_section{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #069;
+  a:visited {
+      color: #069;
+  }
+  a:link {
+      color: #069;
+  }
+}
+
+#header_xplore{
+  font-style: italic;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 10rem;
+  background-color: white;
+}
+
+.pathway_extreme_header_info {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 950;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 1.1rem;
+  margin-right: 0;
+}
+
+.header_location{
+  display: flex;
+  height: fit-content;
+  padding-left: 6rem;
+  align-items: center;
+  background-color: white;
+}
+
+.header_counter{
+  width:15em;
+}
+
+.header_location img{
+  height: 2rem;
+}
+
+.pathway_extreme_header_location_data {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 1.1rem;
+  padding-left: 0.8rem;
+  justify-content: center;
+}
+
+.pathway_extreme_header_location_dates {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 1.1rem;
+  padding-left: 0.8rem;
+  justify-content: center;
+}
+
+.header_location_data{
+  padding-right: 4rem;
+  
+}
+
+.nits_logo{
+  object-fit: contain;
+  padding-top: 1rem;
+  img{
+      width: 4rem;
+      height: 4rem;
+  }
+}
+.location_ieee_silchar_subsection_logo{
+  padding: 1rem 0 0 3rem;
+  justify-content: center;
+  img{
+  width: 7rem;
+  height: 4rem;
+}
+}
+.location_ieee_kolkata_section_logo{
+  padding: 1.5rem 0 0.5rem 3rem;
+  justify-content: center;
+  img{
+  width: 6rem;
+  height: 6rem;
+}
+}
+
+.location_ias_logo{
+  padding: 1rem 0 0 3rem;
+  justify-content: center;
+  img{
+  width: 7rem;
+  height: 4rem;
+}
+}
+.location_ieee_logo{
+  padding: 1rem 0 0 3rem;
+  justify-content: center;
+  img{
+  width: 6rem;
+  height: 4rem;
+}
+}
+
+.header_logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
