@@ -3,6 +3,8 @@ import Tracks from '../Components/Tracks/Tracks'
 import HomeSlider from '../Components/HomeComponents/HomeSlider';
 import Navbar from "../Components/Navbar/Navbar"
 import AboutUsComponent from '../Components/About/About';
+import Timer from '../Components/Timer/Timer';
+import Patrons from '../Components/Patrons/patrons';
 const Home = () => {
   return (
     <div>
@@ -10,6 +12,10 @@ const Home = () => {
       <HomeSlider />
       <AboutUsComponent/>
       <Tracks/>
+      <Timer/>
+      <Patrons/>
+      
+      
 
     </div>
   )
