@@ -3,25 +3,11 @@ import styles from '../About/AboutUsComponent.module.scss';
 
 const AboutUsComponent = () => {
     return (
-        <div className={styles.container}>
-            <div className={styles.sponsors}>
-                <div className={styles.anekTamilSponsors}>
-                    <h2>Society <span>Sponsors</span></h2>
-                </div>
-                <br /><br />
-                <div className={styles.sponsorsImg}>
-                    <img src="https://pedes2024.org/static/img/ias.svg" alt="1st_sponsor" className={styles.sponsor_1} />
-                    <img src="https://pedes2024.org/static/img/pes.svg" alt="2nd_sponsor" className={styles.sponsor_1} />
-                    <img src="https://pedes2024.org/static/img/pes.svg" alt="3rd_sponsor" className={styles.sponsor_1} />
-                    <img src="https://pedes2024.org/static/img/pes.svg" alt="4th_sponsor" className={styles.sponsor_1} />
-                </div>
-            </div>
-
+        <div className={`${styles.container} relative pt-[5rem]`}>
             <div className={styles.aboutUs}>
                 <div className={styles.anekTamilAboutUs}>
                     <h2>About <span>NEI-ECCE 2025</span></h2>
                 </div>
-
                 <div className={styles.aboutUsInfo}>
                     {/* <div className={styles.anekTamilAboutUsInfo}>IEEE NEI-ECCE 2025</div> */}
                     <p className={styles.anekTamilAboutUsPara}>

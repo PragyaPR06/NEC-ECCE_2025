@@ -1,4 +1,4 @@
-import styles from "./Tracks.module.css";
+import styles from "./Tracks.module.scss";
 
 const Tracks = () => {
   return (
