@@ -17,21 +17,36 @@ const Navbar = () => {
       </div>
       <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ''}`}>
         <li className={styles.navItem}>Home</li>
-        <li className={styles.navItem}>About Us</li>
+        <li className={`${styles.navItem}  ${styles.dropdown}`}>About Us
+        <ul className={styles.dropdownContent}>
+            <li>Message From Genereal Chair</li>
+            <li>Conference Host & Partners</li>
+            <li>NIT Silchar</li>
+            <li>EE Department</li>
+            <li>Conference Sponsors</li>
+            
+          </ul>
+        </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
             <li>Call for paper</li>
+            <li>Conference Track</li>
+            <li>Exhibition Track</li>
             <li>Paper submission guidelines</li>
+            <li>Important Dates</li>
             <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           Committee
           <ul className={styles.dropdownContent}>
-            <li>Advisory Committee</li>
-            <li>Technical Committee</li>
-            <li>Organizing Committee</li>
+            <li>Honorary General Chair</li>
+            <li>General Chairs</li>
+            <li>Organizing Chairs</li>
+            <li>Organizing Secretary</li>
+            <li>Program Chairs</li>
+            <li>Technical Program Chairs</li>
           </ul>
         </li>
         <li className={styles.navItem}>Registrations</li>
