@@ -44,6 +44,7 @@ const HomeSlider = () => {
         ref={swiperRef}
         spaceBetween={10}
         loop={true}
+        autoplay={true}
         slidesPerView={1}
         // onSlideChange={() => console.log('slide change')}
         // onSwiper={(swiper) => console.log("swiper")}

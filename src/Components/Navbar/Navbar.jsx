@@ -21,16 +21,28 @@ const Navbar = () => {
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
-            <li>Important Dates</li>
-            <li>Important Links</li>
+            <li>Call for paper</li>
+            <li>Paper submission guidelines</li>
+            <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
-        <li className={styles.navItem}>Committee</li>
-        <li className={styles.navItem}>Students</li>
+        <li className={`${styles.navItem} ${styles.dropdown}`}>
+          Committee
+          <ul className={styles.dropdownContent}>
+            <li>Advisory Committee</li>
+            <li>Technical Committee</li>
+            <li>Organizing Committee</li>
+          </ul>
+        </li>
+        <li className={styles.navItem}>Registrations</li>
         <li className={styles.navItem}>Awards</li>
-        <li className={styles.navItem}>Photos</li>
-        <li className={styles.navItem}>Photos</li>
-        <li className={styles.navItem}>Photos</li>
+        <li className={styles.navItem}>Sponsors</li><li className={`${styles.navItem} ${styles.dropdown}`}>
+          Contact Us
+          <ul className={styles.dropdownContent}>
+            <li>Travels</li>
+            <li>Accomodations</li>
+          </ul>
+        </li>
       </ul>
     </nav>
   );
