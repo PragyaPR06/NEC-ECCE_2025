@@ -1,13 +1,12 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import AboutUsComponent from './Components/About/About';
-
+import Home from './Pages/Home';
+// import AboutUsComponent from './Components/About/About'
 
 export const App = () => {
   return (
     <div>
-       <Navbar/>
-    <AboutUsComponent/></div>
+       <Home/>
+    </div>
   );
 }
 export default App;
