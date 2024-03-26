@@ -43,6 +43,7 @@ const AboutUsComponent = () => {
                     </p>
                 </div>
                 <div className={`${styles.aboutVideoSection} flex items-center justify-center`}>
+                
                         <iframe
                             id="about-video"
                             width="560"
