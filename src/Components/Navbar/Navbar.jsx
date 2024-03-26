@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Navbar.module.scss';
-import logo1 from "../Navbar/images/logo1.png"
-import logo2 from "../Navbar/images/logo2.jpg"
-import logo3 from "../Navbar/images/logo3.jpg"
-import logo4 from "../Navbar/images/logo4.jpg"
-
+import styles from "./Navbar.module.scss"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,17 +10,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.topBar}>
-        <div className={styles.logos}>
-          <img src={logo1} alt="Logo 1" className={styles.logo} />
-          <img src={logo3} alt="Logo 3" className={styles.logo} />
-        </div>
         <button className={styles.hamburger} onClick={toggleHamburger}>
           &#9776;
         </button>
-        <div className={styles.rightLogos}>
-          <img src={logo4} alt="Logo 2" className={styles.logo} />
-          <img src={logo2} alt="Logo 4" className={styles.logo} />
-        </div>
       </div>
       <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ''}`}>
         <li className={styles.navItem}>Home</li>
@@ -33,16 +20,28 @@ const Navbar = () => {
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
-            <li>Important Dates</li>
-            <li>Important Links</li>
+            <li>Call for paper</li>
+            <li>Paper submission guidelines</li>
+            <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
-        <li className={styles.navItem}>Committee</li>
-        <li className={styles.navItem}>Students</li>
+        <li className={`${styles.navItem} ${styles.dropdown}`}>
+          Committee
+          <ul className={styles.dropdownContent}>
+            <li>Advisory Committee</li>
+            <li>Technical Committee</li>
+            <li>Organizing Committee</li>
+          </ul>
+        </li>
+        <li className={styles.navItem}>Registrations</li>
         <li className={styles.navItem}>Awards</li>
-        <li className={styles.navItem}>Photos</li>
-        <li className={styles.navItem}>Photos</li>
-        <li className={styles.navItem}>Photos</li>
+        <li className={styles.navItem}>Sponsors</li><li className={`${styles.navItem} ${styles.dropdown}`}>
+          Contact Us
+          <ul className={styles.dropdownContent}>
+            <li>Travels</li>
+            <li>Accomodations</li>
+          </ul>
+        </li>
       </ul>
     </nav>
   );

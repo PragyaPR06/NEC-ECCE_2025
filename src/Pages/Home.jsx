@@ -7,7 +7,7 @@ import Timeline  from '../Components/Timeline/Timeline';
 import Footer from '../Components/Footer/Footer';
 import Timer from '../Components/Timer/Timer';
 import Patrons from '../Components/Patrons/patrons';
-import Header from '../Components/Header/Header';
+// import Header from '../Components/Header/Header';
 const Home = () => {
   return (
     <div>
