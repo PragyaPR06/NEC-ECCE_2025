@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   const toggleHamburger = () => {
     setIsOpen(!isOpen);
   };
@@ -16,27 +17,40 @@ const Navbar = () => {
         </button>
       </div>
       <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ''}`}>
-        <li className={styles.navItem}>Home</li>
-        <li className={styles.navItem}>About Us</li>
+        <li className={styles.navItem}>
+        <Link to="/">
+        Home
+        </Link></li>
+        <li className={`${styles.navItem}  ${styles.dropdown}`}>About Us
+        <ul className={styles.dropdownContent}>
+            <li>Message From Genereal Chair</li>
+            <li>Conference Host & Partners</li>
+            <li>NIT Silchar</li>
+            <li>EE Department</li>
+            <li>Conference Sponsors</li>
+            
+          </ul>
+        </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
             <li>Call for paper</li>
+            <li>Conference Track</li>
+            <li>Exhibition Track</li>
             <li>Paper submission guidelines</li>
+            <li>Important Dates</li>
             <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
-        <li className={`${styles.navItem} ${styles.dropdown}`}>
-          Committee
-          <ul className={styles.dropdownContent}>
-            <li>Advisory Committee</li>
-            <li>Technical Committee</li>
-            <li>Organizing Committee</li>
-          </ul>
+        <li className={styles.navItem}>
+          <Link to="/committee">
+            Committee
+          </Link>
         </li>
         <li className={styles.navItem}>Registrations</li>
-        <li className={styles.navItem}>Awards</li>
-        <li className={styles.navItem}>Sponsors</li><li className={`${styles.navItem} ${styles.dropdown}`}>
+        <li className={styles.navItem}>Student Awards</li>
+        <li className={styles.navItem}>Sponsors</li>
+        <li className={`${styles.navItem} ${styles.dropdown}`}>
           Contact Us
           <ul className={styles.dropdownContent}>
             <li>Travels</li>

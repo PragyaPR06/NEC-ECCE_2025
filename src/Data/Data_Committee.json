@@ -1,0 +1,255 @@
+[
+    {
+      "name": "Steering Committee",
+      "members": [
+        {"name": "Prof. Biplab Sikar", "affiliation": "NUS Singapore"},
+        {"name": "Prof. Akshay Kumar Rathore", "affiliation": "Singapore Institute of Technology, Singapore"},
+        {"name": "Prof. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
+        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW"},
+        {"name": "Prof. Ambrish Chandra", "affiliation": "Canada"},
+        {"name": "Prof. Kaushik Rajashekara", "affiliation": "USA"},
+        {"name": "Prof. Subhashish Bhattacharya", "affiliation": "USA"},
+        {"name": "Dr. Dinesh Kumar", "affiliation": "Denmark"},
+        {"name": "Prof. Bhim Singh", "affiliation": "IIT Delhi"},
+        {"name": "Prof. B. K. Panigrahi", "affiliation": "IIT Delhi"},
+        {"name": "Prof. Narasimharaju B. L.", "affiliation": "NIT Warrangal"},
+        {"name": "Prof. Sujit K Biswas", "affiliation": "Past Chair, IEEE IAS Kolkata Chapter"},
+        {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection"},
+        {"name": "Prof. B. K. Roy", "affiliation": "Chair-Elect., IEEE Silchar Subsection"},
+        {"name": "Dr. Chandan Kumar", "affiliation": "IIT Guwahati"},
+        {"name": "Prof. A. K. Goswami", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Jaison Mathew", "affiliation": "Govt. Engg College, Trissur"},
+        {"name": "Dr. Amritesh Kumar", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Asha Rani M. A.", "affiliation": "NIT Silchar"},
+        {"name": "Prof. L. C. Saikia", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur"},
+        {"name": "Dr. Bikram Das", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Rajen Pudur", "affiliation": "NIT Arunachal Pradesh"},
+        {"name": "Dr. Anagha Bhattacharya", "affiliation": "NIT Mizoram"},
+        {"name": "Dr. Aurobinda Panda", "affiliation": "NIT Sikkim"},
+        {"name": "Dr. Sanjoy Debbarma", "affiliation": "NIT Meghalaya"},
+        {"name": "Dr. Radak Blange", "affiliation": "NERIST"},
+        {"name": "Dr. Sarsing Gao", "affiliation": "NERIST"},
+        {"name": "Dr. Dipu Sarkar", "affiliation": "NIT Nagaland"},
+        {"name": "Dr. Pabitra Biswas", "affiliation": "NIT Mizoram"},
+        {"name": "Dr. Shailendra Singh", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Anish Ahmad", "affiliation": "Tezpur University, India"}
+      ]
+    },
+    {
+      "name": "Chief Patrons",
+      "members": [
+        {"name": "Prof. Dilip Kumar Baidya", "affiliation": "NIT Silchar"},
+        {"name": "Prof. Suparna Kar Chowdhury", "affiliation": "Chair, IEEE Kolkata Section"}
+      ]
+    },
+    {
+      "name": "Patrons",
+      "members": [
+        {"name": "Prof. N. Sinha", "affiliation": "NIT Silchar"},
+        {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection"},
+        {"name": "Prof. B. K. Roy", "affiliation": "Chair-Elect., IEEE Silchar Subsection"}
+      ]
+    },
+    {
+      "name": "Honorary General Chairs",
+      "members": [
+        {"name": "Prof. Andy Knight", "affiliation": "President, IEEE Industry Applications Society"},
+        {"name": "Prof. Aymal-El-Refaie", "affiliation": "Marquette University, Milwaukee"},
+        {"name": "Prof. Akshay Kumar Rathore", "affiliation": "Singapore Institute of Technology, Singapore"}
+      ]
+    },
+    {
+      "name": "General Chairs",
+      "members": [
+        {"name": "Dr. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
+        {"name": "Prof. A. K. Goswami", "affiliation": "NIT Silchar"},
+        {"name": "Prof. KashemMuttaqi", "affiliation": "UOW"}
+      ]
+    },
+    {
+      "name": "Organizing Chairs",
+      "members": [
+        {"name": "Dr. Amritesh Kumar", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Asha Rani M. A.", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Organizing Secretary",
+      "members": [
+        {"name": "Prof. L. C. Saikia", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Avadh Pati", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Biswarup Ganguly", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Program Chairs",
+      "members": [
+        {"name": "Prof. Bhim Singh", "affiliation": "IIT Delhi"},
+        {"name": "Prof. B. K. Panigrahi", "affiliation": "IIT Delhi"},
+        {"name": "Dr. Georgios Konstantinou", "affiliation": "UNSW"},
+        {"name": "Prof. S. Venugopal", "affiliation": "Director, NIT Nagaland"},
+        {"name": "Prof. Narasimharaju B. L.", "affiliation": "NIT Warrangal"},
+        {"name": "Prof. N. B. D. Choudhury", "affiliation": "NIT Silchar"},
+        {"name": "Prof. Saurabh Chaudhury", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Sumit Pramanik", "affiliation": "IIT Delhi"},
+        {"name": "Dr. Rabiul Islam", "affiliation": "UOW Australia"},
+        {"name": "Dr. Chandan Kumar", "affiliation": "IIT Guwahati"}
+      ]
+    },
+    {
+      "name": "Technical Program Chairs",
+      "members": [
+        {"name": "Prof. Sujit K Biswas", "affiliation": "Past Chair, IEEE IAS Kolkata Chapter"},
+        {"name": "Prof. Chitralekha Mahanta", "affiliation": "IIT Guwahati"},
+        {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur"},
+        {"name": "Dr. Arvind Jain", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Bikram Das", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Sunanda Sinha", "affiliation": "MNIT Jaipur"},
+        {"name": "Dr. Srinivas Bhaskar Karanki", "affiliation": "IIT Bhubaneswar"},
+        {"name": "Prof. J. P. Mishra", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Ramesh Kumar", "affiliation": "NIT Mizoram"},
+        {"name": "Dr. Pradeep Kumar", "affiliation": "NIT Sikkim"},
+        {"name": "Dr. Rajen Pudur", "affiliation": "NIT Arunachal Pradesh"},
+        {"name": "Dr. Radak Blange", "affiliation": "NERIST Arunachal Pradesh"},
+        {"name": "Dr. Sanjoy Debbarma", "affiliation": "NIT Meghalaya"},
+        {"name": "Dr. Anish Ahmad", "affiliation": "Tezpur University"},
+        {"name": "Dr. Partha Kayal", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Vivekanandan S.", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Publication Chairs",
+      "members": [
+        {"name": "Dr. Jaison Mathew", "affiliation": "Govt. Engg College, Trissur"},
+        {"name": "Dr. Atanu Kundu", "affiliation": "Vice-Chair, IEEE Kolkata Section"},
+        {"name": "Dr. Sreenu Sreekumar", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Industry Interaction and Sponsorship Chairs",
+      "members": [
+        {"name": "Dr. Anagha Bhattacharya", "affiliation": "NIT Mizoram"},
+        {"name": "Dr. T. Malakar", "affiliation": "NIT Silchar"},
+        {"name": "Dr. N. Adhikary", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Website Chairs",
+      "members": [
+        {"name": "Dr. Ashish Paramane", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Srikanth Allam Setty", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Biswajit Sahoo", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Publicity Chairs",
+      "members": [
+        {"name": "Prof. Gayandhar Panda", "affiliation": "NIT Meghalaya"},
+        {"name": "Dr. P. Chinnamuthu", "affiliation": "NIT Nagaland"},
+        {"name": "Dr. Abanishwar Chakrabarti", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Aurobinda Panda", "affiliation": "NIT Sikkim"},
+        {"name": "Dr. R. Dey", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Anmol Ratna Saxena", "affiliation": "NIT Delhi"},
+        {"name": "Dr. Piyali Das", "affiliation": "NERIST"},
+        {"name": "Dr. Pukhrambam Devachandra Singh", "affiliation": "NERIST"},
+        {"name": "Dr. M. Chakkarapani", "affiliation": "RGPIT Sivasagar"},
+        {"name": "Dr. Sreejith. S", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Saheli Ray", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Risha Mal", "affiliation": "NIT Silchar"},
+        {"name": "Dr. AmbrishDevanshu", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Finance Chairs",
+      "members": [
+        {"name": "Dr. Prasanta Roy", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Debayan Sarkar", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Special Sessions/Tutorial Chairs",
+      "members": [
+        {"name": "Dr. Pabitra Kumar Biswas", "affiliation": "NIT Mizoram"},
+        {"name": "Dr. Sourav Mallick", "affiliation": "NIT Sikkim"},
+        {"name": "Dr. Jiwanjot Singh", "affiliation": "NIT Kurukshethra"},
+        {"name": "Dr. P. Padmagirisan", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Swapna M.", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Mallikarjuna", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Student Activity Chairs",
+      "members": [
+        {"name": "Prof. Ratna Dahiya", "affiliation": "NIT Kurukshetra"},
+        {"name": "Dr. D. K. Raju", "affiliation": "NIT Silchar"},
+        {"name": "Dr. T. Pradhan", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "Hospitality & Travel Chairs",
+      "members": [
+        {"name": "Dr. D. C. Das", "affiliation": "NIT Silchar"},
+        {"name": "Dr. R. K. Biswas", "affiliation": "NIT Silchar"},
+        {"name": "Dr. C. Bhattacharjee", "affiliation": "NIT Silchar"}
+      ]
+    },
+    {
+      "name": "International Advisory Committee",
+      "members": [
+        {"name": "Prof. Saifur Rahman", "affiliation": "Virginia Tech, Virginia"},
+        {"name": "Prof. Akshay Kumar Rathore", "affiliation": "Singapore Institute of Technology, Singapore"},
+        {"name": "Prof. Ambrish Chandra", "affiliation": "ETS, Montreal, Quebec, Canada"},
+        {"name": "Prof. Frede Blaabjerg", "affiliation": "Alborg University, Denmark"},
+        {"name": "Prof. Prasad Enjeti", "affiliation": "Texas A&M, USA"},
+        {"name": "Prof. Subhashish Bhattacharya", "affiliation": "North Carolina State University, USA"},
+        {"name": "Prof. Tarlochan Sidhu", "affiliation": "Ontario Tech University, Canada"},
+        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW"},
+        {"name": "Dr. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
+        {"name": "Dr. Vijay Sood", "affiliation": "Ontario Tech University, Canada"},
+        {"name": "Dr. Rabiul Islam", "affiliation": "UOW Australia"},
+        {"name": "Prof. Leposava Ristic", "affiliation": "University in Belgrade"}
+      ]
+    },
+    {
+      "name": "National Advisory Committee",
+      "members": [
+        {"name": "Prof. Ajoy Kumar Ray", "affiliation": "IIT Kharagpur"},
+        {"name": "Prof. Bhim Singh", "affiliation": "IIT Delhi, India"},
+        {"name": "Prof. Vivek Agarwal", "affiliation": "IIT Bombay, India"},
+        {"name": "Prof. Sukumar Mishra", "affiliation": "IIT Delhi"},
+        {"name": "Prof. B. G. Fernandes", "affiliation": "IIT Bombay"},
+        {"name": "Prof. Kishore Chatterjee", "affiliation": "IIT Bombay"},
+        {"name": "Prof. Prerna Gaur", "affiliation": "NSUT Delhi"},
+        {"name": "Prof. Suryanarayana Dolla", "affiliation": "IIT Bombay"},
+        {"name": "Prof. Chandan Chakraborty", "affiliation": "IIT Kharagpur"},
+        {"name": "Prof. Debabrata Das", "affiliation": "Chair, IEEE India Council"},
+        {"name": "Prof. Iti Saha Misra", "affiliation": "Immediate Past Chair, IEEE Kolkata Section"},
+        {"name": "Prof. Sathans", "affiliation": "NIT Kurukshetra"},
+        {"name": "Prof. L. M. Saini", "affiliation": "NIT Kurukshetra"},
+        {"name": "Prof. C. Nagamani", "affiliation": "NIT Tiruchirappalli"},
+        {"name": "Dr. Sumit Pramanik", "affiliation": "IIT Delhi"},
+        {"name": "Dr. Zakir Rather", "affiliation": "IIT Bombay"},
+        {"name": "Dr. Gurunath Guraalla", "affiliation": "IIScBangalaore"},
+        {"name": "Prof. Rajesh Kumar", "affiliation": "MNIT Jaipur"},
+        {"name": "Dr. Pradyumn Chaturvedi‬", "affiliation": "VNIT Nagpur"},
+        {"name": "Dr. Dipti Saxena", "affiliation": "MNIT Jaipur"},
+        {"name": "Prof. Ratna Dahiya", "affiliation": "NIT Kurukshetra"},
+        {"name": "Prof. Jagdish Kumar", "affiliation": "PEC Chandigarh"},
+        {"name": "Dr. Jaison Mathew", "affiliation": "GEC Trissur"},
+        {"name": "Prof. Vishal Verma", "affiliation": "DTU"},
+        {"name": "Prof. Dheeraj Joshi", "affiliation": "DTU"},
+        {"name": "Dr. Vineet Saini", "affiliation": "DST"},
+        {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection"},
+        {"name": "Prof. Sivaji Bandhyopadhyay", "affiliation": "Jadavpur University"},
+        {"name": "Prof. Saravana Ilango", "affiliation": "NIT Tiruchirappalli"},
+        {"name": "Dr. Taimoor Khan", "affiliation": "NIT Silchar"},
+        {"name": "Dr. Suvendu Samanta", "affiliation": "IIT Kanpur, India"},
+        {"name": "Mr. Jitesh Choudhary", "affiliation": "CDAC Silchar"},
+        {"name": "Dr. V. Sandeep", "affiliation": "NIT AP"},
+        {"name": "Prof. Ardhendu Saha", "affiliation": "NIT Agartala"},
+        {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur"},
+        {"name": "Dr. Papia Ray", "affiliation": "VSSUT, Burla"}
+      ]
+    }
+]
