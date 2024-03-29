@@ -1,8 +1,11 @@
 import React from 'react'
 import CommitteeData from "../Data/Data_Committee.json"
+import Navbar from '../Components/Navbar/Navbar';
 const Committee = () => {
   return (
-    <div className=' flex-col justify-center items-center'>
+    <>
+    <Navbar></Navbar>
+         <div className=' flex-col justify-center items-center'>
         {CommitteeData.map((element)=>{
             return(
                 <div className="card_main">
@@ -23,6 +26,8 @@ const Committee = () => {
             );
         })}
     </div>
+    </>
+   
   )
 }
 export default Committee;

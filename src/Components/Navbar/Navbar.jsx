@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -16,7 +17,10 @@ const Navbar = () => {
         </button>
       </div>
       <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ''}`}>
-        <li className={styles.navItem}>Home</li>
+        <li className={styles.navItem}>
+        <Link to="/">
+        Home
+        </Link></li>
         <li className={`${styles.navItem}  ${styles.dropdown}`}>About Us
         <ul className={styles.dropdownContent}>
             <li>Message From Genereal Chair</li>
@@ -38,14 +42,15 @@ const Navbar = () => {
             <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
-        <li className={`${styles.navItem} ${styles.dropdown}`}>
-          {/* <Link to='/committee'> */}
+        <li className={styles.navItem}>
+          <Link to="/committee">
             Committee
-          {/* </Link> */}
+          </Link>
         </li>
         <li className={styles.navItem}>Registrations</li>
         <li className={styles.navItem}>Student Awards</li>
-        <li className={styles.navItem}>Sponsors</li><li className={`${styles.navItem} ${styles.dropdown}`}>
+        <li className={styles.navItem}>Sponsors</li>
+        <li className={`${styles.navItem} ${styles.dropdown}`}>
           Contact Us
           <ul className={styles.dropdownContent}>
             <li>Travels</li>

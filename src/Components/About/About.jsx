@@ -31,6 +31,17 @@ const AboutUsComponent = () => {
                     
                 </div>
             </div>
+            <div className={styles.aboutUs}>
+                <div className={styles.anekTamilAboutUs}>
+                    <h2>About <span>IEEE Silchar Subsection</span></h2>
+                </div>
+                <div className={styles.aboutUsInfo}>
+                    <p className={styles.anekTamilAboutUsPara}>
+                        <span>IEEE Silchar Subsection </span>
+                        came into existence on 26th June 2021 with the commendable efforts from the IEEE community at NIT Silchar and other IEEE Members from the North-Eastern India region. IEEE Silchar Subsection will have geographical reach over higher educational institutions in Assam, Tripura, Mizoram, Manipur, and Nagaland states of the North-Eastern Part of India in respect of activities of IEEE. The subsection works for creating opportunity and space in the line of IEEE mandate to advance technology for the benefit of humanity. The subsection looks at various technical activities, including facilitating Technical Co-Sponsorship for Conferences, Conducting Workshops, Technical Seminars, Distinguished Lecture programs, Colloquiums, and other possible technical activities. The subsection is actively engaged in bringing student members into various activities through the student chapters.
+                    </p>
+                </div>
+            </div>
 
 
             <div className={styles.aboutUs}>
@@ -67,17 +78,7 @@ const AboutUsComponent = () => {
                     </p>
                 </div>
             </div>
-            <div className={styles.aboutUs}>
-                <div className={styles.anekTamilAboutUs}>
-                    <h2>About <span>IEEE Silchar Subsection</span></h2>
-                </div>
-                <div className={styles.aboutUsInfo}>
-                    <p className={styles.anekTamilAboutUsPara}>
-                        <span>IEEE Silchar Subsection </span>
-                        came into existence on 26th June 2021 with the commendable efforts from the IEEE community at NIT Silchar and other IEEE Members from the North-Eastern India region. IEEE Silchar Subsection will have geographical reach over higher educational institutions in Assam, Tripura, Mizoram, Manipur, and Nagaland states of the North-Eastern Part of India in respect of activities of IEEE. The subsection works for creating opportunity and space in the line of IEEE mandate to advance technology for the benefit of humanity. The subsection looks at various technical activities, including facilitating Technical Co-Sponsorship for Conferences, Conducting Workshops, Technical Seminars, Distinguished Lecture programs, Colloquiums, and other possible technical activities. The subsection is actively engaged in bringing student members into various activities through the student chapters.
-                    </p>
-                </div>
-            </div>
+           
         </div>
     );
 };

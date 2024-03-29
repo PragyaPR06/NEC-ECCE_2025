@@ -9,13 +9,13 @@ import Committee from './Pages/Committee';
 export const App = () => {
   return (
     <div>
-       <Home/>
+       
        <BrowserRouter>
-            <Navbar />
+            
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/committee" element={<Committee />} />
-              {/* <Route path="*" element={<NotFound />} /> */}
+              <Route exact path="/" element={<Home />} />
+              
+              <Route exact path="/committee" element={<Committee/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>
