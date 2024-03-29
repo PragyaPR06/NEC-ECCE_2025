@@ -2,31 +2,31 @@
       { 
         "id":"1",
         "name": "Paper Submission Starts",
-        "date": "September 30th,2024",
+        "date": "September 30,2024",
         "description": "Paper submission period begins."
       },
       {
         "id":"2", 
         "name": "Paper Submission Closes",
-        "date": "February 20th,2025",
+        "date": "February 20,2025",
         "description": "Deadline for paper submission."
       },
       {
         "id":"3",
         "name": "Notification of Acceptance",
-        "date": "April 10th, 2025",
+        "date": "April 10, 2025",
         "description": "Authors are notified about acceptance/rejection."
       },
       {
         "id":"4",
         "name": "Camera Ready Submission",
-        "date": "May 10th,2025",
+        "date": "May 10,2025",
         "description": "Deadline for submitting the final camera-ready version of accepted papers."
       },
       {
         "id":"5",
         "name": "Registration Deadline",
-        "date": "May 25th,2025",
+        "date": "May 25,2025",
         "description": "Deadline for registration."
       }
     ]

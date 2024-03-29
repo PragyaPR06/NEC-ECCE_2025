@@ -8,18 +8,19 @@ import Footer from '../Components/Footer/Footer';
 import Timer from '../Components/Timer/Timer';
 import Patrons from '../Components/Patrons/patrons';
 import Header from '../Components/Header/header';
+import Aboutus from '../Components/About/Aboutus/Aboutus2';
 const Home = () => {
   return (
     <div>
       <Header/>
       <Navbar/>
       <HomeSlider />
-      <Patrons/>
       <AboutUsComponent/>
       <Tracks/>
       <Timeline />
       <Timer/>
       <Footer />
+      <Aboutus/>
     </div>
   )
 };

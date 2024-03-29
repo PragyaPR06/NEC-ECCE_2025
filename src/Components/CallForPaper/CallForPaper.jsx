@@ -44,7 +44,7 @@ const CallForPaper = () => {
     </section>
     <br/>
 <section className={styles2.important-deadlines}>
-    <h2 className={styles2.instructions-heading}>Important Deadlines <span>For Authors. </span></h2>
+    <h2 className={styles2.instructions-heading}>Important Deadlines <span>For Authors </span></h2>
     <ul className={styles2.submission-guidelines-text}>
         <li>
             Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>
