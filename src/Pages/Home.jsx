@@ -6,7 +6,7 @@ import AboutUsComponent from '../Components/About/About';
 import Timeline  from '../Components/Timeline/Timeline';
 import Footer from '../Components/Footer/Footer';
 import Timer from '../Components/Timer/Timer';
-import Patrons from '../Components/Patrons/patrons';
+
 import Header from '../Components/Header/header';
 import Aboutus from '../Components/About/Aboutus/Aboutus2';
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
       <Timeline />
       <Timer/>
       <Footer />
-      <Aboutus/>
+      
     </div>
   )
 };
