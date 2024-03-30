@@ -1,10 +1,22 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import styles2 from "../Pages/CallForPaper.module.css";
 import Header from "../Components/Header/header";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 
 const CallForPaper = () => {
+  useEffect(() => {
+    // Check if the hash exists in the URL
+    if (window.location.hash) {
+      // Extract the hash value (e.g., #targetDiv)
+      const hash = window.location.hash.substring(1);
+      // Scroll to the target div
+      const targetDiv = document.getElementById(hash);
+      if (targetDiv) {
+        targetDiv.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
     return (
         <Fragment>
         <Header />
@@ -33,7 +45,7 @@ const CallForPaper = () => {
 <br/>
 <hr />
 <br />
-<section className={styles2.submissionGuidelines}>
+<section className={styles2.submissionGuidelines} id="subGuide">
     <h2 className={styles2.instructionsHeading}>Digest Submission <span>Guidelines </span></h2>
     <br />
     <ul className={styles2.submissionGuidelinesText}>
@@ -55,7 +67,7 @@ const CallForPaper = () => {
     <hr />
     <br />
 <section className={styles2.importantDeadlines}>
-    <h2 className={styles2.instructionsHeading}>Important Deadlines <span>For Authors </span></h2>
+    <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>
     <ul className={styles2.submissionGuidelinesText}>
         <p>
            1) Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>

@@ -16,7 +16,6 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
-              
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>

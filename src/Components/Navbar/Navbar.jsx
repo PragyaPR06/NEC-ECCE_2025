@@ -36,10 +36,14 @@ const Navbar = () => {
           <ul className={styles.dropdownContent}>
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
-            <li>Important Dates</li>
-            <li>Paper submission guidelines</li>
-            <li>Camera-Ready submission guidelines </li>
             </Link>
+            <Link to="/CallForPapers/#impDates">
+            <li>Important Dates</li>
+            </Link>
+            <Link to="/CallForPapers/#subGuide">
+            <li>Paper submission guidelines</li>
+            </Link>
+            <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
         <li className={styles.navItem}>

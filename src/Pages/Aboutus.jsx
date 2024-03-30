@@ -2,7 +2,6 @@ import React from "react";
 import styles from '../Pages/Aboutus.module.scss'
 import Navbar from "../Components/Navbar/Navbar";
 import Header from "../Components/Header/header";
-import Footer from "../Components/Footer/Footer";
 const Aboutus = () =>{
     return(
         <>
