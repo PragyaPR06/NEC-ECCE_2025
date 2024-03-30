@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 6rem;
-  padding-right: 10rem;
+  padding-right: 8rem;
   background-color: white;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .header_counter{
-  width:15em;
+  width: 2rem;
 }
 
 .header_location img{
@@ -99,11 +99,16 @@
 }
 
 .nits_logo{
+  padding-left: 0.7rem;
   object-fit: contain;
   img{
       width: 6rem;
       height: 6rem;
   }
+}
+
+.main_conference_logo{
+  padding-left: 0.8rem;
 }
 .location_ieee_silchar_subsection_logo{
   padding: 1rem 0 0 3rem;
@@ -144,3 +149,4 @@
   justify-content: space-between;
   align-items: center;
 }
+
