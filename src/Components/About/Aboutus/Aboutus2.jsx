@@ -20,17 +20,23 @@ const Aboutus = () =>{
                     <br />
                 </div>
                 <div className={styles.pics}>
-
+                    <div className={styles.img1}>
+                    <img src='/HomeSlider/conference6.jpg'/>
+                    </div>
+                    <div className={styles.img2}>
+                    <img src='/HomeSlider/conference7.jpeg'/>
+                    </div>
                 </div>
             </div>
             <div className={styles.departm}>
                 <div className={styles.header}>
                     <h2>About <span>The Department</span></h2>
                 </div>
+                <br></br>
 
                 <div className={styles.aboutUsInfo}>
                 <div className={styles.pics}>
-                    
+                <img src='/HomeSlider/04.jpg'/>
                 </div>
                     <div>
                     <p className={styles.AboutUsPara}>
@@ -48,14 +54,76 @@ const Aboutus = () =>{
                 
                     <div>
                     <p className={styles.AboutUsPara}>
-                    <span>Silchar</span>is one of the finest and well-equipped Electrical departments of the North-East region. It boasts of having highly qualified faculties specialized in diverse fields with an unparallel level of expertise in their field. The Department offers B.Tech. in Electrical Engineering, M.Tech. in Power and Energy Systems Engineering & Control and Industrial Automation, and Ph.D in Electrical Engineering. The department is equipped with state of art laboratories to cater research in the frontier research areas of Electrical Engineering facilitating a commendable research ambience in the department. The expertise and dedication of the faculty members along with infrastructural facilities coupled with the perseverance of the students have catapulted the branch to the top league.
+                    <span>Silchar </span>
+                    nestled in the southern expanse of Assam, it is a charming city rich in history, culture, and natural beauty. Its colonial past, reflected in its architecture, merges seamlessly with Assamese and Bengali traditions, creating a vibrant cultural tapestry. Surrounded by verdant hills and the tranquil Barak River, Silchar offers a serene retreat for nature lovers. Moreover, its culinary landscape, blending Assamese and Bengali flavors, promises a delightful gastronomic experience. Whether you're exploring its historical sites, partaking in cultural festivals, or simply indulging in its culinary delights, Silchar invites visitors to immerse themselves in the essence of Assam's charm and allure.
                     </p>
                     </div>   
                     <div className={styles.pics}>
-                    
+                    <img src='/HomeSlider/silchar.jpg'/>
                 </div>
                 </div>
+                
+                
             </div>
+            <div className={styles.tour}>
+                <div className={styles.header}>
+                    <h2>Tourist Attraction Near <span>Silchar</span></h2>
+                </div>
+                <br></br>
+                    <div className={styles.pics}>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/tumjang.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Tumjang Peak</h3>
+                   </div>
+                    </div>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/kakochang.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Kakochang</h3>
+                   </div>
+                    </div>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/khaspur.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Ruins of Kachari Kingdom</h3>
+                   </div>
+                    </div>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/kamakhya.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Maa Kamakhya Mandir</h3>
+                   </div>
+                    </div>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/umann.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Umananda Island</h3>
+                   </div>
+                    </div>
+                    <div className={styles.card}>
+                   <div className={styles.img}>
+                   <img src='/tourism/haflong.jpg'/>
+                   </div> 
+                   <div className={styles.info}>
+                        <h3>Halflong</h3>
+                   </div>
+                    </div>
+                </div>
+                </div>
+                
+                
+            
             
         </>
     )
