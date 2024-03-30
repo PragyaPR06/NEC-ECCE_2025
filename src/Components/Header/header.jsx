@@ -31,13 +31,14 @@ const Header =() => {
         <div className={styles.header_counter}/>
       </div>
       <div className={styles.header_location}>
+      <div className={styles.location}>
         <div className={styles.location_icon}>
           <img src={require("./location-icon.png")} alt="location-icon"/>
         </div>
         <div className={styles.header_location_data}>
           <h3 className={styles.pathway_extreme_header_location_data}> National Institute of Technology Silchar, Assam | INDIA</h3>
           <h3 className={styles.pathway_extreme_header_location_dates}> 4-6 July 2025</h3>
-        </div>
+        </div></div>
         <div className={styles.header_logos}>
           <div className={styles.location_ieee_silchar_subsection_logo}>
             <img src={require("./ieee-silchar-subsection-logo.jpeg")} alt="ieee-silchar-subsection-logo"/>

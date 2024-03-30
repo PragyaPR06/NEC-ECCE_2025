@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Committee from './Pages/Committee';
+import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 // import AboutUsComponent from './Components/About/About'
 
@@ -15,6 +16,7 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
+              <Route exact path="/callforpaper" element={<CallForPaper/>}/>
               
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>

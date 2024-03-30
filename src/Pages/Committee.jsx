@@ -1,10 +1,12 @@
 import React from 'react'
 import CommitteeData from "../Data/Data_Committee.json"
 import Navbar from '../Components/Navbar/Navbar';
+import Header from '../Components/Header/Header';
 const Committee = () => {
   return (
     <>
-    <Navbar></Navbar>
+    <Header/>
+    <Navbar/>
          <div className=' flex-col justify-center items-center'>
         {CommitteeData.map((element)=>{
             return(

@@ -1,19 +1,21 @@
 import React, { Fragment } from 'react';
 import styles2 from "./CallForPaper.module.css";
-import Footer from "./Footer/Footer.jsx";
-import Header from "./Header/header.jsx";
+import Header from '../Header/Header.jsx';
+import Navbar from '../Navbar/Navbar.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 const CallForPaper = () => {
     return (
         <Fragment>
         <Header />
+        <Navbar/>
     <section classNameName={styles2.instructions}>
-    <h2 classNameName={styles2.instructions-heading}>Instructions For <span>Authors </span></h2>
-    <ul classNameName={styles2.instructions-content}>
+    <h2 classNameName={styles2.instructions_heading}>Instructions For <span>Authors </span></h2>
+    <ul classNameName={styles2.instructions_content}>
         <li>
             <strong> NEI-ECCE 2025,</strong>
              the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. </li>
-             <li classNameName={styles2.submission-template}>
+             <li classNameName={styles2.submission_template}>
             <strong>Templates for Digest Submission : </strong>
             <button role="button">MS Word</button>
             <span>   |   </span>
@@ -25,9 +27,9 @@ const CallForPaper = () => {
     </ul>
 </section>
 <br/>
-<section className={styles2.submission-guidelines}>
-    <h2 className={styles2.instructions-heading}>Digest Submission <span>Guidelines </span></h2>
-    <ul className={styles2.submission-guidelines-text}>
+<section className={styles2.submission_guidelines}>
+    <h2 className={styles2.instructions_heading}>Digest Submission <span>Guidelines </span></h2>
+    <ul className={styles2.submission_guidelines_text}>
         <li>
             Initial submission of digest <strong>(4 pages max.)</strong> including figures and references are allowed in PDF format.
         </li>
@@ -43,9 +45,9 @@ const CallForPaper = () => {
     </ul>
     </section>
     <br/>
-<section className={styles2.important-deadlines}>
-    <h2 className={styles2.instructions-heading}>Important Deadlines <span>For Authors </span></h2>
-    <ul className={styles2.submission-guidelines-text}>
+<section className={styles2.important_deadlines}>
+    <h2 className={styles2.instructions_heading}>Important Deadlines <span>For Authors </span></h2>
+    <ul className={styles2.submission_guidelines_text}>
         <li>
             Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>
         </li>
@@ -61,9 +63,9 @@ const CallForPaper = () => {
     </ul>
     </section>
     <br/>
-<section className={styles2.important-notice}>
-    <h2 className={styles2.instructions-heading}>Important <span>Notice </span></h2>
-    <ol className={styles2.submission-guidelines-text}>
+<section className={styles2.important_notice}>
+    <h2 className={styles2.instructions_heading}>Important <span>Notice </span></h2>
+    <ol className={styles2.submission_guidelines_text}>
         <li>
             All papers submitted to <strong>NEI-ECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
         </li>
@@ -71,7 +73,7 @@ const CallForPaper = () => {
             Acceptance of the paper does not guarantee acceptance of the final paper.
         </li>
     </ol>
-    <ul className={styles2.submission-guidelines-text}>
+    <ul className={styles2.submission_guidelines_text}>
         <p>The organizing committee of <strong>NEI-ECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
         <li>
             With poor language.
@@ -87,11 +89,12 @@ const CallForPaper = () => {
         </li>
     </ul>
     </section>
-    <span className={styles2.submit-button-area}>
-        <button className={styles2.submit-button}>
+    <span className={styles2.submit_button_area}>
+        <button className={styles2.submit_button}>
             Submit paper
         </button>
     </span>
+    <br></br>
     <Footer />
     </Fragment>
     );

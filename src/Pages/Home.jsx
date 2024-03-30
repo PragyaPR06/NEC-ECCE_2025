@@ -7,8 +7,8 @@ import Timeline  from '../Components/Timeline/Timeline';
 import Footer from '../Components/Footer/Footer';
 import Timer from '../Components/Timer/Timer';
 
-import Header from '../Components/Header/header';
-import Aboutus from '../Components/About/Aboutus/Aboutus2';
+import Header from '../Components/Header/Header';
+import Aboutus from './Aboutus';
 const Home = () => {
   return (
     <div>
