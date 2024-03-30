@@ -36,7 +36,6 @@ const Navbar = () => {
           <ul className={styles.dropdownContent}>
             <li> Call for Papers</li>
             <li>Important Dates</li>
-
             <li>Paper submission guidelines</li>
             <li>Important Dates</li>
             <li>Camera-Ready submission guidelines </li>
