@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styles from "./header.module.css";
 
 const Header =() => {
   return (
-    <div>
-    <div className={styles.container}>
-      <div className={styles.header_links}>
+    <Fragment>
+    <section className={styles.container}>
+      <section className={styles.header_links}>
         <div className={styles.header_links_section}>            
           <h3>
             <a id="ieee-main-link" href="https://www.ieee.org/">IEEE.org | </a> 
@@ -15,7 +15,7 @@ const Header =() => {
             <a href="https://www.ieee.org/sitemap.html">More Sites </a> 
           </h3>
         </div>
-      </div>
+      </section>
       <div className={styles.header_content}>
         <div className={styles.pathway_extreme_header_info}>
           <h2>IEEE North-East India</h2>
@@ -25,7 +25,7 @@ const Header =() => {
         <div className={styles.header_logo}>
           <img src={require("./ne-iecce-2025_main_logo.jpg")} alt="ne-iecce-2025_logo" width="150rem" height="100rem"/>
         </div>
-        <div className={styles.header_logo}>
+        <div className={styles.nits_logo}>
           <img src={require("./nits-logo.png")} alt="nits-logo" width="100rem" height="75rem"/> 
         </div>
         <div className={styles.header_counter}/>
@@ -45,16 +45,16 @@ const Header =() => {
           <div className={styles.location_ieee_kolkata_section_logo}>
             <img src={require("./ieee-kolkata-section.jpeg")} alt="ieee-kolkata-section-logo"/>
           </div>
-          <div className={styles.location_ias_logo}>
+          {/* <div className={styles.location_ias_logo}>
             <img src={require("./ias-logo.jpeg")} alt="ias-logo"/>
-          </div>
+          </div> */}
           <div className={styles.location_ieee_logo}>
             <img src={require("./IEEE-main-logo.png")} alt="ieee-main-logo"/>
           </div>
         </div>
       </div>
-    </div> 
-    </div>
+    </section> 
+    </Fragment>
   );
 }
 
