@@ -34,11 +34,15 @@ const Navbar = () => {
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
-            <li><Link to="/callforpaper">Call for Papers</Link> </li>
+            <Link to="/CallForPapers">
+            <li> Call for Papers</li>      
+            </Link>
+            <Link to="/CallForPapers/#impDates">
             <li>Important Dates</li>
-
+            </Link>
+            <Link to="/CallForPapers/#subGuide">
             <li>Paper submission guidelines</li>
-            <li>Important Dates</li>
+            </Link>
             <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>
