@@ -43,9 +43,8 @@ const AboutUsComponent = () => {
                 </div>
                 <div className={`${styles.aboutVideoSection} flex items-center justify-center`}>
                 
-                <iframe 
-                id="about-video"
-                width="560" height="315" src="https://www.youtube.com/embed/q-a9NURq-Q8?si=ZaQNrulLrdiZGwEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <iframe id="about-video" width="560" height="315" src="https://www.youtube.com/embed/84QRlmUOk54?si=KJm_ThYnZde9F-5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
             </div>
 

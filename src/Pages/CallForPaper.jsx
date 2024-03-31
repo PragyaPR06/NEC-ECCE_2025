@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import styles2 from "../Pages/CallForPaper.module.css";
 import Header from "../Components/Header/header";
-import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 
 const CallForPaper = () => {
@@ -68,6 +67,7 @@ const CallForPaper = () => {
     <br />
 <section className={styles2.importantDeadlines}>
     <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>
+    <br />
     <ul className={styles2.submissionGuidelinesText}>
         <p>
            1) Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>
@@ -88,6 +88,7 @@ const CallForPaper = () => {
     <br />
 <section className={styles2.importantNotice}>
     <h2 className={styles2.instructionsHeading}>Important <span>Notice </span></h2>
+    <br />
     <ol className={styles2.submissionGuidelinesText}>
         <p>
            1) All papers submitted to <strong>NE-IECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
