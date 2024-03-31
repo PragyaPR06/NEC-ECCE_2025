@@ -1,15 +1,15 @@
 [
-    {
+  {
       "name": "Chief Patrons",
       "members": [
-        {"name": "Prof. Dilip Kumar Baidya", "affiliation": "NIT Silchar"},
+        {"name": "Prof. Dilip Kumar Baidya", "affiliation": "Director, NIT Silchar"},
         {"name": "Prof. Suparna Kar Chowdhury", "affiliation": "Chair, IEEE Kolkata Section"}
       ]
     },
     {
       "name": "Patrons",
       "members": [
-        {"name": "Prof. N. Sinha", "affiliation": "NIT Silchar"},
+        {"name": "Prof. N. Sinha", "affiliation": "Professor, NIT Silchar"},
         {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection"},
         {"name": "Prof. B. K. Roy", "affiliation": "Chair-Elect., IEEE Silchar Subsection"}
       ]
@@ -193,7 +193,7 @@
         {"name": "Prof. C. Nagamani", "affiliation": "NIT Tiruchirappalli"},
         {"name": "Dr. Sumit Pramanik", "affiliation": "IIT Delhi"},
         {"name": "Dr. Zakir Rather", "affiliation": "IIT Bombay"},
-        {"name": "Dr. Gurunath Guraalla", "affiliation": "IIScBangalaore"},
+        {"name": "Dr. Gurunath Guraalla", "affiliation": "IISc Bangalore"},
         {"name": "Prof. Rajesh Kumar", "affiliation": "MNIT Jaipur"},
         {"name": "Dr. Pradyumn Chaturvedi‬", "affiliation": "VNIT Nagpur"},
         {"name": "Dr. Dipti Saxena", "affiliation": "MNIT Jaipur"},

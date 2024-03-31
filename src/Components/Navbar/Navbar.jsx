@@ -52,8 +52,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.navItem}>Registrations</li>
+        <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
-        <li className={styles.navItem}>Sponsors</li>
+        </Link>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           Contact Us
           <ul className={styles.dropdownContent}>
