@@ -21,24 +21,28 @@ const Navbar = () => {
         <Link to="/">
         Home
         </Link></li>
-        <li className={`${styles.navItem}  ${styles.dropdown}`}>About Us
-        <ul className={styles.dropdownContent}>
+        <li className={styles.navItem}><Link to="/Aboutus">About Us</Link> 
+        {/* <ul className={styles.dropdownContent}>
             <li>Message From Genereal Chair</li>
             <li>Conference Host & Partners</li>
             <li>NIT Silchar</li>
             <li>EE Department</li>
             <li>Conference Sponsors</li>
             
-          </ul>
+          </ul> */}
         </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors
           <ul className={styles.dropdownContent}>
-            <li>Call for paper</li>
-            <li>Conference Track</li>
-            <li>Exhibition Track</li>
-            <li>Paper submission guidelines</li>
+            <Link to="/CallForPapers">
+            <li> Call for Papers</li>      
+            </Link>
+            <Link to="/CallForPapers/#impDates">
             <li>Important Dates</li>
+            </Link>
+            <Link to="/CallForPapers/#subGuide">
+            <li>Paper submission guidelines</li>
+            </Link>
             <li>Camera-Ready submission guidelines </li>
           </ul>
         </li>

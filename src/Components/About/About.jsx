@@ -41,6 +41,12 @@ const AboutUsComponent = () => {
                         came into existence on 26th June 2021 with the commendable efforts from the IEEE community at NIT Silchar and other IEEE Members from the North-Eastern India region. IEEE Silchar Subsection will have geographical reach over higher educational institutions in Assam, Tripura, Mizoram, Manipur, and Nagaland states of the North-Eastern Part of India in respect of activities of IEEE. The subsection works for creating opportunity and space in the line of IEEE mandate to advance technology for the benefit of humanity. The subsection looks at various technical activities, including facilitating Technical Co-Sponsorship for Conferences, Conducting Workshops, Technical Seminars, Distinguished Lecture programs, Colloquiums, and other possible technical activities. The subsection is actively engaged in bringing student members into various activities through the student chapters.
                     </p>
                 </div>
+                <div className={`${styles.aboutVideoSection} flex items-center justify-center`}>
+                
+                <iframe 
+                id="about-video"
+                width="560" height="315" src="https://www.youtube.com/embed/q-a9NURq-Q8?si=ZaQNrulLrdiZGwEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
             </div>
 
 
@@ -53,12 +59,7 @@ const AboutUsComponent = () => {
                         <span>NIT Silchar</span> With a vision to train and transform young professionals into responsible citizens for the betterment of the society, NIT Silchar produces skilled and trained industry-ready professionals through imparting quality technical education and acts as the center of excellence for engineering and scientific research. Being an integral part of the dynamic research community, NIT Silchar focuses on designing engineering and management programs that instill leadership and teamwork and carries a global appeal to comply with global technical developments and market demands. The research conducive green campus encourages the young minds to develop attributes and knowledge beyond the constraints of traditional classroom teaching and learning. NITS has been able to create a niche of its own and become the most preferred institute in the eastern region of the country. It stands as a humble spectacle where tradition meets vogue, aspiration meets inspiration and regional excellence defines global benchmarks.
                     </p>
                 </div>
-                <div className={`${styles.aboutVideoSection} flex items-center justify-center`}>
                 
-                <iframe 
-                id="about-video"
-                width="560" height="315" src="https://www.youtube.com/embed/q-a9NURq-Q8?si=ZaQNrulLrdiZGwEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
             </div>
             <div className={styles.aboutUs}>
                 <div className={styles.anekTamilAboutUs}>

@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 6rem;
-  padding-right: 10rem;
+  padding-right: 6rem;
   background-color: white;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .header_counter{
-  width:15em;
+  width: 2rem;
 }
 
 .header_location img{
@@ -95,15 +95,19 @@
 
 .header_location_data{
   padding-right: 4rem;
-  
 }
 
 .nits_logo{
+  padding-left: 0.7rem;
   object-fit: contain;
   img{
       width: 6rem;
       height: 6rem;
   }
+}
+
+.main_conference_logo{
+  padding-left: 0.8rem;
 }
 .location_ieee_silchar_subsection_logo{
   padding: 1rem 0 0 3rem;
@@ -144,3 +148,113 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media(max-width: 980px) {
+  .header_content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header_location{
+    padding-left: 2rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .header_links{
+    padding-left: 1.5rem;
+    padding-right: 3.3rem;
+  }
+  .header_location{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .pathway_extreme_header_info {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 2.2rem;
+  margin-right: 0;
+  font-size: 1.4rem;
+}
+.pathway_extreme_header_info {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 2rem;
+  margin-right: 0;
+  font-size: 1rem;
+}
+}
+
+@media(max-width: 400px) {
+  .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+  }
+  .header_links{
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    font-size: 0.5rem;
+  }
+  .header_location{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .pathway_extreme_header_info {
+  color: blue;
+  font-family: "Pathway Extreme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  font-variation-settings: "wdth" 75;
+  line-height: 2rem;
+  margin-right: 0;
+  font-size: 1rem;
+}
+.header_logos{
+  display: none;
+}
+.header_location_data{
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.nits_logo{
+  padding-left: 0.5rem;
+  object-fit: contain;
+  img{
+      width: 6rem;
+      height: 6rem;
+  }
+}
+
+.main_conference_logo{
+  padding-left: 0.8rem;
+}
+}
+
+@media(max-width: 600px){
+  .header_links{
+    padding-left: 0.4rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .header_location{
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+  .location_ieee_logo{
+    display:none; 
+  }
+  }
