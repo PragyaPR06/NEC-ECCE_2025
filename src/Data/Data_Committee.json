@@ -1,42 +1,5 @@
 [
     {
-      "name": "Steering Committee",
-      "members": [
-        {"name": "Prof. Biplab Sikar", "affiliation": "NUS Singapore"},
-        {"name": "Prof. Akshay Kumar Rathore", "affiliation": "Singapore Institute of Technology, Singapore"},
-        {"name": "Prof. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
-        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW"},
-        {"name": "Prof. Ambrish Chandra", "affiliation": "Canada"},
-        {"name": "Prof. Kaushik Rajashekara", "affiliation": "USA"},
-        {"name": "Prof. Subhashish Bhattacharya", "affiliation": "USA"},
-        {"name": "Dr. Dinesh Kumar", "affiliation": "Denmark"},
-        {"name": "Prof. Bhim Singh", "affiliation": "IIT Delhi"},
-        {"name": "Prof. B. K. Panigrahi", "affiliation": "IIT Delhi"},
-        {"name": "Prof. Narasimharaju B. L.", "affiliation": "NIT Warrangal"},
-        {"name": "Prof. Sujit K Biswas", "affiliation": "Past Chair, IEEE IAS Kolkata Chapter"},
-        {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection"},
-        {"name": "Prof. B. K. Roy", "affiliation": "Chair-Elect., IEEE Silchar Subsection"},
-        {"name": "Dr. Chandan Kumar", "affiliation": "IIT Guwahati"},
-        {"name": "Prof. A. K. Goswami", "affiliation": "NIT Silchar"},
-        {"name": "Dr. Jaison Mathew", "affiliation": "Govt. Engg College, Trissur"},
-        {"name": "Dr. Amritesh Kumar", "affiliation": "NIT Silchar"},
-        {"name": "Dr. Asha Rani M. A.", "affiliation": "NIT Silchar"},
-        {"name": "Prof. L. C. Saikia", "affiliation": "NIT Silchar"},
-        {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur"},
-        {"name": "Dr. Bikram Das", "affiliation": "NIT Agartala"},
-        {"name": "Dr. Rajen Pudur", "affiliation": "NIT Arunachal Pradesh"},
-        {"name": "Dr. Anagha Bhattacharya", "affiliation": "NIT Mizoram"},
-        {"name": "Dr. Aurobinda Panda", "affiliation": "NIT Sikkim"},
-        {"name": "Dr. Sanjoy Debbarma", "affiliation": "NIT Meghalaya"},
-        {"name": "Dr. Radak Blange", "affiliation": "NERIST"},
-        {"name": "Dr. Sarsing Gao", "affiliation": "NERIST"},
-        {"name": "Dr. Dipu Sarkar", "affiliation": "NIT Nagaland"},
-        {"name": "Dr. Pabitra Biswas", "affiliation": "NIT Mizoram"},
-        {"name": "Dr. Shailendra Singh", "affiliation": "NIT Agartala"},
-        {"name": "Dr. Anish Ahmad", "affiliation": "Tezpur University, India"}
-      ]
-    },
-    {
       "name": "Chief Patrons",
       "members": [
         {"name": "Prof. Dilip Kumar Baidya", "affiliation": "NIT Silchar"},
