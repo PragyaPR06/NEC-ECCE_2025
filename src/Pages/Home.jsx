@@ -4,11 +4,8 @@ import HomeSlider from '../Components/HomeComponents/HomeSlider';
 import Navbar from "../Components/Navbar/Navbar"
 import AboutUsComponent from '../Components/About/About';
 import Timeline  from '../Components/Timeline/Timeline';
-import Footer from '../Components/Footer/Footer';
 import Timer from '../Components/Timer/Timer';
-
 import Header from '../Components/Header/header';
-import Aboutus from '../Components/About/Aboutus/Aboutus2';
 const Home = () => {
   return (
     <div>
@@ -19,7 +16,6 @@ const Home = () => {
       <Tracks/>
       <Timeline />
       <Timer/>
-      <Footer />
       
     </div>
   )

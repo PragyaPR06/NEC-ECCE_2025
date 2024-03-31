@@ -27,7 +27,7 @@ const CallForPaper = () => {
     <br />
     <ul className={styles2.instructionsContent}>
         <p>
-            1) <strong> NEI-ECCE 2025,</strong>
+            1) <strong> NE-IECCE 2025,</strong>
              the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. </p>
              <br />
              <p className={styles2.submissionTemplate}>
@@ -90,14 +90,14 @@ const CallForPaper = () => {
     <h2 className={styles2.instructionsHeading}>Important <span>Notice </span></h2>
     <ol className={styles2.submissionGuidelinesText}>
         <p>
-           1) All papers submitted to <strong>NEI-ECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
+           1) All papers submitted to <strong>NE-IECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
         </p>
         <p>
            2) Acceptance of the paper does not guarantee acceptance of the final paper.
         </p>
     </ol>
     <ul className={styles2.submissionGuidelinesText}>
-        <p> 3) The organizing committee of <strong>NEI-ECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
+        <p> 3) The organizing committee of <strong>NE-IECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
         <p className={styles2.submissionGuidelinesTextConditions}>
             i) With poor language.
         </p>

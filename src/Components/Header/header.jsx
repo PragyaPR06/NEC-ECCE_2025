@@ -10,7 +10,7 @@ const Header =() => {
         <div className={styles.header_links_section}>            
           <h3>
             <a id="ieee-main-link" href="https://www.ieee.org/">IEEE.org | </a> 
-            <a href="http://ieeexplore.ieee.org/">IEEE | <span id="header-xplore">Xplore | </span>Digital Library | </a> 
+            <a href="http://ieeexplore.ieee.org/">IEEE <span id="header-xplore">Xplore </span>Digital Library | </a> 
             <a href="http://standards.ieee.org/">IEEE Standards | </a> 
             <a href="http://spectrum.ieee.org/">IEEE Spectrum | </a> 
             <a href="https://www.ieee.org/sitemap.html">More Sites </a> 
@@ -21,7 +21,7 @@ const Header =() => {
         <div className={styles.pathway_extreme_header_info}>
           <h2>IEEE North-East India</h2>
           <h2>International Energy Conversion Conference and Exhibition</h2>
-          <h2>(NEI-ECCE 2025)</h2>
+          <h2>(NE-IECCE 2025)</h2>
         </div>
         <div className={styles.main_conference_logo}>
           <img src={require("./ne-iecce-2025_main_logo.jpg")} alt="ne-iecce-2025_logo" width="150rem" height="100rem"/>
