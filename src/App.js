@@ -7,6 +7,7 @@ import Committee from './Pages/Committee';
 // import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
+import StudentAwards from './Pages/StudentAwards';
 // import AboutUsComponent from './Components/About/About'
 
 
@@ -22,7 +23,7 @@ export const App = () => {
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>
-
+              <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>
