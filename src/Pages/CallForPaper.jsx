@@ -36,14 +36,18 @@ const CallForPaper = () => {
           
              <br />
              <p className={styles2.submissionTemplate}>
+
              <strong>Templates for Manuscript Submission : </strong>
+
             <button>MS Word</button>
             <span>   |   </span>
             <button >Latex</button>
         </p>
         <br />
         <p>
+
         After peer review, all accepted and presented papers of NE-IECCE 2025, will be submitted to IEEE Xplore Digital Library for inclusion and other major indexing.
+        
         </p>
     </ul>
 </section>
@@ -105,7 +109,7 @@ const CallForPaper = () => {
     <br />
     <span className={styles2.submitButtonArea}>
         <button className={styles2.submitButton}>
-            Submit paper
+            Submit Manuscript
         </button>
     </span>
     <br />
