@@ -1,0 +1,77 @@
+    .header{
+        text-align: center;
+        font-family: "Anek Tamil", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings: "wdth" 97;
+        color: blue;
+        font-size: 50px;
+    }
+
+    .header span {
+        color: orange;
+    }
+
+    .subHeader{
+        text-align: center;
+        font-family: "Anek Tamil", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings: "wdth" 97;
+        color: blue;
+        font-size: 1.8rem;
+    }
+
+    .subHeader span {
+        color: orange;
+    }
+
+    .primaryContacts{
+        display: flex; 
+        justify-content: center;
+    }
+
+    .mainContact{
+        text-align: center;
+        padding-left: 2.5rem;
+        padding-right: 3.5rem;
+    }
+
+    .contactName{
+        font-family: "Anek Tamil", sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .contactEmail{
+        font-family: "Anek Tamil", sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .generalQueriesText{
+        font-family: "Anek Tamil", sans-serif;
+        font-size: 1.5rem ;
+    }
+
+    .generalQueriesInnerText{
+        font-family: "Anek Tamil", sans-serif;
+        font-size: 1.3rem;
+        color: #17252A;
+        font-weight: 600;
+    }   
+    .generalQueriesInnerText a{
+        font-style: italic;
+        color: blue;
+    }
+
+    .generalQueriesInnerText span{
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .generalQueries{
+        background-color: #3AAFA9;
+        margin: 0 4rem 0 4rem;
+        padding: 0 2rem 0 2rem;
+    }
