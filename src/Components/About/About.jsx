@@ -47,31 +47,11 @@ const AboutUsComponent = () => {
                 id="about-video"
                 width="560" height="315" src="https://www.youtube.com/embed/q-a9NURq-Q8?si=ZaQNrulLrdiZGwEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
-            </div>
+            </div><br></br><br></br><br></br>
 
 
-            <div className={styles.aboutUs}>
-                <div className={styles.anekTamilAboutUs}>
-                    <h2>About <span>NIT Silchar</span></h2>
-                </div>
-                <div className={styles.aboutUsInfo}>
-                    <p className={styles.anekTamilAboutUsPara}>
-                        <span>NIT Silchar</span> With a vision to train and transform young professionals into responsible citizens for the betterment of the society, NIT Silchar produces skilled and trained industry-ready professionals through imparting quality technical education and acts as the center of excellence for engineering and scientific research. Being an integral part of the dynamic research community, NIT Silchar focuses on designing engineering and management programs that instill leadership and teamwork and carries a global appeal to comply with global technical developments and market demands. The research conducive green campus encourages the young minds to develop attributes and knowledge beyond the constraints of traditional classroom teaching and learning. NITS has been able to create a niche of its own and become the most preferred institute in the eastern region of the country. It stands as a humble spectacle where tradition meets vogue, aspiration meets inspiration and regional excellence defines global benchmarks.
-                    </p>
-                </div>
-                
-            </div>
-            <div className={styles.aboutUs}>
-                <div className={styles.anekTamilAboutUs}>
-                    <h2>About <span>The Department</span></h2>
-                </div>
-                <div className={styles.aboutUsInfo}>
-                    <p className={styles.anekTamilAboutUsPara}>
-                        <span>The Department of Electrical Engineering of NIT Silchar </span>
-                          is one of the finest and well-equipped Electrical departments of the North-East region. It boasts of having highly qualified faculties specialized in diverse fields with an unparallel level of expertise in their field. The Department offers B.Tech. in Electrical Engineering, M.Tech. in Power and Energy Systems Engineering & Control and Industrial Automation, and Ph.D in Electrical Engineering. The department is equipped with state of art laboratories to cater research in the frontier research areas of Electrical Engineering facilitating a commendable research ambience in the department. The expertise and dedication of the faculty members along with infrastructural facilities coupled with the perseverance of the students have catapulted the branch to the top league.
-                    </p>
-                </div>
-            </div>
+           
+            
            
         </div>
     );

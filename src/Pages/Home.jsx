@@ -14,12 +14,13 @@ const Home = () => {
     <div>
       <Header/>
       <Navbar/>
+      
       <HomeSlider />
       <AboutUsComponent/>
       <Tracks/>
       <Timeline />
       <Timer/>
-      <Footer />
+      
       
     </div>
   )

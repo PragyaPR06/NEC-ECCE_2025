@@ -31,17 +31,20 @@
 
 .header_content {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
   padding-left: 6rem;
-<<<<<<< HEAD
-  padding-right: 10rem;
-  background-color: #ffffff;
-=======
-  padding-right: 6rem;
+
+  padding-right: 2rem;
   background-color: white;
->>>>>>> 70bfd8e0abb285ef2b421b93aa85e0d5a805086d
+
+}
+.header_content .nits_logo{
+  width: 300px;
+}
+.header_content .main_conference_logo{
+  width: 300px;
 }
 
 .pathway_extreme_header_info {
@@ -58,7 +61,7 @@
 
 .header_location{
   display: flex;
-  gap: 140px;
+  gap: 80px;
   height: fit-content;
   padding-left: 6rem;
   padding-top: 0;
