@@ -4,10 +4,12 @@ import Home from './Pages/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Committee from './Pages/Committee';
+// import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
 import StudentAwards from './Pages/StudentAwards';
 import ContactUs from './Pages/ContactUs';
+
 
 export const App = () => {
   return (
@@ -17,6 +19,7 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
+              
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>

@@ -1,6 +1,9 @@
 import React, { Fragment, useEffect } from 'react';
 import styles2 from "../Pages/CallForPaper.module.css";
-import Header from "../Components/Header/header";
+
+import Header from '../Components/Header/Header';
+import Footer from "../Components/Footer/Footer";
+
 import Navbar from "../Components/Navbar/Navbar";
 
 const CallForPaper = () => {
@@ -26,44 +29,34 @@ const CallForPaper = () => {
     <br />
     <ul className={styles2.instructionsContent}>
         <p>
-            1) <strong> NE-IECCE 2025,</strong>
-             the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. </p>
+
+         <strong> Authors, </strong>
+         are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT: <a href='https://cmt3.reserach.microsoft.com/NEIECCE2025'>https://cmt3.reserach.microsoft.com/NEIECCE2025</a>. </p>
+
+          
              <br />
              <p className={styles2.submissionTemplate}>
-            2) <strong>Templates for Manuscript Submission : </strong>
+
+             <strong>Templates for Manuscript Submission : </strong>
+
             <button>MS Word</button>
             <span>   |   </span>
             <button >Latex</button>
         </p>
         <br />
         <p>
-            3) Please note that the submission site does not send automatic emails of acknowledgment. Authors may, however, use the icon named <span className={styles2.submitDigestText}>"Submit Manuscript"</span> available towards the end of the submission process near the top right side corner of the screen to get the submission site to send a confirmation email to themselves.
+
+        After peer review, all accepted and presented papers of NE-IECCE 2025, will be submitted to IEEE Xplore Digital Library for inclusion and other major indexing.
+        
         </p>
     </ul>
 </section>
 <br/>
 <hr />
 <br />
-<section className={styles2.submissionGuidelines} id="subGuide">
-    <h2 className={styles2.instructionsHeading}>Manuscript Submission <span>Guidelines </span></h2>
-    <br />
-    <ul className={styles2.submissionGuidelinesText}>
-        <p>
-           1) Initial submission of manuscript <strong>(6 pages max.)</strong> including figures and references are allowed in PDF format.
-        </p>
-        <p>
-           2) Total file size of the manuscript must not exceed  <strong>2 MB.</strong>
-        </p>
-        <p>
-           3) Accepted papers after the initial review will get the opportunity to submit a full paper (6 pages max.).
-        </p>
-        <p>
-           4) Up to two (2) extra pages are permissible with an additional fee to be paid at the time of registration.
-        </p>
-    </ul>
-    </section>
+
     <br/>
-    <hr />
+   
     <br />
 <section className={styles2.importantDeadlines}>
     <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>

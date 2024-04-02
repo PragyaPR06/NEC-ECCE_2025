@@ -27,7 +27,7 @@
       "members": [
         {"name": "Dr. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
         {"name": "Prof. A. K. Goswami", "affiliation": "NIT Silchar"},
-        {"name": "Prof. KashemMuttaqi", "affiliation": "UOW"}
+        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW Australia"}
       ]
     },
     {
@@ -50,7 +50,7 @@
       "members": [
         {"name": "Prof. Bhim Singh", "affiliation": "IIT Delhi"},
         {"name": "Prof. B. K. Panigrahi", "affiliation": "IIT Delhi"},
-        {"name": "Dr. Georgios Konstantinou", "affiliation": "UNSW"},
+        {"name": "Dr. Georgios Konstantinou", "affiliation": "UNSW Sydney"},
         {"name": "Prof. S. Venugopal", "affiliation": "Director, NIT Nagaland"},
         {"name": "Prof. Narasimharaju B. L.", "affiliation": "NIT Warrangal"},
         {"name": "Prof. N. B. D. Choudhury", "affiliation": "NIT Silchar"},
@@ -120,7 +120,7 @@
         {"name": "Dr. Sreejith. S", "affiliation": "NIT Silchar"},
         {"name": "Dr. Saheli Ray", "affiliation": "NIT Silchar"},
         {"name": "Dr. Risha Mal", "affiliation": "NIT Silchar"},
-        {"name": "Dr. AmbrishDevanshu", "affiliation": "NIT Silchar"}
+        {"name": "Dr. Ambrish Devanshu", "affiliation": "NIT Silchar"}
       ]
     },
     {
@@ -167,7 +167,7 @@
         {"name": "Prof. Prasad Enjeti", "affiliation": "Texas A&M, USA"},
         {"name": "Prof. Subhashish Bhattacharya", "affiliation": "North Carolina State University, USA"},
         {"name": "Prof. Tarlochan Sidhu", "affiliation": "Ontario Tech University, Canada"},
-        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW"},
+        {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW Australia"},
         {"name": "Dr. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
         {"name": "Dr. Vijay Sood", "affiliation": "Ontario Tech University, Canada"},
         {"name": "Dr. Rabiul Islam", "affiliation": "UOW Australia"},
