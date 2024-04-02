@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-const RegistrationTable = () => {
+const Registrations = () => {
   return (
     <div className="overflow-x-auto  m-20">
       <h2 className="text-5xl text-blue-500  font-extrabold text-center font-sans mb-10 font">Registration <  span  className=" text-5xl text-orange-400   font-extrabold">Fee Details</span></h2>
@@ -130,6 +130,6 @@ const RegistrationTable = () => {
   );
 };
 
-export default RegistrationTable;
+export default Registrations;
 
 
