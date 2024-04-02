@@ -84,7 +84,7 @@ const Aboutus = () =>{
                    <img src='/tourism/tumjang.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Tumjang Peak</h3>
+                        <h3>Tumjang Peak, Haflong</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
@@ -92,15 +92,15 @@ const Aboutus = () =>{
                    <img src='/tourism/kakochang.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Kakochang</h3>
+                        <h3>Kakochang Water Falls, Kaziranga</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/khaspur.jpg'/>
+                   <img src='/tourism/sikkim.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Ruins of Kachari Kingdom</h3>
+                        <h3>Ravalanga Buddha Park , Sikkim</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
@@ -108,23 +108,23 @@ const Aboutus = () =>{
                    <img src='/tourism/kamakhya.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Maa Kamakhya Mandir</h3>
+                        <h3>Maa Kamakhya Mandir, Guwahati</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/umann.jpg'/>
+                   <img src='/tourism/cherapunji.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Umananda Island</h3>
+                        <h3>Seven Sister Falls, Cherapunji</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/haflong.jpg'/>
+                   <img src='/tourism/meghalaya.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Halflong</h3>
+                        <h3>Living Roots Bridge , Meghalaya</h3>
                    </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ const Aboutus = () =>{
                 
                 
             
-                <Footer />
+               
         </>
     )
 }
