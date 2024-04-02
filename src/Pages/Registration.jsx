@@ -173,7 +173,22 @@ const RegistrationTable = () => {
         </tbody>
       </table>
       {/* Additional Information like Participation and Notes */}
-  
+      <div className="px-6 py-4  mt-14 bg-gray-50">
+        <h3 className="text-2xl  font-semibold leading-6 text-gray-900">Participation:</h3>
+        <p className="mt-1 text-lg text-gray-500">
+          For Tutorial & Industry Talks: ₹3000 / $100
+        </p>
+        <p className="mt-1 text-lg text-gray-500">
+          Conference Attendees: ₹5000 / $150
+        </p>
+      </div>
+      <div className="px-6 py-4">
+        <h3 className="text-2xl font-medium leading-6 text-gray-900">Note:</h3>
+        <ul className="mt-1 list-disc list-inside text-md text-gray-500">
+          <li>For one student registration (early bird/standard), authors can submit only one article.</li>
+          <li>For other participants (Academicians/ Scientists/Industry persons/Foreign Authors), authors can submit two articles for one registration (early bird/standard).</li>
+        </ul>
+      </div>
       <p className="text-gray-600 text-center mt-6">* All above fees are exclusive of GST. GST charges will be added as per regulations.</p>
     </div>
   );
