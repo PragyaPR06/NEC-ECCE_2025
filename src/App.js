@@ -8,8 +8,8 @@ import Committee from './Pages/Committee';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
 import StudentAwards from './Pages/StudentAwards';
+import Registrations from './Pages/Registration';
 import ContactUs from './Pages/ContactUs';
-
 
 export const App = () => {
   return (
@@ -19,11 +19,11 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
-              
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>
               <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
+              <Route exact path="/Registrations" element={< Registrations/>}/>
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
             </Routes>
             <Footer/>

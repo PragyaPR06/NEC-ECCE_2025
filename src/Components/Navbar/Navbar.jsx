@@ -51,7 +51,10 @@ const Navbar = () => {
             Committee
           </Link>
         </li>
-        <li className={styles.navItem}>Registrations</li>
+        <Link to="/Registrations">
+        <li className={styles.navItem}>
+          Registrations</li>
+          </Link>
         <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
         </Link>
