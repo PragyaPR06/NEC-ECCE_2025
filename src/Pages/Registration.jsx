@@ -189,7 +189,7 @@ const RegistrationTable = () => {
           <li>For other participants (Academicians/ Scientists/Industry persons/Foreign Authors), authors can submit two articles for one registration (early bird/standard).</li>
         </ul>
       </div>
-      <p className="text-gray-600 text-center mt-6">* All above fees are exclusive of GST. GST charges will be added as per regulations.</p>
+     
     </div>
   );
 };
