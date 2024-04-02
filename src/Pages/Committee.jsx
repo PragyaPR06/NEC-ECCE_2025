@@ -18,7 +18,7 @@ const Committee = () => {
                     {element.members.map((el)=>{
                         return(
                     <div className="cards text-[clamp(0.9rem,4vw,1.2rem)] w-[30vw] pl-8 flex justify-center items-start flex-col h-[10vh] min-h-28 min-w-[400px] rounded-lg shadow-md">
-                        <div className='name'>{el.name}</div>
+                        <div className='name font-bold'>{el.name}</div>
                         <div className="affiliation">{el.affiliation}</div>
                     </div>
                         )

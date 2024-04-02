@@ -1,10 +1,11 @@
 import React, { Fragment, useEffect } from 'react';
 import styles2 from "../Pages/CallForPaper.module.css";
+
 import Header from '../Components/Header/Header';
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 
-
+import Navbar from "../Components/Navbar/Navbar";
 
 const CallForPaper = () => {
   useEffect(() => {
@@ -29,18 +30,25 @@ const CallForPaper = () => {
     <br />
     <ul className={styles2.instructionsContent}>
         <p>
+
          <strong> Authors, </strong>
          are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT: <a href='https://cmt3.reserach.microsoft.com/NEIECCE2025'>https://cmt3.reserach.microsoft.com/NEIECCE2025</a>. </p>
+
+          
              <br />
              <p className={styles2.submissionTemplate}>
+
              <strong>Templates for Manuscript Submission : </strong>
+
             <button>MS Word</button>
             <span>   |   </span>
             <button >Latex</button>
         </p>
         <br />
         <p>
+
         After peer review, all accepted and presented papers of NE-IECCE 2025, will be submitted to IEEE Xplore Digital Library for inclusion and other major indexing.
+        
         </p>
     </ul>
 </section>
@@ -53,6 +61,7 @@ const CallForPaper = () => {
     <br />
 <section className={styles2.importantDeadlines}>
     <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>
+    <br />
     <ul className={styles2.submissionGuidelinesText}>
         <p>
            1) Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>
@@ -73,16 +82,17 @@ const CallForPaper = () => {
     <br />
 <section className={styles2.importantNotice}>
     <h2 className={styles2.instructionsHeading}>Important <span>Notice </span></h2>
+    <br />
     <ol className={styles2.submissionGuidelinesText}>
         <p>
-           1) All papers submitted to <strong>NEI-ECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
+           1) All papers submitted to <strong>NE-IECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
         </p>
         <p>
            2) Acceptance of the paper does not guarantee acceptance of the final paper.
         </p>
     </ol>
     <ul className={styles2.submissionGuidelinesText}>
-        <p> 3) The organizing committee of <strong>NEI-ECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
+        <p> 3) The organizing committee of <strong>NE-IECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
         <p className={styles2.submissionGuidelinesTextConditions}>
             i) With poor language.
         </p>
@@ -100,7 +110,7 @@ const CallForPaper = () => {
     <br />
     <span className={styles2.submitButtonArea}>
         <button className={styles2.submitButton}>
-            Submit paper
+            Submit Manuscript
         </button>
     </span>
     <br />

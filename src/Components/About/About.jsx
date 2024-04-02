@@ -6,12 +6,12 @@ const AboutUsComponent = () => {
         <div className={`${styles.container} relative pt-[5rem]`}>
             <div className={styles.aboutUs}>
                 <div className={styles.anekTamilAboutUs}>
-                    <h2>About <span>NEI-ECCE 2025</span></h2>
+                    <h2>About <span>NE-IECCE 2025</span></h2>
                 </div>
                 <div className={styles.aboutUsInfo}>
                     {/* <div className={styles.anekTamilAboutUsInfo}>IEEE NEI-ECCE 2025</div> */}
                     <p className={styles.anekTamilAboutUsPara}>
-                    <span>IEEE NEI-ECCE 2025,</span> the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. To cater the future industry demands of Sustainable Energy Conversion and Transport Electrification, this conference aims to put forth the experts working in this area to share their research findings which have a significant impact on modern smart grid, sustainable electric transportation, and control.
+                    <span>IEEE NE-IECCE 2025,</span> the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter in association with the Department of Electrical Engineering aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. To cater the future industry demands of Sustainable Energy Conversion and Transport Electrification, this conference aims to put forth the experts working in this area to share their research findings which have a significant impact on modern smart grid, sustainable electric transportation, and control.
                     </p>
                     <br />
                     
@@ -43,9 +43,8 @@ const AboutUsComponent = () => {
                 </div>
                 <div className={`${styles.aboutVideoSection} flex items-center justify-center`}>
                 
-                <iframe 
-                id="about-video"
-                width="560" height="315" src="https://www.youtube.com/embed/q-a9NURq-Q8?si=ZaQNrulLrdiZGwEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <iframe id="about-video" width="560" height="315" src="https://www.youtube.com/embed/84QRlmUOk54?si=KJm_ThYnZde9F-5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
             </div><br></br><br></br><br></br>
 

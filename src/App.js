@@ -7,7 +7,8 @@ import Committee from './Pages/Committee';
 // import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
-// import AboutUsComponent from './Components/About/About'
+import StudentAwards from './Pages/StudentAwards';
+import ContactUs from './Pages/ContactUs';
 
 
 export const App = () => {
@@ -22,7 +23,8 @@ export const App = () => {
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>
-
+              <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
+              <Route exact path="/ContactUs" element={<ContactUs/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>

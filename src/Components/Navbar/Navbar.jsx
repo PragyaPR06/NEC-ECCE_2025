@@ -52,14 +52,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.navItem}>Registrations</li>
+        <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
-        <li className={styles.navItem}>Sponsors</li>
+        </Link>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
+          <Link to="/ContactUs">
           Contact Us
-          <ul className={styles.dropdownContent}>
-            <li>Travels</li>
-            <li>Accomodations</li>
-          </ul>
+          </Link>
         </li>
       </ul>
     </nav>
