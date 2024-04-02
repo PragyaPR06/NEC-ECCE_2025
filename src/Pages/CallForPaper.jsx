@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect } from 'react';
 import styles2 from "../Pages/CallForPaper.module.css";
 
-import Header from '../Components/Header/Header';
+import Header from '../Components/Header/header';
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 
-import Navbar from "../Components/Navbar/Navbar";
+
 
 const CallForPaper = () => {
   useEffect(() => {

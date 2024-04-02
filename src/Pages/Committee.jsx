@@ -1,7 +1,7 @@
 import React from 'react'
 import CommitteeData from "../Data/Data_Committee.json"
 import Navbar from '../Components/Navbar/Navbar';
-import Header from '../Components/Header/Header';
+import Header from '../Components/Header/header';
 const Committee = () => {
   return (
     <>
