@@ -7,7 +7,7 @@ import Timeline  from '../Components/Timeline/Timeline';
 import Timer from '../Components/Timer/Timer';
 
 
-import Header from '../Components/Header/Header';
+import Header from '../Components/Header/header';
 import Aboutus from './Aboutus';
 
 const Home = () => {
