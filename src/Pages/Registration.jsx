@@ -2,9 +2,13 @@
 
 
 import React from 'react';
+import Navbar from '../Components/Navbar/Navbar';
 
 const Registrations = () => {
   return (
+    <>
+    
+    <Navbar/>
     <div className="overflow-x-auto  m-20">
       <h2 className="text-5xl text-blue-500  font-extrabold text-center font-sans mb-10 font">Registration <  span  className=" text-5xl text-orange-400   font-extrabold">Fee Details</span></h2>
       <table className="min-w-full divide-y divide-gray-200  ">
@@ -127,6 +131,7 @@ const Registrations = () => {
       </div>
       <p className="text-gray-600 text-center mt-6">* All above fees are exclusive of GST. GST charges will be added as per regulations.</p>
     </div>
+    </>
   );
 };
 
