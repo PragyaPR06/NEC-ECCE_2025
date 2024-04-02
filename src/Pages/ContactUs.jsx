@@ -13,10 +13,8 @@ const ContactUs = () => {
                     <h1> Contact <span>Us</span></h1>
             </header>
             <br /><br />
-            <header className={styles4.subHeader}>
-                    <h1> Organising <span>Chairs</span></h1>
-            </header>
-            <br />
+           
+            
             <section className={styles4.primaryContacts}>
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Amritesh Kumar</strong> </p>
