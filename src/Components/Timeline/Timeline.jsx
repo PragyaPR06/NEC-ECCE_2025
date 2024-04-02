@@ -4,7 +4,7 @@ import data from "../../Data/data.json";
 const Timeline = () => {
   return (
     <div className=" container flex-col justify-center items-start">
-      <div className="header flex justify-center items-center text-[3rem] font-bold text-purple-800 ">Timeline</div>
+      <div className="header flex justify-center items-center text-[3rem] font-bold font-sans text-blue-600">Timeline</div>
       <div className="timeline flex-col p-10 justify-center items-center">
         {data.map((element) => {
           return (

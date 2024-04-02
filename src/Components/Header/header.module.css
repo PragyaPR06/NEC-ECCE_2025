@@ -31,11 +31,20 @@
 
 .header_content {
   display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
   padding-left: 6rem;
-  padding-right: 6rem;
+
+  padding-right: 2rem;
   background-color: white;
+
+}
+.header_content .nits_logo{
+  width: 300px;
+}
+.header_content .main_conference_logo{
+  width: 300px;
 }
 
 .pathway_extreme_header_info {
@@ -47,16 +56,17 @@
   font-variation-settings: "wdth" 75;
   line-height: 2.2rem;
   margin-right: 0;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .header_location{
   display: flex;
+  gap: 80px;
   height: fit-content;
   padding-left: 6rem;
   padding-top: 0;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
   padding-bottom: 0rem;
 }
 
@@ -95,6 +105,10 @@
 
 .header_location_data{
   padding-right: 4rem;
+}
+.location{
+  display: flex;
+  flex-direction: row;
 }
 
 .nits_logo{

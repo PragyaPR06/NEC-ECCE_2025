@@ -2,6 +2,8 @@ import React from "react";
 import styles from '../Pages/Aboutus.module.scss'
 import Navbar from "../Components/Navbar/Navbar";
 import Header from "../Components/Header/header";
+import Footer from "../Components/Footer/Footer";
+import Slider from "../Components/Slider/Slider";
 const Aboutus = () =>{
     return(
         <>
@@ -10,6 +12,7 @@ const Aboutus = () =>{
             <div className={styles.header}>
                 <h1>About Us</h1>
             </div>
+            <hr></hr>
             <br></br><br></br>
             <div className={styles.nit}>
                 <div className={styles.header}>
@@ -19,10 +22,11 @@ const Aboutus = () =>{
                 <div className={styles.aboutUsInfo}>
                     
                     <p className={styles.AboutUsPara}>
-                    <span>National Institute Of Technology, Silchar </span> With a vision to train and transform young professionals into responsible citizens for the betterment of the society, NIT Silchar produces skilled and trained industry-ready professionals through imparting quality technical education and acts as the center of excellence for engineering and scientific research. Being an integral part of the dynamic research community, NIT Silchar focuses on designing engineering and management programs that instill leadership and teamwork and carries a global appeal to comply with global technical developments and market demands. The research conducive green campus encourages the young minds to develop attributes and knowledge beyond the constraints of traditional classroom teaching and learning. NITS has been able to create a niche of its own and become the most preferred institute in the eastern region of the country. It stands as a humble spectacle where tradition meets vogue, aspiration meets inspiration and regional excellence defines global benchmarks.
+                    <span>With a vision </span>to train and transform young professionals into responsible citizens for the betterment of the society, NIT Silchar produces skilled and trained industry-ready professionals through imparting quality technical education and acts as the center of excellence for engineering and scientific research. Being an integral part of the dynamic research community, NIT Silchar focuses on designing engineering and management programs that instill leadership and teamwork and carries a global appeal to comply with global technical developments and market demands. The research conducive green campus encourages the young minds to develop attributes and knowledge beyond the constraints of traditional classroom teaching and learning. NITS has been able to create a niche of its own and become the most preferred institute in the eastern region of the country. It stands as a humble spectacle where tradition meets vogue, aspiration meets inspiration and regional excellence defines global benchmarks.
                     </p>
                     <br />
                 </div>
+                
                 <div className={styles.pics}>
                     <div className={styles.img1}>
                     <img src='/HomeSlider/conference6.jpg'/>
@@ -40,7 +44,7 @@ const Aboutus = () =>{
 
                 <div className={styles.aboutUsInfo}>
                 <div className={styles.pics}>
-                <img src='/HomeSlider/04.jpg'/>
+                <img src='/HomeSlider/ee.jpeg'/>
                 </div>
                     <div>
                     <p className={styles.AboutUsPara}>
@@ -63,7 +67,7 @@ const Aboutus = () =>{
                     </p>
                     </div>   
                     <div className={styles.pics}>
-                    <img src='/HomeSlider/silchar.jpg'/>
+                    <img src='/HomeSlider/silch.jpeg'/>
                 </div>
                 </div>
                 
@@ -71,7 +75,7 @@ const Aboutus = () =>{
             </div>
             <div className={styles.tour}>
                 <div className={styles.header}>
-                    <h2>Tourist Attraction Near <span>Silchar</span></h2>
+                    <h2>Tourist Attraction Near <span>North-East India</span></h2>
                 </div>
                 <br></br>
                     <div className={styles.pics}>
@@ -80,7 +84,7 @@ const Aboutus = () =>{
                    <img src='/tourism/tumjang.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Tumjang Peak</h3>
+                        <h3>Tumjang Peak, Haflong</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
@@ -88,15 +92,15 @@ const Aboutus = () =>{
                    <img src='/tourism/kakochang.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Kakochang</h3>
+                        <h3>Kakochang Water Falls, Kaziranga</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/khaspur.jpg'/>
+                   <img src='/tourism/sikkim.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Ruins of Kachari Kingdom</h3>
+                        <h3>Ravalanga Buddha Park , Sikkim</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
@@ -104,28 +108,31 @@ const Aboutus = () =>{
                    <img src='/tourism/kamakhya.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Maa Kamakhya Mandir</h3>
+                        <h3>Maa Kamakhya Mandir, Guwahati</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/umann.jpg'/>
+                   <img src='/tourism/cherapunji.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Umananda Island</h3>
+                        <h3>Seven Sister Falls, Cherapunji</h3>
                    </div>
                     </div>
                     <div className={styles.card}>
                    <div className={styles.img}>
-                   <img src='/tourism/haflong.jpg'/>
+                   <img src='/tourism/meghalaya.jpg'/>
                    </div> 
                    <div className={styles.info}>
-                        <h3>Halflong</h3>
+                        <h3>Living Roots Bridge , Meghalaya</h3>
                    </div>
                     </div>
                 </div>
                 </div>
                 
+                
+            
+               
         </>
     )
 }

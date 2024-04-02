@@ -4,11 +4,12 @@ import Home from './Pages/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Committee from './Pages/Committee';
+// import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
 import StudentAwards from './Pages/StudentAwards';
 import Registrations from './Pages/Registration';
-// import AboutUsComponent from './Components/About/About'
+import ContactUs from './Pages/ContactUs';
 
 export const App = () => {
   return (
@@ -23,7 +24,7 @@ export const App = () => {
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/>
               <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
-              
+              <Route exact path="/ContactUs" element={<ContactUs/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>
