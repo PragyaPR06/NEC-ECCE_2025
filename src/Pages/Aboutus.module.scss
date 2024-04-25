@@ -8,6 +8,20 @@
         font-size: 50px;
 }
 .nit{
+    .header {
+        text-align: center;
+        font-family: "Anek Tamil", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings: "wdth" 97;
+        color: blue;
+        font-size: 40px;
+    
+        h2 span {
+            color: orange;
+        }
+    }
     height: 130vh;
     .pics{
         display: flex;
@@ -33,32 +47,7 @@
             
         }
     }
-    .header {
-        text-align: center;
-        font-family: "Anek Tamil", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 900;
-        font-style: normal;
-        font-variation-settings: "wdth" 97;
-        color: blue;
-        font-size: 40px;
-    
-        h2 span {
-            color: orange;
-        }
-    }
-    .aboutUsInfo {
-        font-family: "Anek Tamil", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 900;
-        font-style: normal;
-        font-variation-settings: "wdth" 97;
-        font-size: 20px;
-        color: rgb(53, 49, 49);
-        padding-left: 1%;
-    }
-    
-    .aboutUsInfo p span {
+    p span {
         font-weight: bold;
         font-size: 1.4rem;
     }
@@ -249,3 +238,456 @@
     }
     }
 }
+/*medium*/
+@media screen and (max-width: 1026px){
+    .nit{
+        height: 150vh;
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+       
+        .pics{
+            display: flex;
+            flex-direction:row;
+            gap: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            .img1{
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                img{
+                    width: 4000px;
+                    height: 400px;
+                }
+                
+            }
+            .img2{
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                img{
+                    width: 4000px;
+                    height: 400px;
+                }
+                
+                
+            }
+        }
+        p span {
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: 1.2rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:1rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    }
+    .departm{
+        background-color: rgba(225, 225, 217, 0.448);
+        .aboutUsInfo{
+            display: flex;
+            flex-direction: row;
+            
+            .pics{
+                display: flex;
+                justify-content: center;
+                padding-left: 20px;
+                img{
+                    height: 330px;
+                    width: 5000px;
+                    box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                    
+                }
+                
+            }
+        }
+        
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .aboutUsInfo {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            font-size: 20px;
+            color: rgb(53, 49, 49);
+           
+        }
+        
+        .aboutUsInfo p span {
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: 1.2rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:1rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    }
+    .silchar{
+        .aboutUsInfo{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .pics{
+                display: flex;
+                align-items: center;
+                height:370px;
+                padding-right: 20px;
+            
+               
+                
+                img{
+                    height: 330px;
+                    width: 4000px;
+                    box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                    
+                }
+                
+            }
+        }
+        
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .aboutUsInfo {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            font-size: 20px;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+        }
+        
+        .aboutUsInfo p span {
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: 1.2rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:1rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    
+    }
+    .tour{
+        background-color: rgba(225, 225, 217, 0.448);
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .pics{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 300px 300px 300px;
+            column-gap: 20px;
+            row-gap: 30px;
+           .card{ img{
+                height: 250px;
+                
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+            }
+            .info{
+                padding-top: 10px;
+                text-align: center;
+                font-weight: 800;
+                h3{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        }
+    }
+}
+/*small devices*/
+@media screen and (max-width: 426px) {
+   
+    .nit{
+        height: 110vh;
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 1.8rem;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .pics{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            gap: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            .img1{
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                img{
+                    width: 170px;
+                    height: 100px;
+                }
+                
+            }
+            .img2{
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                img{
+                    width: 170px;
+                    height: 100px;
+                }
+                
+                
+            }
+        }
+        .aboutUsInfo p span {
+            font-weight: bold;
+            font-size: .8rem;
+        }
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: .8rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:.2rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    }
+    .departm{
+        padding-top: 5rem;
+        background-color: rgba(225, 225, 217, 0.448);
+        .aboutUsInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .pics{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height:280px;
+                padding-left: 2px;
+                padding-right: 2px;
+            
+               
+                
+                img{
+                    height: 200px;
+                    width: 330px;
+                    box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                    
+                }
+                
+            }
+        }
+        
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 1.8rem;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .aboutUsInfo p span {
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: .8rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:.2rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    }
+    .silchar{
+        height: 100vh;
+       padding-top: 20px;
+        .aboutUsInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .pics{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height:200px;
+                padding-left: 2px;
+                padding-right: 2px;
+            
+               
+                
+                img{
+                    height: 200px;
+                    width: 330px;
+                    box-shadow: 0px 5px 9px rgb(0, 0, 0);
+                    
+                }
+                
+            }
+        }
+        
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 1.8rem;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .aboutUsInfo p span {
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .AboutUsPara {
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            font-variation-settings: "wdth" 97;
+            font-size: .8rem;
+            color: rgb(53, 49, 49);
+            padding-left: 1%;
+            padding:.2rem 2rem 2rem 2rem;
+            text-justify: inter-word;
+        }
+    
+    }
+    .tour{
+        background-color: rgba(225, 225, 217, 0.448);
+        .header {
+            text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 1.5rem;
+        
+            h2 span {
+                color: orange;
+            }
+        }
+        .pics{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 170px 170px;
+            column-gap: 5px;
+            row-gap: 10px;
+           .card{ img{
+                height: 100px;
+                box-shadow: 0px 5px 9px rgb(0, 0, 0);
+            }
+            .info{
+                padding-top: 10px;
+                text-align: center;
+                font-weight: 800;
+                h3{
+                    font-size: .6rem;
+                }
+            }
+        }
+        }
+    }
+  }
+ 

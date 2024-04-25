@@ -40,6 +40,7 @@ const Aboutus = () =>{
                 <div className={styles.header}>
                     <h2>About <span>The Department</span></h2>
                 </div>
+                <hr></hr>
                 <br></br>
 
                 <div className={styles.aboutUsInfo}>
@@ -48,7 +49,7 @@ const Aboutus = () =>{
                 </div>
                     <div>
                     <p className={styles.AboutUsPara}>
-                    <span>The Department of Electrical Engineering of NIT Silchar</span>is one of the finest and well-equipped Electrical departments of the North-East region. It boasts of having highly qualified faculties specialized in diverse fields with an unparallel level of expertise in their field. The Department offers B.Tech. in Electrical Engineering, M.Tech. in Power and Energy Systems Engineering & Control and Industrial Automation, and Ph.D in Electrical Engineering. The department is equipped with state of art laboratories to cater research in the frontier research areas of Electrical Engineering facilitating a commendable research ambience in the department. The expertise and dedication of the faculty members along with infrastructural facilities coupled with the perseverance of the students have catapulted the branch to the top league.
+                    <span>The Department of Electrical Engineering of NIT Silchar </span>is one of the finest and well-equipped Electrical departments of the North-East region. It boasts of having highly qualified faculties specialized in diverse fields with an unparallel level of expertise in their field. The Department offers B.Tech. in Electrical Engineering, M.Tech. in Power and Energy Systems Engineering & Control and Industrial Automation, and Ph.D in Electrical Engineering. The department is equipped with state of art laboratories to cater research in the frontier research areas of Electrical Engineering facilitating a commendable research ambience in the department. The expertise and dedication of the faculty members along with infrastructural facilities coupled with the perseverance of the students have catapulted the branch to the top league.
                     </p>
                     </div>   
                 </div>
