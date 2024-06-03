@@ -32,7 +32,7 @@ const CallForPaper = () => {
         <p>
 
          <strong> Authors, </strong>
-         are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT: <a href='https://cmt3.research.microsoft.com/NEIECCE2025'>https://cmt3.research.microsoft.com/NEIECCE2025</a>. </p>
+         are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT. </p>
 
           
              <br />
