@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'blue-430': '#92C1FA', // Adjust the hex code to match your desired shade
       },
+      backgroundOpacity: ['active']
 
     },
   },
