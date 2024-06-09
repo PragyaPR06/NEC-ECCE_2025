@@ -32,7 +32,7 @@ const CallForPaper = () => {
         <p>
 
          <strong> Authors, </strong>
-         are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT: <a href='https://cmt3.research.microsoft.com/NEIECCE2025'>https://cmt3.research.microsoft.com/NEIECCE2025</a>. </p>
+         are invited to submit their full manuscripts (6 pages max) according to guidelines available on the conference website via Microsoft CMT. </p>
 
           
              <br />
@@ -64,16 +64,16 @@ const CallForPaper = () => {
     <br />
     <ul className={styles2.submissionGuidelinesText}>
         <p>
-           1) Opening date of Submission of Digest: <strong>30<sup>th</sup> September, 2024</strong>
+           1) Abstract Submission Date: <strong>30<sup>th</sup> August, 2024</strong>
         </p>
         <p>
-           2) Deadline for Submission of Digest: <strong>20<sup>th</sup> February, 2025</strong>
+           2) Full Paper Submission Date: <strong>20<sup>th</sup> February, 2025</strong>
         </p>
         <p>
-           3) Acceptance / Rejection Notification of Digest: <strong>10<sup>th</sup> April, 2025</strong>
+           3) Notification of Acceptance: <strong>10<sup>th</sup> April, 2025</strong>
         </p>
         <p>
-           4) Deadline for submitting the final camera-ready version of accepted papers : <strong>10<sup>th</sup> May, 2025</strong>
+           4) Final Paper Submission Date : <strong>10<sup>th</sup> May, 2025</strong>
         </p>
     </ul>
     </section>
