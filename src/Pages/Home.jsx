@@ -5,17 +5,16 @@ import Navbar from "../Components/Navbar/Navbar"
 import AboutUsComponent from '../Components/About/About';
 import Timeline  from '../Components/Timeline/Timeline';
 import Timer from '../Components/Timer/Timer';
-
+import SubLineComponent from '../Components/SubLine/SubLine';
 
 import Header from '../Components/Header/header';
-import Aboutus from './Aboutus';
 
 const Home = () => {
   return (
     <div>
       <Header/>
       <Navbar/>
-      
+      <SubLineComponent />
       <HomeSlider />
       <AboutUsComponent/>
       <Tracks/>
