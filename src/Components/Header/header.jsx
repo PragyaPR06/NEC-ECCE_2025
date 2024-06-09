@@ -25,12 +25,13 @@ const Header =() => {
         
         <div className={styles.nits_logo}>
           <img src={require("./nits-logo.png")} alt="nits-logo" width="100rem" height="75rem"/> 
+
         </div>
         <div className={styles.location_ieee_logo}>
             <img src={require("./IEEE-main-logo.png")} alt="ieee-main-logo"/>
           </div>
-        </section>
-        </div> 
+          </section>
+          </div>
         </section>
     </Fragment>
   );
