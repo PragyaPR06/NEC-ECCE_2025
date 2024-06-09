@@ -11,7 +11,6 @@ const Sponsorship = () =>{
         <Navbar />
             <div className={styles.sponsorship}>
                 <img src="/sponsors/Sponsor.jpg" alt="sponsorship pdf" ></img></div>
-                
         </>
     )
 };

@@ -55,6 +55,10 @@ const Navbar = () => {
         <li className={styles.navItem}>
           Registrations</li>
           </Link>
+          <Link to="/Sponsorship">
+        <li className={styles.navItem}>
+          Sponsorship</li>
+          </Link>
         <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
         </Link>
