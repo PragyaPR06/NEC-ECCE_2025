@@ -3,7 +3,7 @@ import styles from '../Pages/Aboutus.module.scss'
 import Navbar from "../Components/Navbar/Navbar";
 import Header from "../Components/Header/header";
 import Footer from "../Components/Footer/Footer";
-import Slider from "../Components/Slider/Slider";
+
 const Aboutus = () =>{
     return(
         <>

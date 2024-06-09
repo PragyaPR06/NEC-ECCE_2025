@@ -27,9 +27,13 @@ const Header =() => {
         <div className={styles.main_conference_logo}>
           <img src={require("./ne-iecce-2025_main_logo.jpg")} alt="ne-iecce-2025_logo" width="150rem" height="100rem"/>
         </div>
-        <div className={styles.nits_logo}>
+        {<div className={styles.nits_logo}>
           <img src={require("./nits-logo.png")} alt="nits-logo" width="100rem" height="75rem"/> 
+
+        </div>}
+
         </div>
+
         </section>
         <div className={styles.header_counter}/>
         <HeaderTimer className={styles.header_counter}/>
