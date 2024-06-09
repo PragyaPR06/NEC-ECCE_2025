@@ -1,52 +1,20 @@
-.header_links{
-  height: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 6rem;
-  padding-right: 10rem;
-  background-color: #d6ecf5;
-  border-bottom: 0.05rem solid #069;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  font-weight: 600;
-}
-
-.header_links_section{ 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #069;
-  a:visited {
-      color: #069;
-  }
-  a:link {
-      color: #069;
-  }
-}
-
-#header_xplore{
-  font-style: italic;
-}
-
 .header_content {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 6rem;
-  padding-right: 6rem;
   background-color: white;
+  padding: 0 1.5rem 0.5rem 1rem;
+}
 
+.header_head {
+  display: flex;
+  align-items: center;
 }
 .header_content .nits_logo{
-  width: 10rem;
+  width: 8rem;
   padding-left: 3rem;
 }
-.header_content .main_conference_logo{
-  width: 10rem;
-}
-
 .pathway_extreme_header_info {
   color: blue;
   font-family: "Pathway Extreme", sans-serif;
@@ -54,257 +22,51 @@
   font-weight: 750;
   font-style: normal;
   font-variation-settings: "wdth" 75;
-  line-height: 2.2rem;
+  /* line-height: 2.2rem; */
   margin-right: 0;
-  font-size: 2rem;
+  margin-left: 0;
+  font-size: 1.8rem;
 }
 
-.header_location{
-  display: flex;
-  gap: 80px;
-  justify-content: space-between ;
-  height: fit-content;
-  padding-left: 6rem;
-  padding-top: 0;
-  align-items: center;
-  background-color: #ffffff;
-  padding-bottom: 0rem;
+.pathway_extreme_header_info span{
+  color: orange;
 }
 
-.header_counter{
-  width: 2rem;
-}
-
-.header_location img{
-  height: 2rem;
-}
-
-.pathway_extreme_header_location_data {
-  color: blue;
-  font-family: "Pathway Extreme", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 450;
-  font-style: normal;
-  font-variation-settings: "wdth" 75;
-  line-height: 1.8rem;
-  padding-left: 0.8rem;
-  justify-content: center;
-}
-
-.pathway_extreme_header_location_dates {
-  color: blue;
-  font-family: "Pathway Extreme", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 650;
-  font-style: normal;
-  font-variation-settings: "wdth" 75;
-  line-height: 1.8rem;
-  padding-left: 0.8rem;
-  justify-content: center;
-  font-size: 1rem;
-}
-
-.header_location_data{
-  padding-right: 4rem;
-}
-.location{
-  display: flex;
-  flex-direction: row;
-}
 
 .important_logos{
   display: flex;
   justify-content: space-between;
 }
-.location_ieee_silchar_subsection_logo{
-  padding: 1rem 0 0 3rem;
-  justify-content: center;
-  img{
-  width: 7rem;
-  height: 4rem;
-}
-}
-.location_ieee_kolkata_section_logo{
-  padding: 1.5rem 0 0.5rem 3rem;
-  justify-content: center;
-  img{
-  width: 6rem;
-  height: 6rem;
-}
-}
-
-.location_ias_logo{
-  padding: 1rem 0 0 3rem;
-  justify-content: center;
-  img{
-  width: 7rem;
-  height: 4rem;
-}
-}
 .location_ieee_logo{
-  padding: 1rem 0 0 3rem;
+  padding: 0.5rem 0 0 2rem;
   justify-content: center;
   img{
-  width: 6rem;
+  width: 12rem;
   height: 4rem;
 }
 }
 
-.header_logos{
+.header_main{
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-right: 6rem;
-}
-
-@media(max-width: 980px) {
-  .header_content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .header_location{
-    padding-left: 2rem;
-  }
 
 }
 
-@media(max-width: 800px) {
-  .header_counter{
-    display: none;
-  }
-  .header_links{
-    padding-left: 1.5rem;
-    padding-right: 3.3rem;
-  }
-  .header_location{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .pathway_extreme_header_info {
-  color: blue;
-  font-family: "Pathway Extreme", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
-  font-variation-settings: "wdth" 75;
-  line-height: 2.2rem;
-  margin-right: 0;
-  font-size: 1.4rem;
-}
-.pathway_extreme_header_info {
-  color: blue;
-  font-family: "Pathway Extreme", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
-  font-variation-settings: "wdth" 75;
-  line-height: 2rem;
-  margin-right: 0;
-  font-size: 1rem;
-}
-.location_ieee_kolkata_section_logo{
-  display: none;
-}
-.location_ieee_logo{
-  display: none;
-}
-
-.location_ieee_silchar_subsection_logo{
-  padding: 1rem 0 0 1rem;
-}
-
-.header_logos{
-  padding-right: 2.7rem;
-}
-}
-
-@media(max-width: 500px) {  
-  
-  .header_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: white;
-    height: 7rem;
-  } 
-  .header_links{
-    width: fit-content;
-    font-size: 0.5rem;
+.pathway_extreme_header_info h2{
     text-align: center;
-    padding-left: 2.5rem;
-  }
-  .header_links_section{
-    font-size: 0.5rem;
-    text-align: justify;
-  }
-  .header_location{
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .location_icon{
-    padding-top: 1.5rem;
-    padding-right: 0.5rem;
-    img{
-      width: 1rem;
-      height: 1.3rem;
-    }
-  }
-  .pathway_extreme_header_info {
-  color: blue;
-  font-family: "Pathway Extreme", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
-  font-variation-settings: "wdth" 75;
-  /* line-height: 2rem; */
-  margin-right: 0;
-  justify-content: center;
+}
+
+.pathway_extreme_header_subinfo{
   font-size: 0.9rem;
-  text-align:left;
-  line-height: 1.rem;
-}
-.header_logos{
-  display: none;
-}
-.important_logos{
-  display: none;
-}
-.header_location_data{
-  padding-top: 0.5rem;
-  padding-right: 0.5rem;
+  color: green;
 }
 
-/* .nits_logo{
-  padding-left: 0.5rem;
-  object-fit: contain;
-  img{
-      width: 6rem;
-      height: 6rem;
-  }
-} */
-
-  .main_conference_logo{
-  
-    padding-left: 0.8rem;
-  }
+.header_text{
+  padding: 1.2rem 0 1rem 1rem;
 }
-/* 
-@media(max-width: 600px){
-  .header_links{
-    padding-left: 0.4rem;
-    padding-right: 0.8rem;
-    font-size: 0.8rem;
-  }
-  .header_location{
-    padding-left: 1rem;
-    padding-right: 0.5rem;
-  }
-  .location_ieee_logo{
-    display:none; 
-  }
-  } */
+
+.main_conference_logo{
+  padding: 0.5rem 0 0 1rem;
+  img {
+  width: 7rem;
+}
+}
