@@ -59,6 +59,21 @@ const Navbar = () => {
         <li className={styles.navItem}>
           Sponsorship</li>
           </Link>
+        <Link to="/programDetails">
+        <li className={styles.navItem}>
+          Program Details</li>
+        </Link>
+        <li className={`${styles.navItem} ${styles.dropdown}`}>
+          Speakers
+          <ul className={styles.dropdownContent}>
+            <Link to="/keynoteSpeakers">
+            <li> Keynote Speakers</li>      
+            </Link>
+            <Link to="/tutorial">
+            <li>Tutorial</li>
+            </Link>
+          </ul>
+        </li>
         <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
         </Link>
