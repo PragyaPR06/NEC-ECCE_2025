@@ -10,6 +10,7 @@ import CallForPaper from './Pages/CallForPaper';
 import StudentAwards from './Pages/StudentAwards';
 import Registrations from './Pages/Registration';
 import ContactUs from './Pages/ContactUs';
+import Sponsorship from './Pages/Sponsorship';
 
 export const App = () => {
   return (
@@ -25,6 +26,7 @@ export const App = () => {
               <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
+              <Route exact path="/Sponsorship" element={<Sponsorship/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>

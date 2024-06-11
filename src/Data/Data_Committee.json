@@ -61,6 +61,14 @@
       ]
     },
     {
+      "name":"Plenary & Women in Engineering Chairs",
+      "members":[
+        {"name": "Kalpana R", "affiliation": "NIT Karnataka,Surathkal"},
+        {"name": "A N Archana", "affiliation": "Tata Elxsi, Trivandrum, India"},
+        {"name": "Dhivya Sampath Kumar", "affiliation": "SIT Singapore"}
+      ]
+    },
+    {
       "name": "Technical Program Chairs",
       "members": [
         {"name": "Prof. Sujit K Biswas", "affiliation": "Past Chair, IEEE IAS Kolkata Chapter"},

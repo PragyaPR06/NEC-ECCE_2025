@@ -6,7 +6,7 @@ import AboutUsComponent from '../Components/About/About';
 import Timeline  from '../Components/Timeline/Timeline';
 import Timer from '../Components/Timer/Timer';
 import SubLineComponent from '../Components/SubLine/SubLine';
-
+import Sponsor from '../Components/Sponsors/Sponsors';
 import Header from '../Components/Header/header';
 
 const Home = () => {
@@ -16,12 +16,11 @@ const Home = () => {
       <Navbar/>
       <SubLineComponent />
       <HomeSlider />
+      <Sponsor/>
       <AboutUsComponent/>
       <Tracks/>
       <Timeline />
       <Timer/>
-
-      
     </div>
   )
 };

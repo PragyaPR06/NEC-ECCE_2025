@@ -1,0 +1,54 @@
+
+.TechnicalSponsors{
+    padding-top: 5%;
+    .header{
+        text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+                .logo4{
+                  height: 20rem;
+                  width: 15rem;
+                }
+                .logo3{
+                    padding-top: 50px;
+                }
+                .logo2{
+                    padding-top: 50px;
+                }
+                .logo1{
+                    padding-top: 50px;
+                }   
+                .logo6{
+                    padding-top: 50px;
+                }
+    }
+}
+.FinancialSponsors{
+    padding-top: 0rem;
+    .header{
+        text-align: center;
+            font-family: "Anek Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings: "wdth" 97;
+            color: blue;
+            font-size: 40px;
+        
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3%;      
+    }
+}

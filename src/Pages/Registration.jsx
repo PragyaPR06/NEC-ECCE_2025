@@ -3,11 +3,12 @@
 
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
+import Header from '../Components/Header/header';
 
 const Registrations = () => {
   return (
     <>
-    
+    <Header/>
     <Navbar/>
     <div className="overflow-x-auto  m-20">
       <h2 className="text-5xl text-blue-500  font-extrabold text-center font-sans mb-10 font">Registration <  span  className=" text-5xl text-orange-400   font-extrabold">Fee Details</span></h2>
