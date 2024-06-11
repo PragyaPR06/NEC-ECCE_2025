@@ -40,17 +40,18 @@ export default () => {
     >
     <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/pic4.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <img src='/HomeSlider/pic4.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> */}
+                    <img src='/HomeSlider/silch.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
            
      <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/2.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                     <img src='/HomeSlider/2.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> 
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
-                </div>
-            </SwiperSlide>
+                </div> 
+            </SwiperSlide> 
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
                     <img src='/HomeSlider/pic2.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
@@ -60,13 +61,13 @@ export default () => {
            
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[20rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/4.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    <img src='/HomeSlider/1.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/pic3.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
@@ -94,31 +95,35 @@ export default () => {
            
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/6.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <img src='/HomeSlider/6.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> */}
+                    <img src='/HomeSlider/4.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/7.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <img src='/HomeSlider/7.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> */}
+                    <img src='/HomeSlider/conference5.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                <img src='/HomeSlider/ee.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <img src='/HomeSlider/conference6.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> */}
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/8.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    <img src='/HomeSlider/3.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='mx-auto w-[100%] h-[15rem] md:h-[36rem] relative'>
-                    <img src='/HomeSlider/9.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
+                    {/* <img src='/HomeSlider/ee.jpeg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/> */}
+                    <img src='/HomeSlider/pic3.jpg' className='mx-auto h-full w-[100%] md:w-[100%] object-cover' alt=''/>
                     {/* <div className='absolute top-[40%] md:top-[45%] w-[100%] bg-black opacity-50 text-[white] text-center text-[2rem] md:text-[3rem] mx-auto'>Conference!</div> */}
                 </div>
             </SwiperSlide>

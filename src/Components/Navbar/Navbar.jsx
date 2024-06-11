@@ -32,7 +32,7 @@ const Navbar = () => {
           </ul> */}
         </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
-          For Authors
+          For Authors<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
@@ -51,20 +51,8 @@ const Navbar = () => {
             Committee
           </Link>
         </li>
-        <Link to="/Registrations">
-        <li className={styles.navItem}>
-          Registrations</li>
-          </Link>
-          <Link to="/Sponsorship">
-        <li className={styles.navItem}>
-          Sponsorship</li>
-          </Link>
-        <Link to="/programDetails">
-        <li className={styles.navItem}>
-          Program Details</li>
-        </Link>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
-          Speakers
+          Speakers<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
             <Link to="/keynoteSpeakers">
             <li> Keynote Speakers</li>      
@@ -74,9 +62,25 @@ const Navbar = () => {
             </Link>
           </ul>
         </li>
+        <Link to="/ProgramDetails">
+        <li className={styles.navItem}>
+          Program Details</li>
+        </Link>
+        <Link to="/Registrations">
+        <li className={styles.navItem}>
+          Registrations</li>
+          </Link>
         <Link to ="/StudentAwards">
         <li className={styles.navItem}>Student Awards</li>
         </Link>
+        <Link to="/Sponsorship">
+        <li className={styles.navItem}>
+          Sponsorship</li>
+          </Link>
+          <Link to="/Accomodation">
+        <li className={styles.navItem}>
+          Accomodation</li>
+          </Link>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           <Link to="/ContactUs">
           Contact Us

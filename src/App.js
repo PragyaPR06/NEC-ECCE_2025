@@ -11,6 +11,9 @@ import StudentAwards from './Pages/StudentAwards';
 import Registrations from './Pages/Registration';
 import ContactUs from './Pages/ContactUs';
 import Sponsorship from './Pages/Sponsorship';
+import ProgramDetails from './Pages/programDetails';
+import KeynoteSpeakers from './Pages/KeynoteSpeakers';
+import Accomodation from './Pages/Accomodation';
 
 export const App = () => {
   return (
@@ -20,13 +23,16 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
-              <Route exact path="/CallForPapers" element={<CallForPaper/>}/>
+              <Route exact path="/CallForPapers" element={<CallForPaper/>}/> 
+              <Route exact path="/committee" element={<Committee/>}/>
+              <Route exact path="/KeynoteSpeakers" element={<KeynoteSpeakers/>}/>
+              <Route exact path="/ProgramDetails" element={<ProgramDetails/>}/>
               <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
-              <Route exact path="/ContactUs" element={<ContactUs/>}/>
               <Route exact path="/Sponsorship" element={<Sponsorship/>}/>
+              <Route exact path="/accomodation" element={<Accomodation/>}/>
+              <Route exact path="/ContactUs" element={<ContactUs/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>
