@@ -15,10 +15,10 @@ export default () => {
     <>
     <div className='bg-opacity-40 bg-black absolute inset-x-0 bottom-0 top-1/2 flex flex-col items-center justify-center z-30 p-4'>
     <h1 class="text-2xl md:text-4xl xl:text-5xl font-extrabold mb-4 text-white text-center">
-                    IEEE North-East India
+                    IEEE North-East India International 
                 </h1>
                 <h1 class="text-2xl md:text-4xl xl:text-5xl font-extrabold mb-2 text-white">
-                    International Energy Conversion Conference and Exhibition
+                    Energy Conversion Conference and Exhibition
                 </h1>
                 <h1 class="text-2xl md:text-4xl   xl:text-5xl font-extrabold mb-4 text-white">
                    (NE-IECCE 2025)
