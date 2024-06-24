@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import styles3 from "../Pages/Accomodation.module.css";
 import Header from "../Components/Header/header";
 import Navbar from "../Components/Navbar/Navbar";

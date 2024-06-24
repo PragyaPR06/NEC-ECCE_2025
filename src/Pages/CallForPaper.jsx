@@ -3,7 +3,7 @@ import styles2 from "../Pages/CallForPaper.module.css";
 
 import Header from '../Components/Header/header';
 import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+// import Footer from "../Components/Footer/Footer";
 
 
 

@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  background-color: #0face5;
+  // background-color: #0face5;
+  background-color:rgb(17, 103, 17);
   font-family: Arial, sans-serif;
   
   .topBar {
@@ -48,6 +49,7 @@
     padding-left: 0;
     margin-top: 0;
     flex-wrap: wrap;
+    color: #f9f9f9;
     
     &.showMenu {
       display: flex;

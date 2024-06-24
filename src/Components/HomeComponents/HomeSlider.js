@@ -4,13 +4,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
-
 import 'swiper/css/autoplay';
 
-
-
-export default () => {
+const HomeSlider = () => {
   return (
     <>
     <div className='bg-opacity-40 bg-black absolute inset-x-0 bottom-0 top-1/2 flex flex-col items-center justify-center z-30 p-4'>
@@ -130,3 +126,5 @@ export default () => {
     </Swiper></>
   );
 };
+
+export default HomeSlider;
