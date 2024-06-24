@@ -15,6 +15,10 @@ import ProgramDetails from './Pages/programDetails';
 import KeynoteSpeakers from './Pages/KeynoteSpeakers';
 import Accomodation from './Pages/Accomodation';
 import PaperSumbissionGuide from './Components/ForAuthors/PaperSumbissionGuide';
+import ImportantDates from './Components/ForAuthors/ImportantDates';
+import CameraReadySumb from './Components/ForAuthors/CameraReadySumb';
+
+
 
 export const App = () => {
   return (
@@ -26,8 +30,9 @@ export const App = () => {
               <Route exact path="/" element={<Home />} />
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/> 
+              <Route exact path="/ImportantDates" element={<ImportantDates/>}/> 
               <Route exact path="/PaperSumbissionGuide" element={<PaperSumbissionGuide/>}/> 
-              
+              <Route exact path="/CameraReadySumb" element={<CameraReadySumb/>}/>  
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/KeynoteSpeakers" element={<KeynoteSpeakers/>}/>
               <Route exact path="/ProgramDetails" element={<ProgramDetails/>}/>

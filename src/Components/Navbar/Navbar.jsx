@@ -37,13 +37,15 @@ const Navbar = () => {
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
             </Link>
-            <Link to="/CallForPapers/#impDates">
+            <Link to="/ImportantDates">
             <li>Important Dates</li>
             </Link>
             <Link to="/PaperSumbissionGuide">
             <li>Paper submission guidelines</li>
             </Link>
+            <Link to="/CameraReadySumb">
             <li>Camera-Ready submission guidelines </li>
+            </Link>
           </ul>
         </li>
         <li className={styles.navItem}>

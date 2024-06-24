@@ -1,5 +1,5 @@
-import React, { Fragment,  } from 'react';
-import styles2 from "./PaperSumbissionGuide.module.scss";
+import React, { Fragment } from 'react';
+import styles2 from "./ImportantDates.module.scss";
 
 import Header from '../Header/header';
 import Navbar from "../Navbar/Navbar";
@@ -7,15 +7,26 @@ import Navbar from "../Navbar/Navbar";
 
 
 
-const PaperSumbissionGuide = () => {
-
+const ImportantDates = () => {
+//   useEffect(() => {
+//     // Check if the hash exists in the URL
+//     if (window.location.hash) {
+//       // Extract the hash value (e.g., #targetDiv)
+//       const hash = window.location.hash.substring(1);
+//       // Scroll to the target div
+//       const targetDiv = document.getElementById(hash);
+//       if (targetDiv) {
+//         targetDiv.scrollIntoView({ behavior: 'smooth' });
+//       }
+//     }
+//   }, []);
     return (
         <Fragment>
         <Header />
         <Navbar/>
         <br />  
-    <section className={styles2.instructions}>
-    <h2 className={styles2.instructionsHeading}>Paper Submission <span>Guidelines </span></h2>
+    {/* <section className={styles2.instructions}>
+    <h2 className={styles2.instructionsHeading}>Instructions For <span>Authors </span></h2>
     <br />
     <ul className={styles2.instructionsContent}>
         <p>
@@ -40,10 +51,37 @@ const PaperSumbissionGuide = () => {
         
         </p>
     </ul>
-</section>
-<br/>
-<hr />
-<section className={styles2.importantNotice}>
+</section> */}
+
+
+   
+   
+    
+<section className={styles2.importantDeadlines}>
+    <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>
+    <br />
+    <ul className={styles2.submissionGuidelinesText}>
+        <p>
+           1) Paper Submission Date: <strong>30<sup>th</sup> August, 2024</strong>
+        </p>
+        <p>
+           2)  Paper Submission Closes: <strong>20<sup>th</sup> February, 2025</strong>
+        </p>
+        <p>
+           3) Notification of Acceptance: <strong>10<sup>th</sup> April, 2025</strong>
+        </p>
+        <p>
+           4) Final Camera Ready Submission : <strong>10<sup>th</sup> May, 2025</strong>
+        </p>
+        <p>
+           5) Registration Starts : <strong>15<sup>th</sup> May, 2025</strong>
+        </p>
+    </ul>
+    </section>
+    <br/>
+    <hr />
+    <br />
+{/* <section className={styles2.importantNotice}>
     <h2 className={styles2.instructionsHeading}>Important <span>Notice </span></h2>
     <br />
     <ol className={styles2.submissionGuidelinesText}>
@@ -69,16 +107,15 @@ const PaperSumbissionGuide = () => {
             iv) Dissimilarity between contents of paper and final camera-ready version of accepted papers.  
         </p>
     </ul>
-    </section>
-    <br />
+    </section> */} 
+    {/* <br />
     <span className={styles2.submitButtonArea}>
         <button className={styles2.submitButton}>
             Submit Manuscript
         </button>
     </span>
-    <br />
+    <br /> */}
     </Fragment>
     );
 };
-
-export default PaperSumbissionGuide;
+export default ImportantDates;
