@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styles from "./header.module.css";
-import HeaderTimer from "../HeaderTimer/HeaderTimer";
+// import HeaderTimer from "../HeaderTimer/HeaderTimer";
 
 const Header =() => {
   return (

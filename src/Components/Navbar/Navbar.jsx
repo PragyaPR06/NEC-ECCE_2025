@@ -37,13 +37,15 @@ const Navbar = () => {
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
             </Link>
-            <Link to="/CallForPapers/#impDates">
+            <Link to="/ImportantDates">
             <li>Important Dates</li>
             </Link>
-            <Link to="/CallForPapers/#subGuide">
+            <Link to="/PaperSumbissionGuide">
             <li>Paper submission guidelines</li>
             </Link>
+            <Link to="/CameraReadySumb">
             <li>Camera-Ready submission guidelines </li>
+            </Link>
           </ul>
         </li>
         <li className={styles.navItem}>
@@ -77,10 +79,10 @@ const Navbar = () => {
         <li className={styles.navItem}>
           Sponsorship</li>
           </Link>
-          <Link to="/Accomodation">
+          {/* <Link to="/Accomodation">
         <li className={styles.navItem}>
           Accomodation</li>
-          </Link>
+          </Link> */}
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           <Link to="/ContactUs">
           Contact Us
