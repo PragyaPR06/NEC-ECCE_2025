@@ -62,7 +62,7 @@ const ImportantDates = () => {
     <br />
     <ul className={styles2.submissionGuidelinesText}>
         <p>
-           1) Paper Submission Date: <strong>30<sup>th</sup> August, 2024</strong>
+           1) Paper Submission Starts: <strong>30<sup>th</sup> August, 2024</strong>
         </p>
         <p>
            2)  Paper Submission Closes: <strong>20<sup>th</sup> February, 2025</strong>
