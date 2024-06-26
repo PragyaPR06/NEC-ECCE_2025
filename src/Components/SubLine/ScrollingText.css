@@ -9,7 +9,7 @@
   
   @keyframes scroll {
     from {
-      transform: translateX(0%);
+      transform: translateX(150%);
     }
     to {
       transform: translateX(-100%);
@@ -26,5 +26,5 @@
     /* line-height: 2.2rem; */
     margin-right: 0;
     margin-left: 0;
-    font-size: 2rem;
+    font-size: 1rem;
   }
