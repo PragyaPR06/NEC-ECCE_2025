@@ -27,7 +27,7 @@ const Header =() => {
           <img src={require("./nits-logo.png")} alt="nits-logo" width="100rem" height="75rem"/> 
 
         </div>
-        <hr></hr>
+        
         <div className={styles.location_ieee_logo}>
             <img src={require("./IEEE-main-logo.png")} alt="ieee-main-logo"/>
           </div>
