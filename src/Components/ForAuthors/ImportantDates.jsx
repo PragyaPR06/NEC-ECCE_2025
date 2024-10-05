@@ -72,7 +72,7 @@ const ImportantDates = () => {
             <h2>April 07, 2025</h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Early Bird Registration:</h3>
+            <h3 className=" font-semibold">Early Bird Registration Ends:</h3>
             <h2>April 25, 2025</h2>
           </div>
           <div className={styles2.lcard}>
