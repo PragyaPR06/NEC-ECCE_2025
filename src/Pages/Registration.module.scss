@@ -1,7 +1,8 @@
 .Registrations{
     
-    padding-left: 400px;
-    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img{
         object-fit:contain;
     }
