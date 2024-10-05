@@ -10,7 +10,7 @@ const ScrollingText = () => {
        <h3 className={`${styles.pathway_extreme_header_info}`}>
        <div className='flex '>
        <div className='  p-0 m-0 items-center'><img src="http://www.nits.ac.in/images/tnew.gif" alt="Notification" className=" items-center pt-1 " /></div>
-       <div style={{padding: 0}}>- <a href="/CallForPapers">Paper submission to be started <strong> shortly</strong>.</a></div> 
+       <div style={{padding: 0}}>- <a href="/CallForPapers">Paper submission portal opens on <strong> October 7, 2024</strong>.</a></div> 
        </div>                                                                                                                                                                                                 
          </h3> 
       </div>

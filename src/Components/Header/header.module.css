@@ -71,7 +71,7 @@
 }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .main_conference_logo{
     padding: 2rem 1.2rem 0 1rem;
   img {

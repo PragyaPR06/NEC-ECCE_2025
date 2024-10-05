@@ -23,7 +23,7 @@ const ContactUs = () => {
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Asha Rani M A</strong> </p>
                     <br />
-                    <p className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in </p>
+                    <a href='mailto:asharani@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in  </a>
                 </section>
             </section>
             <br /><br />

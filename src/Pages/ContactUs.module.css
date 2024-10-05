@@ -75,3 +75,19 @@
         margin: 0 4rem 0 4rem;
         padding: 0 2rem 0 2rem;
     }
+
+    @media (max-width: 1000px) {
+        .header{
+            font-size: 2rem;
+        }
+
+        .primaryContacts{
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .mainContact{
+            padding-bottom: 3rem;
+        }
+    }
