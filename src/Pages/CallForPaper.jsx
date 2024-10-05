@@ -4,12 +4,28 @@ import React from 'react'
 import Tracks from '../Components/Tracks/Tracks'
 import Header from '../Components/Header/header'
 import Navbar from '../Components/Navbar/Navbar'
+import styles2 from "./CallForPaper.module.css";
 
 const CallForPaper = () => {
   return (
     <div>
         <Header></Header>
         <Navbar></Navbar>
+        <section className={styles2.guidelines}>  
+          <section className={styles2.publicationHeader}>
+          <h2 className={styles2.publicationHeader}>
+            Publication
+          </h2>
+        </section>
+        <section className={styles2.instructionsContent}>
+        <p>
+
+<strong>All</strong> the accepted and presented papers will be published in the form of e-proceedings and will be submitted to IEEE Xplore Digital Library (indexed in SCOPUS, Google Scholar and other major indexing) and 100% accepted and presented papers will be forwarded to IEEE Transactions on Industry Applications for further review. </p>
+<p className={styles2.submissionLink}>
+Submit manuscripts using <a href="https://cmt3.research.microsoft.com/NEIECCE2025" target="_blank" rel="noopener noreferrer"><strong> https://cmt3.research.microsoft.com/NEIECCE2025 </strong></a>
+</p>
+        </section>
+        </section> 
         <Tracks></Tracks>
     </div>
   )
