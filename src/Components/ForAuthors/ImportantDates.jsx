@@ -58,29 +58,49 @@ const ImportantDates = () => {
    
     
 <section className={styles2.importantDeadlines}>
-    <h2 className={styles2.instructionsHeading} id="impDates">Important Deadlines <span>For Authors </span></h2>
+    <h2 className={styles2.instructionsHeading} id="impDates">Important Dates <span>For Authors </span></h2>
     <br />
-    <ul className={styles2.submissionGuidelinesText}>
-        <p>
-           1) Paper Submission Starts: <strong>30<sup>th</sup> August, 2024</strong>
-        </p>
-        <p>
-           2)  Paper Submission Closes: <strong>20<sup>th</sup> February, 2025</strong>
-        </p>
-        <p>
-           3) Notification of Acceptance: <strong>10<sup>th</sup> April, 2025</strong>
-        </p>
-        <p>
-           4) Final Camera Ready Submission : <strong>10<sup>th</sup> May, 2025</strong>
-        </p>
-        <p>
-           5) Registration Starts : <strong>15<sup>th</sup> May, 2025</strong>
-        </p>
-    </ul>
+    <div>
+      <div className={styles2.container}>
+        <div className={styles2.left}>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Paper Submission Portal Opens:</h3>
+            <h2>October 07, 2024</h2>
+          </div>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Notification of Acceptance:</h3>
+            <h2>April 07, 2025</h2>
+          </div>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Early Bird Registration:</h3>
+            <h2>April 25, 2025</h2>
+          </div>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Final camera Ready Paper Submission:</h3>
+            <h2>April 30, 2025</h2>
+          </div>
+          
+         
+        </div>
+        <div className={styles2.right}>
+          
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Paper Submission Portal Closes:</h3>
+            <h2>January 31, 2025 </h2>
+          </div>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Registration Starts:</h3>
+            <h2>April 11, 2025</h2>
+          </div>
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Standard Registration Ends:</h3>
+            <h2>May 05, 2025</h2>
+          </div>
+        
+        </div>
+      </div>
+    </div>
     </section>
-    <br/>
-    <hr />
-    <br />
 {/* <section className={styles2.importantNotice}>
     <h2 className={styles2.instructionsHeading}>Important <span>Notice </span></h2>
     <br />
