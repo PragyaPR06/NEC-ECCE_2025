@@ -1,6 +1,7 @@
 
 .TechnicalSponsors{
-    padding-top: 15%;
+    padding-top: 5%;
+    height: 25rem;
     .header{
         text-align: center;
             font-family: "Anek Tamil", sans-serif;
@@ -33,7 +34,6 @@
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     gap: 10px;
-                    
                     .logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
                         height: auto;
                         width: 100%;
@@ -43,7 +43,8 @@
     }
 }
 .FinancialSponsors{
-    padding-top: 2rem;
+    padding-top: 0;
+    height: 15rem;
     .header{
         text-align: center;
             font-family: "Anek Tamil", sans-serif;
@@ -62,7 +63,7 @@
     }
 
     @media (max-width: 1000px) {
-        
+        margin-top: 7rem;
         .logo1, .logo2 {
             padding: 2em;
         }

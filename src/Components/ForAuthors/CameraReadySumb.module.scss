@@ -1,0 +1,76 @@
+.instructionsHeading {
+  color: blue;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 2.6rem;
+}
+
+.instructionsSubHeading {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.instructionsHeading span {
+  color: orange;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 2rem 8rem 1rem;
+}
+
+.instructionsContent {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding-left: 3rem;
+}
+
+.submitDigestText {
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  text-align: center;
+}
+
+.submitButtonArea {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.submitButton {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem; /* Adjusted padding for better button size */
+  box-shadow: 0 0 0.1rem 0.1rem rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 1.5rem;
+  min-width: 4rem;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: rgb(1, 1, 117);
+  transition: 0.5s;
+}
+
+.submitButton:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #05006c;
+  transition: 0.5s;
+}
+
+.submitButton:active {
+  background-color: rgb(1, 1, 117);
+}
