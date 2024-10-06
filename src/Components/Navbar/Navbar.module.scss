@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: #379337;
   font-family: Arial, sans-serif;
-  
+  font-size: 14px;
   .topBar {
     width: 100%;
     display: flex;
@@ -31,7 +31,7 @@
 
     .hamburger {
       display: none;
-      font-size: 24px;
+      
       background: none;
       border: none;
       cursor: pointer;

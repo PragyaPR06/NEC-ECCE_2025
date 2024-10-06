@@ -42,7 +42,7 @@ const CallForPaper = () => {
 
             <button>MS Word</button>
             <span>   |   </span>
-            <button >Latex</button>
+            <button >LaTeX</button>
         </p>
         <br />
         <p>
