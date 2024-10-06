@@ -1,33 +1,51 @@
 [
       { 
         "id":"1",
-        "name": "Paper Submission Starts",
-        "date": "August 30, 2024",
-        "description": "Paper Submission Starts"
+
+        "name": "Paper Submission Portal Opens",
+        "date": "October 07, 2024",
+        "description": "Paper Submission Portal Opens"
       },
       {
-        "id":"2", 
-        "name": "Paper Submission Closes",
-        "date": "February 20, 2025",
-        "description": "Paper Submission closes"
+        "id":"2",
+        "name": "Paper Submission Portal Closes",
+        "date": "January 31, 2025",
+        "description": "Paper Submission Portal Closes"
+
       },
       {
-        "id":"3",
+        "id":"3", 
         "name": "Notification of Acceptance",
-        "date": "April 10, 2025",
+
+        "date": "April 07, 2025",
+
         "description": "Notification of Acceptance"
       },
       {
         "id":"4",
-        "name": "Final Camera Ready Submission",
-        "date": "May 10, 2025",
-        "description": "Final Camera Ready Submission"
+        "name": "Registration Starts",
+        "date": "April 11, 2025",
+        "description": "Registration Starts"
       },
       {
         "id":"5",
-        "name": "Registration Starts",
-        "date": "May 15, 2025",
-        "description": "Registration Starts"
+
+        "name": "Early Bird Registration Ends",
+        "date": "April 25, 2025",
+        "description": "Early Bird Registration Ends"
+      },
+      {
+        "id":"6",
+        "name": "Final Camera Ready Paper Submission",
+        "date": "May 1, 2025",
+        "description": "Final Camera Ready Paper Submission"
+      },
+      {
+        "id":"7",
+        "name": "Standard Registration Ends",
+        "date": "May 05, 2025",
+        "description": "Standard Registration Ends"
+
       }
     ]
   

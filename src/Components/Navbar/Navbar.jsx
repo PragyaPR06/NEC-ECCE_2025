@@ -53,11 +53,13 @@ const Navbar = () => {
             </Link>
           </ul>
         </li>
+
         <li className={styles.navItem}>
           <Link to="/specialsession">
             Call for Special Session
           </Link>
         </li>
+
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           Speakers<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
