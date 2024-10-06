@@ -23,6 +23,15 @@ const PaperSumbissionGuide = () => {
         window.open("https://cmt3.research.microsoft.com/NEIECCE2025","_blank");
     };
 
+    const handleWordClick = () => {
+        window.open("https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx","_blank");
+    };
+
+    const handleLatexClick = () => {
+        window.open("https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip","_blank");
+    };
+    
+
     return (
         <Fragment>
         <Header />
@@ -38,9 +47,9 @@ const PaperSumbissionGuide = () => {
                 <br />
                 <p className={styles2.submissionTemplate}>
                     <strong>Templates for Manuscript Submission : </strong>
-                    <button onClick={notify}>MS Word</button>
+                    <button onClick={handleWordClick}>MS Word</button>
                     <span>   |   </span>
-                    <button onClick={notify}>Latex</button>
+                    <button onClick={handleLatexClick}>Latex</button>
                 </p>
                 <br />
                 <p>
