@@ -1,6 +1,7 @@
 [
       { 
         "id":"1",
+
         "name": "Paper Submission Portal Opens",
         "date": "October 07, 2024",
         "description": "Paper Submission Portal Opens"
@@ -10,11 +11,14 @@
         "name": "Paper Submission Portal Closes",
         "date": "January 31, 2025",
         "description": "Paper Submission Portal Closes"
+
       },
       {
         "id":"3", 
         "name": "Notification of Acceptance",
+
         "date": "April 07, 2025",
+
         "description": "Notification of Acceptance"
       },
       {
@@ -25,6 +29,7 @@
       },
       {
         "id":"5",
+
         "name": "Early Bird Registration Ends",
         "date": "April 25, 2025",
         "description": "Early Bird Registration Ends"
@@ -40,6 +45,7 @@
         "name": "Standard Registration Ends",
         "date": "May 05, 2025",
         "description": "Standard Registration Ends"
+
       }
     ]
   

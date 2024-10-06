@@ -50,6 +50,7 @@ const PaperSumbissionGuide = () => {
                     <button onClick={handleWordClick}>MS Word</button>
                     <span>   |   </span>
                     <button onClick={handleLatexClick}>LaTeX</button>
+
                 </p>
                 <br />
                 <p>

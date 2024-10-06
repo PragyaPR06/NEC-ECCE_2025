@@ -53,7 +53,13 @@ const Navbar = () => {
             </Link>
           </ul>
         </li>
-        
+
+        <li className={styles.navItem}>
+          <Link to="/specialsession">
+            Call for Special Session
+          </Link>
+        </li>
+
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           Speakers<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
@@ -65,7 +71,9 @@ const Navbar = () => {
             </Link>
           </ul>
         </li>
-        <Link to="/ProgramDetails">
+         
+         
+        <Link to="/programDetails">
         <li className={styles.navItem}>
           Program Details</li>
         </Link>
@@ -73,17 +81,14 @@ const Navbar = () => {
         <li className={styles.navItem}>
           Registrations</li>
           </Link>
+        
         <Link to ="/StudentAwards">
-        <li className={styles.navItem}>Student Awards</li>
+        <li className={styles.navItem}>Travel/Accommodation</li>
         </Link>
         <Link to="/Sponsorship">
         <li className={styles.navItem}>
           Sponsorship</li>
           </Link>
-          {/* <Link to="/Accomodation">
-        <li className={styles.navItem}>
-          Accomodation</li>
-          </Link> */}
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           <Link to="/ContactUs">
           Contact Us

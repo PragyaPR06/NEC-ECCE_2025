@@ -20,7 +20,7 @@ const Tracks = () => {
           </div>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">Track 3:</h3>
-            <h2>Smart and Sustainable Charging Infrastructure for E-Mobility</h2>
+            <h2>Smart and Sustainable Charging Infrastructure for e-Mobility</h2>
           </div>
           
          
