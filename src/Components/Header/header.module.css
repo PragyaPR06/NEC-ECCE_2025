@@ -1,20 +1,29 @@
+.container {
+  width: 100%;
+  background-color: white;
+}
+
 .header_content {
   display: flex;
-  gap: 20px;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
   padding: 0 1.5rem 0.5rem 1rem;
 }
 
-.header_head {
+.header_main {
   display: flex;
   align-items: center;
 }
-.header_content .nits_logo{
-  width: 8rem;
-  padding-left: 3rem;
+
+.main_conference_logo img {
+  width: 7rem;
+  height: auto;
 }
+
+.header_text {
+  padding: 1.2rem 0 1rem 1rem;
+}
+
 .pathway_extreme_header_info {
   color: blue;
   font-family: "Pathway Extreme", sans-serif;
@@ -22,81 +31,93 @@
   font-weight: 750;
   font-style: normal;
   font-variation-settings: "wdth" 75;
-  /* line-height: 2.2rem; */
-  margin-right: 0;
-  margin-left: 0;
-  font-size: 1.8rem;
 }
 
-.pathway_extreme_header_info span{
+.pathway_extreme_header_info h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.pathway_extreme_header_info span {
   color: orange;
 }
 
+.pathway_extreme_header_subinfo {
+  color: green;
+  font-size: 0.9rem;
+}
 
-.important_logos{
+.important_logos {
   display: flex;
   justify-content: space-between;
 }
-.location_ieee_logo{
+
+.nits_logo img {
+  width: 8rem;
+  height: auto;
+}
+
+.location_ieee_logo {
   padding: 0.5rem 0 0 2rem;
-  justify-content: center;
-  img{
+}
+
+.location_ieee_logo img {
   width: 12rem;
   height: 4rem;
 }
-}
 
-.header_main{
-  display: flex;
-
-}
-
-.pathway_extreme_header_info h2{
-    text-align: center;
-}
-
-.pathway_extreme_header_subinfo{
-  font-size: 0.9rem;
-  color: green;
-}
-
-.header_text{
-  padding: 1.2rem 0 1rem 1rem;
-}
-
-.main_conference_logo{
-  padding: 0.5rem 0 0 1rem;
-  img {
-  width: 7rem;
-}
-}
-
-@media(max-width: 600px) {
-  .main_conference_logo{
-    padding: 2rem 1.2rem 0 1rem;
-  img {
-  width: 7rem;
-}
+@media (max-width: 768px) {
+  .container {
+    overflow-x: auto;
   }
 
-  .pathway_extreme_header_subinfo{
-    font-size: 0.5rem;
-    color: green;
+  .header_content {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    min-width: max-content;
+    padding: 0.5rem;
+    gap: 1rem;
   }
 
-  .location_ieee_logo{
-    display: none;
+  .header_main {
+    flex-direction: row;
+    align-items: center;
   }
 
-  .pathway_extreme_header_info h2{
-    font-size: 1.5rem;
-}
-.header_text{
-  padding: 1.2rem 0 1rem 1rem;
-}
+  .main_conference_logo img {
+    width: 5rem;
+  }
 
-.header_content .nits_logo{
-  width: 7rem;
-  padding-left: 2rem;
-}
+  .header_text {
+    padding: 0;
+  }
+
+  .pathway_extreme_header_info h2 {
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+
+  .pathway_extreme_header_subinfo {
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  .important_logos {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nits_logo img {
+    width: 5rem;
+  }
+
+  .location_ieee_logo {
+    padding: 0;
+  }
+
+  .location_ieee_logo img {
+    width: 8rem;
+    height: auto;
+  }
 }
