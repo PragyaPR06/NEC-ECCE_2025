@@ -43,9 +43,9 @@ const CameraReadySumb = () => {
                         <li>An appropriate copyright notice is to appear at the bottom of the first page of each paper. Replace the copyright notice in the camera-ready paper template (if it is provided in the template) with the correct copyright notice as follows:</li>
                     </ul>
                     <br />
-                    <p>1) For papers in which all authors are employed by the US government, the copyright notice is: <strong> U.S. Government work not protected by U.S. copyright.</strong></p>
+                    <p>1) For papers in which all authors are employed by the US government, the copyright notice is: <strong>To be updated soon..</strong></p>
                     <br />
-                    <p>2) For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: <strong>979-8-3503-7247-2/24/$31.00 ©2024 Crown.</strong></p>
+                    <p>2) For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: <strong>To be updated soon..</strong></p>
                     <br />
                     <p>3) For papers in which all authors are employed by the European Union, the copyright notice is: <strong>To be updated soon..</strong></p>
                     <br />
