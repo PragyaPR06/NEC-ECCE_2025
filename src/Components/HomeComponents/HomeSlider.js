@@ -9,6 +9,7 @@ import 'swiper/css/autoplay';
 
 const HomeSlider = () => {
   return (
+
     <div className="relative">
       {/* Overlay */}
       <div className="bg-black bg-opacity-40 absolute inset-0 flex flex-col items-center justify-center z-50 pointer-events-none">
@@ -67,6 +68,7 @@ const HomeSlider = () => {
         {/* Add more SwiperSlides as needed */}
       </Swiper>
     </div>
+
   );
 };
 

@@ -37,18 +37,20 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
-          For Authors
+          For Authors<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
             </Link>
-            <Link to="/CallForPapers/#impDates">
+            <Link to="/ImportantDates">
             <li>Important Dates</li>
             </Link>
-            <Link to="/CallForPapers/#subGuide">
+            <Link to="/PaperSumbissionGuide">
             <li>Paper submission guidelines</li>
             </Link>
+            <Link to="/CameraReadySumb">
             <li>Camera-Ready submission guidelines </li>
+            </Link>
           </ul>
         </li>
         <li className={styles.navItem}>
@@ -57,7 +59,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
-          Speakers
+          Speakers<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
             <Link to="/keynoteSpeakers">
             <li> Keynote Speakers</li>      

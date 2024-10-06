@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import styles3 from "../Pages/StudentAwards.module.css";
+import styles3 from "../Pages/Accomodation.module.css";
 import Header from "../Components/Header/header";
 import Navbar from "../Components/Navbar/Navbar";
 
-const StudentAwards = () => {
+const Accomodation = () => {
     return(
         <Fragment>
         <Header/>
@@ -17,4 +17,4 @@ const StudentAwards = () => {
         );
 };
 
-export default StudentAwards;
+export default Accomodation;

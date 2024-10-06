@@ -3,13 +3,13 @@
         "id":"1",
         "name": "Paper Submission Starts",
         "date": "August 30, 2024",
-        "description": "Abstract Submission begins"
+        "description": "Paper Submission Starts"
       },
       {
         "id":"2", 
         "name": "Paper Submission Closes",
         "date": "February 20, 2025",
-        "description": "Full Paper Submission closes"
+        "description": "Paper Submission closes"
       },
       {
         "id":"3",
@@ -27,7 +27,7 @@
         "id":"5",
         "name": "Registration Starts",
         "date": "May 15, 2025",
-        "description": "Final Paper Submission"
+        "description": "Registration Starts"
       }
     ]
   

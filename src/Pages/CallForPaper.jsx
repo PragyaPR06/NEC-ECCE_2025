@@ -1,34 +1,23 @@
-import React, { Fragment, useEffect } from 'react';
-import styles2 from "../Pages/CallForPaper.module.css";
-
-import Header from '../Components/Header/header';
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
 
 
+import React from 'react'
+import Tracks from '../Components/Tracks/Tracks'
+import Header from '../Components/Header/header'
+import Navbar from '../Components/Navbar/Navbar'
+import styles2 from "./CallForPaper.module.css";
 
 const CallForPaper = () => {
-  useEffect(() => {
-    // Check if the hash exists in the URL
-    if (window.location.hash) {
-      // Extract the hash value (e.g., #targetDiv)
-      const hash = window.location.hash.substring(1);
-      // Scroll to the target div
-      const targetDiv = document.getElementById(hash);
-      if (targetDiv) {
-        targetDiv.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }, []);
-    return (
-        <Fragment>
-        <Header />
-        <Navbar/>
-        <br />  
-    <section className={styles2.instructions}>
-    <h2 className={styles2.instructionsHeading}>Instructions For <span>Authors </span></h2>
-    <br />
-    <ul className={styles2.instructionsContent}>
+  return (
+    <div>
+        <Header></Header>
+        <Navbar></Navbar>
+        <section className={styles2.guidelines}>  
+          <section className={styles2.publicationHeader}>
+          <h2 className={styles2.publicationHeader}>
+            Publication
+          </h2>
+        </section>
+        <section className={styles2.instructionsContent}>
         <p>
 
          <strong> Authors, </strong>
