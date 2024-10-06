@@ -9,7 +9,7 @@
   
   @keyframes scroll {
     from {
-      transform: translateX(150%);
+      transform: translateX(20%);
     }
     to {
       transform: translateX(-100%);
