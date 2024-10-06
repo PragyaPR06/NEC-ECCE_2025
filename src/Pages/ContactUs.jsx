@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import styles4 from "../Pages/ContactUs.module.css";
 import Header from "../Components/Header/header";
 import Navbar from "../Components/Navbar/Navbar";
@@ -18,12 +18,12 @@ const ContactUs = () => {
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Amritesh Kumar</strong> </p>
                     <br />
-                    <p className={styles4.contactEmail}><strong>Email : </strong>amritesh@ee.nits.ac.in </p>
+                    <a href='mailto:amritesh@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>amritesh@ee.nits.ac.in </a>
                 </section>
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Asha Rani M A</strong> </p>
                     <br />
-                    <p className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in </p>
+                    <a href='mailto:asharani@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in  </a>
                 </section>
             </section>
             <br /><br />
@@ -38,7 +38,7 @@ const ContactUs = () => {
                     </p>
                     <br />
                     <p className={styles4.generalQueriesInnerText}>
-                        For specific enquiry regarding conference, please email to <span> Dr. Amritesh Kumar - </span> <a href="amritesh@ee.nits.ac.in">amritesh@ee.nits.ac.in </a> 
+                        For specific enquiry regarding conference, please email to <span> Dr. Amritesh Kumar - </span> <a href="mailto:amritesh@ee.nits.ac.in">amritesh@ee.nits.ac.in </a> 
                     </p>
                     <br />  
             </section>

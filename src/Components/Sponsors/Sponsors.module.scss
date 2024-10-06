@@ -1,6 +1,6 @@
 
 .TechnicalSponsors{
-    padding-top: 5%;
+    padding-top: 15%;
     .header{
         text-align: center;
             font-family: "Anek Tamil", sans-serif;
@@ -15,26 +15,35 @@
     .icons{
         display: flex;
         justify-content: space-evenly;
+                
+                .logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
+                    padding: 1em;
+                    padding-top: 50px; 
+                }
                 .logo4{
-                  height: 20rem;
-                  width: 15rem;
+                    height: 20rem;
+                    width: 15rem;
+                    padding-top: 2rem;
+                  }
+                .logo5{
+                    padding-top: 2rem;
                 }
-                .logo3{
-                    padding-top: 50px;
-                }
-                .logo2{
-                    padding-top: 50px;
-                }
-                .logo1{
-                    padding-top: 50px;
-                }
-                .logo6{
-                    padding-top: 50px;
+
+                @media (max-width: 1000px) {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 10px;
+                    
+                    .logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
+                        height: auto;
+                        width: 100%;
+                    }
+
                 }
     }
 }
 .FinancialSponsors{
-    padding-top: 5%;
+    padding-top: 2rem;
     .header{
         text-align: center;
             font-family: "Anek Tamil", sans-serif;
@@ -50,5 +59,12 @@
         display: flex;
         justify-content: space-evenly;
         padding-top: 3%;      
+    }
+
+    @media (max-width: 1000px) {
+        
+        .logo1, .logo2 {
+            padding: 2em;
+        }
     }
 }

@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 0 0 0 ;
+  padding:.15rem;
+}
+
+.container div{
+  padding: 0 0 0 5rem;
+}
+.pathway_extreme_header_info {
+    color: rgb(1, 13, 255);
+    font-family: "Pathway Extreme", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings: "wdth" 75;
+    /* line-height: 2.2rem; */
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0%;
+    // font-size: 2rem;
+  }
+
+  

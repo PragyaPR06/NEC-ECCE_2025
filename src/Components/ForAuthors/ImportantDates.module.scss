@@ -1,19 +1,59 @@
-.publicationHeader{
+.header{
   display: flex;
-  justify-content:center;
+  justify-content: center;
   font-size: clamp(12px,10vw,36px);
   color: blue;
   font-family: "Anek Tamil", sans-serif;
   font-weight: 900;
   font-weight: bolder;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+.container{
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: center;
+  grid-template-rows: 50% auto auto auto;
+  gap: 60px;
+  padding-top: 10px;
+  font-size:small;
 }
 
-.guidelines{
-  padding-bottom: 4rem;
-  text-align: justify;
+.container .left,.container .right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
+.container .left .lcard,.container .right .lcard{
+  font-size:clamp(.9rem,4vw,1.2rem);
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  height: 10vh;
+  min-height: 7rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
+}
+
+.container .left .lcard:hover,.container .right .lcard:hover{
+   transform:translate(0.5rem,-0.5rem);
+   box-shadow:-5px 5px  10px slategray ;
+}
+
+/*BREAKPOINTS*/
+/* For small devices */
+@media screen and (max-width: 400px) {
+.container {
+  margin-inline: 1rem;
+  display: grid;
+  grid-template-columns:320px;
+  justify-content: center;
+  gap: 8px;
+  justify-content: center;
+}
+}
+
 .instructionsHeading{
     color: blue;
     text-align: center;
@@ -31,12 +71,6 @@
     font-size: 1.3rem;
     line-height: 2.5rem;
     padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.submissionLink{
-  padding-top: 1rem;
-  
 }
 
 .submitDigestText{

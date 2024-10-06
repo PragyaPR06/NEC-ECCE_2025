@@ -70,3 +70,33 @@
   width: 7rem;
 }
 }
+
+@media(max-width: 600px) {
+  .main_conference_logo{
+    padding: 2rem 1.2rem 0 1rem;
+  img {
+  width: 7rem;
+}
+  }
+
+  .pathway_extreme_header_subinfo{
+    font-size: 0.5rem;
+    color: green;
+  }
+
+  .location_ieee_logo{
+    display: none;
+  }
+
+  .pathway_extreme_header_info h2{
+    font-size: 1.5rem;
+}
+.header_text{
+  padding: 1.2rem 0 1rem 1rem;
+}
+
+.header_content .nits_logo{
+  width: 7rem;
+  padding-left: 2rem;
+}
+}
