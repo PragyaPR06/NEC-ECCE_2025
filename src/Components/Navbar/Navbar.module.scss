@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  background-color: #0face5;
+  background-color: #379337;
   font-family: Arial, sans-serif;
   
   .topBar {
@@ -75,7 +75,7 @@
         background-color: #f9f9f9;
         min-width: 200px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 10;
+        z-index: 1000;
         li {
           padding: 12px 16px;
           display: block;
