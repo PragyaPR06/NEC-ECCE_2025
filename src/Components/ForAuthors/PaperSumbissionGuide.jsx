@@ -40,7 +40,7 @@ const PaperSumbissionGuide = () => {
                     <strong>Templates for Manuscript Submission : </strong>
                     <button onClick={notify}>MS Word</button>
                     <span>   |   </span>
-                    <button onClick={notify}>Latex</button>
+                    <button onClick={notify}>LaTeX</button>
                 </p>
                 <br />
                 <p>

@@ -8,7 +8,7 @@ import Timer from '../Components/Timer/Timer';
 import SubLineComponent from '../Components/SubLine/SubLine';
 import Sponsor from '../Components/Sponsors/Sponsors';
 import Header from '../Components/Header/header';
-
+import Buttons from '../Components/ButtonsunderSlider/Buttons';
 const Home = () => {
   return (
     <div>
@@ -16,6 +16,7 @@ const Home = () => {
       <Navbar/>
       <SubLineComponent />
       <HomeSlider />
+      <Buttons/>
       <Sponsor/>
       <AboutUsComponent/>
       <Tracks/>
