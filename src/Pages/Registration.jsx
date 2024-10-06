@@ -12,7 +12,7 @@ const Registrations = () => {
      <Header/>
         <Navbar />
             <div className={styles.Registrations}>
-                <img src="/register/regiter.PNG" alt="sponsorship pdf" ></img>
+                <img src="/register/Registration.jpg" alt="sponsorship pdf" ></img>
                 </div>
         </>
     // {/* <Header/>

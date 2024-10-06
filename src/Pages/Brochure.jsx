@@ -10,7 +10,17 @@ const Brochure = () =>{
         <Header/>
         <Navbar />
             <div className={styles.brochure}>
-                <img src="/buttons/brochure.jpg" alt="brochure pdf" ></img></div>
+                <img src="/buttons/brochure.jpeg" alt="brochure pdf" ></img></div>
+                <div className="text-center">
+  <h2 className="font-bold text-blue-500 text-2xl mb-4">
+    You can download the complete Brochure from below:
+  </h2>
+  <a href="/pdfs/brochure.pdf" download>
+    <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
+      Download Brochure
+    </button>
+  </a>
+</div>
         </>
     )
 };

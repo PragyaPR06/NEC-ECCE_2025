@@ -42,7 +42,7 @@ const PaperSumbissionGuide = () => {
             <br />
             <ul className={styles2.instructionsContent}>
                 <p>
-                <strong>All</strong> the accepted and presented papers will be published in the form of e-proceedings and will be submitted to IEEE Xplore Digital Library (indexed in SCOPUS, Google Scholar and other major indexing) and 100% accepted and presented papers will be forwarded to IEEE Transactions on Industry Applications for further review.
+                All the accepted and presented papers will be published in the form of e-proceedings and will be submitted to IEEE Xplore Digital Library (indexed in SCOPUS, Google Scholar and other major indexing) and 100% accepted and presented papers will be forwarded to IEEE Transactions on Industry Applications for further review.
                 </p>
                 <br />
                 <p className={styles2.submissionTemplate}>
@@ -53,9 +53,7 @@ const PaperSumbissionGuide = () => {
 
                 </p>
                 <br />
-                <p>
-                After peer review, all accepted and presented papers of NE-IECCE 2025, will be submitted to IEEE Xplore Digital Library for inclusion and other major indexing.
-                </p>
+                
             </ul>
         </section>
         <br/>
