@@ -16,7 +16,7 @@ const Tracks = () => {
           </div>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">Track 2:</h3>
-            <h2>Modeling and Control of Energy Efficienct Drives for Electric Transportation (LAND, AIR AND SEA)</h2>
+            <h2>Modeling and Control of Energy Efficient Drives for Electric Transportation (LAND, AIR AND SEA)</h2>
           </div>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">Track 3:</h3>

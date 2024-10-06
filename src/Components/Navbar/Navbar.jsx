@@ -31,6 +31,11 @@ const Navbar = () => {
             
           </ul> */}
         </li>
+        <li className={styles.navItem}>
+          <Link to="/committee">
+            Committee
+          </Link>
+        </li>
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
@@ -48,11 +53,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </li>
-        <li className={styles.navItem}>
-          <Link to="/committee">
-            Committee
-          </Link>
-        </li>
+        
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           Speakers<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
