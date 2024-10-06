@@ -11,6 +11,7 @@ import StudentAwards from './Pages/StudentAwards';
 import Registrations from './Pages/Registration';
 import ContactUs from './Pages/ContactUs';
 import Sponsorship from './Pages/Sponsorship';
+import Brochure from './Pages/Brochure';
 import ProgramDetails from './Pages/programDetails';
 import KeynoteSpeakers from './Pages/KeynoteSpeakers';
 import Accomodation from './Pages/Accomodation';
@@ -29,6 +30,7 @@ export const App = () => {
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
+              <Route exact path="/Brochure" element={<Brochure/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/> 
               <Route exact path="/ImportantDates" element={<ImportantDates/>}/> 
               <Route exact path="/PaperSumbissionGuide" element={<PaperSumbissionGuide/>}/> 
