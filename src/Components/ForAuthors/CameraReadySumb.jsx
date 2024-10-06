@@ -58,14 +58,14 @@ const CameraReadySumb = () => {
                     <p className={styles2.instructionsSubHeading}><strong> Step 5: Submission of the Copyright Form</strong></p>
                     <p>After uploading the Camera Ready Paper (the paper must have passed PDF Check in IEEE PDF eXpress), click on ‘Submit IEEE Copyright Form’ link to enter the IEEE Copyright Form Submission CMT page. Click on the IEEE copyright website link. Now, the author will be redirected to IEEE eCF site to submit copyright form. After filling out the IEEE Copyright Form on eCF website, authors need to download the form and upload it into CMT. Please note that the corresponding author can submit the copyright form for all the authors.</p>
 
-                    <p className={styles2.submitDigestText}>
+                    {/* <p className={styles2.submitDigestText}>
                         Please click below for Camera Ready Paper Submission:
                     </p>
                     <section className={styles2.submitButtonArea}>
                         <button className={styles2.submitButton} onClick={notify}>
                             Submit Manuscript
                         </button>
-                    </section>
+                    </section> */}
                 </section>
             </section>
             <ToastContainer />
