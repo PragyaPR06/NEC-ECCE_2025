@@ -11,9 +11,9 @@ const Header = () => {
           </div>
           <div className={styles.header_text}>
             <div className={styles.pathway_extreme_header_info}>
-              <h2>IEEE <span>NE-IECCE 2025</span></h2>
+              <h3>2025 IEEE North East India International Conference on Energy Conversion Conference and Exhibition</h3>
               <div className={styles.pathway_extreme_header_subinfo}>
-                <h5>Energy Conversion Conference and Exhibition</h5>
+                <h5>(NE-IECCE 2025)</h5>
               </div>
             </div>
           </div>
