@@ -19,7 +19,7 @@ const VerticalButtons = () => {
   const buttons = [
     { text: 'Brochure', path: '/Brochure', color: 'linear-gradient(to right, #3b82f6, #1d4ed8)' },
     { text: 'Full Paper Submission', path: '/PaperSumbissionGuide', color: 'linear-gradient(to right, #14b8a6, #0d9488)' },
-    { text: 'Call for Special Session', path: '/submission/camera-ready-paper', color: 'linear-gradient(to right, #22c55e, #15803d)' },
+    { text: 'Call for Special Session', path: '/Specialsession', color: 'linear-gradient(to right, #22c55e, #15803d)' },
   ];
 
   const handleClick = (path) => {
