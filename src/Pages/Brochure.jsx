@@ -15,7 +15,7 @@ const Brochure = () =>{
   <h2 className="font-bold text-blue-500 text-2xl mb-4">
     You can download the complete Brochure from below:
   </h2>
-  <a href="/pdfs/brochure.pdf" download>
+  <a href="/pdfs/Brochurefile.pdf" download>
     <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
       Download Brochure
     </button>
