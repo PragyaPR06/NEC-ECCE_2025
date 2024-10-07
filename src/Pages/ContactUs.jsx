@@ -17,11 +17,15 @@ const ContactUs = () => {
             <section className={styles4.primaryContacts}>
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Amritesh Kumar</strong> </p>
+                   <h3> <p>Assistant Professor</p><p>
+NIT Silchar, Assam, India</p></h3>
                     <br />
                     <a href='mailto:amritesh@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>amritesh@ee.nits.ac.in </a>
                 </section>
                 <section className={styles4.mainContact}>
                     <p className={styles4.contactName}><strong>Dr. Asha Rani M A</strong> </p>
+                    <p>Assistant Professor</p><p>
+                    NIT Silchar, Assam, India</p>
                     <br />
                     <a href='mailto:asharani@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in  </a>
                 </section>
@@ -34,13 +38,10 @@ const ContactUs = () => {
                     <br />
                     <br />
                     <p className={styles4.generalQueriesInnerText}>
-                        For general queries, please contact the Conference Organiser through <a href="mailto:neiecce.ieee@gmail.com">neiecce.ieee@gmail.com </a> 
+                        For general queries, please contact the Conference Organiser through <a href="mailto:neiecce.ieee@ee.nits.ac.in">neiecce.ieee@ee.nits.ac.in </a> 
                     </p>
                     <br />
-                    <p className={styles4.generalQueriesInnerText}>
-                        For specific enquiry regarding conference, please email to <span> Dr. Amritesh Kumar - </span> <a href="mailto:amritesh@ee.nits.ac.in">amritesh@ee.nits.ac.in </a> 
-                    </p>
-                    <br />  
+                    
             </section>
             </section>
             <br /><br /><br /><br />    
