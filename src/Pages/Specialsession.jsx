@@ -48,7 +48,7 @@ const Specialsession =()=>{
                 Last date to submit proposal:  <strong>October 31, 2024</strong>  
                 </li>
                 <li>
-                Last date to submit papers in Special Session: <strong>November 30, 2024</strong>
+                Last date to submit papers in Special Session: <strong>January 31, 2025</strong>
                 </li>
             </ol>
             
@@ -77,12 +77,46 @@ const Specialsession =()=>{
                 Short IEEE style CV of the organizers
                 </li>
                 <li>
-                A list of potential authors and their affiliations (minimum 10)
+                A list of potential authors and their affiliations (minimum 5)
                 </li>
                 <li>
-                A list of potential reviewers and their affiliations (minimum 10)
+                A list of potential reviewers and their affiliations (minimum 5)
                 </li>
             </ul>
+            
+        </section>
+       
+        <br></br> <hr></hr>
+        <section className={styles2.importantNotice}>
+            <h2 className={styles2.instructionsHeading}>Special Session<span> Organisation</span></h2>
+            <br />
+            
+            <ul className={styles2.submissionGuidelinesText}>
+            
+                <li>
+                <strong>Advertising:</strong> Once approved, it is the duty of the organizers to publicize the Special Session among researchers and practitioners in the field and attract a sufficient number of papers.
+                </li>
+                <li>
+                <strong>Review Process:</strong> Papers submitted to special sessions will undergo the same review process as regular papers. The special session chairs of the respective special session are responsible for organizing the review process, assuring at least three reviews per paper. This includes a selection of reviewers from their peers.
+
+                </li>
+                <li>
+                <strong>Conflict of Interest:</strong> Before starting the review process, SS organizers must explicitly declare papers which present a conflict of interest for them. A conflict of interest arises where the judgement of a paper quality can be influenced by the organizers being authors or knowing some of the authors. To ensure independent reviews, this conflict must be marked as such in the submission system and the SS Co-Chairs notified so that they can arrange the review process.
+
+                </li>
+                <li>
+                <strong>Restrictions:</strong> During the review process, Special Session Organizers must take into account that an individual cannot be (co‐) author of more than two papers submitted to the same Special Session
+
+                </li>
+                <li>
+                <strong>Well-Executed Special Session:</strong> Selection of a special session proposal does not guarantee final acceptance of the special session. The acceptance of a special session depends upon the quality of the papers submitted to the special session and a minimum of 5 accepted articles from at least 4 independent institutions is required for each session. If a session has too few papers, accepted papers will be allocated to regular sessions wherever possible. In case of indication of weakly organized special sessions, the conference organizers will support the organizers with advice but reserve measures including cancellation of the respective special session.
+                </li>
+                <li>
+                <strong>Complimentary Conference Registration:</strong>  One complimentary full registration will be provided to successful Special Sessions with at least 10 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions
+                </li>
+            </ul>
+            <br></br>
+            <br></br>
             
         </section>
     

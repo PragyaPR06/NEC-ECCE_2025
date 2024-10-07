@@ -97,7 +97,7 @@ const Aboutus = () =>{
                         <img src='/tourism/sikkim.jpg' alt='Ravalanga Buddha Park, Sikkim'/>
                     </div> 
                     <div className={styles.info}>
-                        <h3>Ravalanga Buddha Park, Sikkim</h3>
+                        <h3>Ravangla Buddha Park, Sikkim</h3>
                     </div>
                 </div>
                 <div className={styles.card}>
