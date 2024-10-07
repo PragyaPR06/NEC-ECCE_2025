@@ -32,7 +32,7 @@
                 .logo5{
                     padding-top: 2rem;
                 }
-
+                
                 @media (max-width: 1000px) {
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
@@ -62,7 +62,10 @@
     .icons{
         display: flex;
         justify-content: space-evenly;
-        padding-top: 3%;      
+        padding-top: 3%; 
+        .logo1{
+            padding-top: 2rem;
+        }     
     }
 
     @media (max-width: 1000px) {
