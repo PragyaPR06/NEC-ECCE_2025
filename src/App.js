@@ -18,7 +18,7 @@ import Accomodation from './Pages/Accomodation';
 import PaperSumbissionGuide from './Components/ForAuthors/PaperSumbissionGuide';
 import ImportantDates from './Components/ForAuthors/ImportantDates';
 import CameraReadySumb from './Components/ForAuthors/CameraReadySumb';
-
+import Specialsession from './Pages/Specialsession';
 
 
 export const App = () => {
@@ -41,6 +41,7 @@ export const App = () => {
               <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
               <Route exact path="/Sponsorship" element={<Sponsorship/>}/>
+              <Route exact path="/Specialsession" element={<Specialsession/>}/>
               <Route exact path="/accomodation" element={<Accomodation/>}/>
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
             </Routes>

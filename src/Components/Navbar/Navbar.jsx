@@ -55,8 +55,8 @@ const Navbar = () => {
         </li>
 
         <li className={styles.navItem}>
-          <Link to="/specialsession">
-            Call for Special Session
+          <Link to="/Specialsession">
+            Special Session
           </Link>
         </li>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
           </Link>
         
         <Link to ="/StudentAwards">
-        <li className={styles.navItem}>Travel/Accommodation</li>
+        <li className={styles.navItem}>Travel</li>
         </Link>
         <Link to="/Sponsorship">
         <li className={styles.navItem}>

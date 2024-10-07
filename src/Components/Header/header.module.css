@@ -28,7 +28,7 @@
 }
 
 .pathway_extreme_header_info {
-  color: blue;
+  color: green;
   font-family: "Pathway Extreme", sans-serif;
   font-optical-sizing: auto;
   font-weight: 750;
@@ -36,8 +36,8 @@
   font-variation-settings: "wdth" 75;
 }
 
-.pathway_extreme_header_info h2 {
-  font-size: 1.8rem;
+.pathway_extreme_header_info h3 {
+  font-size: 1.3rem;
   margin: 0;
   text-align: center;
 }
@@ -47,8 +47,9 @@
 }
 
 .pathway_extreme_header_subinfo {
-  color: green;
-  font-size: 0.9rem;
+  color: blue;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .important_logos {
