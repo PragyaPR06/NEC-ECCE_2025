@@ -28,7 +28,7 @@ const Sponsorship = () =>{
   <h2 className="font-bold text-blue-500 text-2xl mb-4">
   Interested sponsors can fill the google form:
   </h2>
-  <a href="/" >
+  <a href="https://forms.gle/qAUrprYpcsEGeTUW8" >
     <button className="bg-blue-500 text-white font-bold py-2 px-4 my-6 rounded hover:bg-blue-700">
       Fill the Form
     </button>

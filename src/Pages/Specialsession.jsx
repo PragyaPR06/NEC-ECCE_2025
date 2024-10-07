@@ -24,8 +24,8 @@ const Specialsession =()=>{
                 The Organizing Committee of NE- IECCE 2025 invites proposals for special sessions to be presented at the conference.
                 Sessions focused on reporting innovations and breakthroughs in highly specialized topic areas (within the conference’s scope) will be organized. Please get in touch with the Special Session Chair <strong>Dr. S. Mansani </strong>
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swapna@ee.nits.ac.in" style={{ color: 'blue' }}>
-  (swapna@ee.nits.ac.in)</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@gmail.com" style={{ color: 'blue' }}>
-  neiecce.ieee@gmail.com</a> to discuss the inclusion of your ‘special session’ in the NE-IECCE-2025 programme.
+  (swapna@ee.nits.ac.in)</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@ee.nits.ac.in" style={{ color: 'blue' }}>
+  neiecce.ieee@ee.nits.ac.in</a> to discuss the inclusion of your ‘special session’ in the NE-IECCE-2025 programme.
                 </p>
                 <br />
                 <p className={styles2.submissionTemplate}>
