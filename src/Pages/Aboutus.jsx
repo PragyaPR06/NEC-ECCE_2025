@@ -62,7 +62,7 @@ const Aboutus = () =>{
                 <div>
                     <p className={styles.AboutUsPara}>
                         <span>Silchar </span>
-                        nestled in the southern expanse of Assam, it is a charming city rich in history, culture, and natural beauty. Its colonial past, reflected in its architecture, merges seamlessly with Assamese and Bengali traditions, creating a vibrant cultural tapestry. Surrounded by verdant hills and the tranquil Barak River, Silchar offers a serene retreat for nature lovers. Moreover, its culinary landscape, blending Assamese and Bengali flavors, promises a delightful gastronomic experience. Whether you're exploring its historical sites, partaking in cultural festivals, or simply indulging in its culinary delights, Silchar invites visitors to immerse themselves in the essence of Assam's charm and allure.
+                        nestled in the southern expanse of Assam, it is a charming city rich in history, culture, and natural beauty. Its colonial past, reflected in its architecture, merges seamlessly with Assamese and Bengali traditions, creating a vibrant cultural tapestry. Surrounded by verdant hills and the tranquil Barak River, Silchar offers a serene retreat for nature lovers. Moreover, its culinary landscape, blending Assamese and Bengali flavors, promises a delightful gastronomic experience.The tea gardens in Silchar are known for their lush greenery and contribute significantly to Assam's renowned tea industry, offering scenic beauty and producing high-quality tea. Whether you're exploring its historical sites, partaking in cultural festivals, or simply indulging in its culinary delights, Silchar invites visitors to immerse themselves in the essence of Assam's charm and allure.
                     </p>
                 </div>   
                 <div className={styles.pics}>
@@ -72,7 +72,7 @@ const Aboutus = () =>{
         </div>
         <div className={styles.tour}>
             <div className={styles.header}>
-                <h2>Tourist Attraction Near <span>North-East India</span></h2>
+                <h2>Tourist Attractions In <span>North-East India</span></h2>
             </div>
             <br></br>
             <div className={styles.pics}>
