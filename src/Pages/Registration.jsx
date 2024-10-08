@@ -5,15 +5,21 @@ import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Header from '../Components/Header/header';
 import styles from '../Pages/Registration.module.scss';
+import styles3 from "../Pages/ProgramDetails.module.css";
 
 const Registrations = () => {
   return (
     <>
      <Header/>
         <Navbar />
-            <div className={styles.Registrations}>
+        <section className={styles3.header}>
+        <br /><br />
+            <h1>Coming <span>Soon !!</span></h1>
+            <br /><br /><br /><br /><br />
+        </section>
+            {/* <div className={styles.Registrations}>
                 <img src="/register/Registration.jpg" alt="sponsorship pdf" ></img>
-                </div>
+                </div> */}
         </>
     // {/* <Header/>
     // <Navbar/>
