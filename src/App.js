@@ -38,7 +38,7 @@ export const App = () => {
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/KeynoteSpeakers" element={<KeynoteSpeakers/>}/>
               <Route exact path="/ProgramDetails" element={<ProgramDetails/>}/>
-              <Route exact path="/StudentAwards" element={<StudentAwards/>}/>
+              <Route exact path="/Travel" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
               <Route exact path="/Sponsorship" element={<Sponsorship/>}/>
               <Route exact path="/Specialsession" element={<Specialsession/>}/>

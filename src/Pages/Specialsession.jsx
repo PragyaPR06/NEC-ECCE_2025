@@ -17,20 +17,48 @@ const Specialsession =()=>{
         <Navbar/>
         <br />  
         <section className={styles2.instructions}>
-            <h2 className={styles2.instructionsHeading}>Call for <span>Special Session</span></h2>
+            <h2 className={styles2.instructionsHeading}>Call for <span>Special Session (SS)</span></h2>
             <br />
             <ul className={styles2.instructionsContent}>
                 <p>
-                The Organizing Committee of NE- IECCE 2025 invites proposals for special sessions to be presented at the conference.
-                Sessions focused on reporting innovations and breakthroughs in highly specialized topic areas (within the conference’s scope) will be organized. Please get in touch with the Special Session Chair <strong>Dr. S. Mansani </strong>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swapna@ee.nits.ac.in" style={{ color: 'blue' }}>
-  (swapna@ee.nits.ac.in)</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@ee.nits.ac.in" style={{ color: 'blue' }}>
-  neiecce.ieee@ee.nits.ac.in</a> to discuss the inclusion of your ‘special session’ in the NE-IECCE-2025 programme.
+                The Organizing Committee of NE- IECCE 2025 invites special sessions proposals on emerging, innovations and breakthroughs in highly specialized areas (within the conference’s scope) and which are not reflected in the regular conference tracks. The special session topic should be of sufficient significance and importance to attract the potential researchers and practitioners from both academia and industry. 
+
                 </p>
-                <br />
+                <br></br>
+                <section className={styles2.importantNotice}>
+            {/* <h2 className={styles2.instructionsHeading}>Call for <span>Special Session</span></h2> */}
+           
+            
+            <ul className={styles2.submissionGuidelinesText}>
+            <p>
+           <strong>Each proposal for Special Session should include following information :</strong> 
+            </p>
+                <li>
+                Title of the proposed Special Session
+                </li>
+                <li>
+                Brief description of interested and significant topic(s) of special session (approx. 100 words)
+                </li>
+                <li>
+                The name and contact information of 2 or 3 special session chairs, who are willing to promote and organize sufficient number of quality submissions to the special session.
+
+                </li>
+                <li>
+                Short IEEE style CV of the organizers
+                </li>
+                <li>
+                A list of potential authors and their affiliations (minimum 5)
+                </li>
+                <li>
+                A list of potential reviewers and their affiliations (minimum 5)
+                </li>
+            </ul>
+            
+        </section><br></br>
+
                 <p className={styles2.submissionTemplate}>
                 <a href="/specialsess/Call-for-Special-Session-NEIECCE2025.docx" download>
-                    <button >Documents to be filled for organising Special Session</button>
+                    <button >Template for Special Session NE-IECCE 2025</button>
                    </a>
     
                 </p>
@@ -56,35 +84,7 @@ const Specialsession =()=>{
         <br />
         <br />
         <hr/>
-        <section className={styles2.importantNotice}>
-            <h2 className={styles2.instructionsHeading}>Call for <span>Special Session</span></h2>
-            <br />
-            
-            <ul className={styles2.submissionGuidelinesText}>
-            <p>
-           <strong>The NE- IECCE 2025 invites special sessions (SSs) proposals on emerging topics which are not listed in conference tracks.  A proposal for SS should include following information</strong> 
-            </p>
-                <li>
-                Title of the Special Session
-                </li>
-                <li>
-                Brief description of the area of concern (approx. 100 words), with special focus on why this is an interesting and significant topic
-                </li>
-                <li>
-                The name and contact information of 2 or 3 special session chairs, who are willing to promote and organize a sufficient amount of quality submissions to the special session.
-                </li>
-                <li>
-                Short IEEE style CV of the organizers
-                </li>
-                <li>
-                A list of potential authors and their affiliations (minimum 5)
-                </li>
-                <li>
-                A list of potential reviewers and their affiliations (minimum 5)
-                </li>
-            </ul>
-            
-        </section>
+        
        
         <br></br> <hr></hr>
         <section className={styles2.importantNotice}>
@@ -112,16 +112,24 @@ const Specialsession =()=>{
                 <strong>Well-Executed Special Session:</strong> Selection of a special session proposal does not guarantee final acceptance of the special session. The acceptance of a special session depends upon the quality of the papers submitted to the special session and a minimum of 5 accepted articles from at least 4 independent institutions is required for each session. If a session has too few papers, accepted papers will be allocated to regular sessions wherever possible. In case of indication of weakly organized special sessions, the conference organizers will support the organizers with advice but reserve measures including cancellation of the respective special session.
                 </li>
                 <li>
-                <strong>Complimentary Conference Registration:</strong>  One complimentary full registration will be provided to successful Special Sessions with at least 10 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions
+                <strong>Complimentary Conference Registration:</strong> <span>One complimentary full registration</span>  will be provided to successful Special Sessions with at least 10 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions
                 </li>
             </ul>
             <br></br>
+            
+          
             <br></br>
             
         </section>
     
         {/* Add ToastContainer */}
         <ToastContainer />
+        <p className={styles2.helpsec}>
+         Please get in touch with the Special Session Chair <strong>Dr. S. Mansani </strong>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swapna@ee.nits.ac.in" style={{ color: 'blue' }}>
+  (swapna@ee.nits.ac.in)</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@ee.nits.ac.in" style={{ color: 'blue' }}>
+  neiecce.ieee@ee.nits.ac.in</a> to discuss the inclusion of your ‘special session’ in the NE-IECCE-2025 programme.
+         </p>
         </Fragment>
     );
     
