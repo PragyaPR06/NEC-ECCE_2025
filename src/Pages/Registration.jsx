@@ -4,147 +4,105 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Header from '../Components/Header/header';
-import styles from '../Pages/Registration.module.scss';
-import styles3 from "../Pages/ProgramDetails.module.css";
+
 
 const Registrations = () => {
   return (
     <>
      <Header/>
         <Navbar />
-        <section className={styles3.header}>
-        <br /><br />
-            <h1>Coming <span>Soon !!</span></h1>
-            <br /><br /><br /><br /><br />
-        </section>
-            {/* <div className={styles.Registrations}>
-                <img src="/register/Registration.jpg" alt="sponsorship pdf" ></img>
-                </div> */}
+
+    <div className="container mx-auto px-4 py-8 bg-gray-100">
+      
+      
+      <div className="bg-white shadow-md rounded-lg p-6 mb-8">
+        <h2 className="text-4xl font-bold text-red-600 text-center mb-4" style={{ fontFamily: "'Segoe UI', sans-serif", fontWeight: 700 }}>Registration FEE</h2>
+        <div className="overflow-x-auto">
+        <strong><table className="w-full border-collapse">
+            <thead>
+              <tr className="bg-blue-200">
+                <th rowSpan={2} className="border border-gray-400 px-4 py-2">Category</th>
+                <th colSpan={2} className="border border-gray-400 px-4 py-2">
+                  Early Bird Registration Fee
+                  <br />
+                  <span className="text-purple-700">[Up to April 25, 2025]</span>
+                </th>
+                <th colSpan={2} className="border border-gray-400 px-4 py-2">
+                  Standard Registration Fee
+                  <br />
+                  <span className="text-purple-700">[After May 05, 2025]</span>
+                </th>
+              </tr>
+              <tr className="bg-yellow-100">
+                <th className="border border-gray-400 px-4 py-2">IEEE Member</th>
+                <th className="border border-gray-400 px-4 py-2">Non-IEEE Member</th>
+                <th className="border border-gray-400 px-4 py-2">IEEE Member</th>
+                <th className="border border-gray-400 px-4 py-2">Non-IEEE Member</th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              {[
+                { category: "Author: Indian (Academia/Industry)", fees: ["₹ 9000", "₹ 10000", "₹ 11000", "₹ 12000"] },
+                { category: "Author: Indian (Student)", fees: ["₹ 6750", "₹ 7500", "₹ 8250", "₹ 9000"] },
+                { category: "Attendee: Indian", fees: ["₹ 6000", "₹ 7000", "₹ 7000", "₹ 8000"] },
+                { category: "Additional Page: Indian (Academia/Industry/Student)", fees: ["₹ 2500 / page", "₹ 2500 / page", "₹ 2500 / page", "₹ 2500 / page"] },
+                { category: "Tutorial Only: Indian", fees: ["₹1000", "₹1000", "₹1000", "₹ 1000"] },
+                { category: "Author: Foreign (Academia/Industry)", fees: ["$ 300", "$ 350", "$ 350", "$ 400"] },
+                { category: "Author: Foreign (Student)", fees: ["$ 225", "$ 260", "$ 260", "$ 300"] },
+                { category: "Attendee: Foreign", fees: ["$ 200", "$ 225", "$ 225", "$ 250"] },
+                { category: "Additional Page: Foreign (Academia/Industry/Student)", fees: ["$ 30 / page", "$ 30 / page", "$ 30 / page", "$ 30/ page"] },
+                { category: "Tutorial Only: Foreign", fees: ["$ 20", "$ 20", "$ 20", "$ 20"] },
+              ].map((row, index) => (
+                <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-green-100"}>
+                  <td className="border border-gray-400 px-4 py-2">{row.category}</td>
+                  {row.fees.map((fee, feeIndex) => (
+                    <td key={feeIndex} className="border border-gray-400 px-4 py-2 text-center">{fee}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table></strong>
+        </div>
+        <p className="text-red-600 text-sm mt-2">*Extra 18% will be charged at the time of payment for GST</p>
+      </div>
+
+      <div className="bg-white shadow-md rounded-lg p-6 mb-8">
+      <h1 className="text-4xl font-bold mb-4 text-blue-600" style={{ fontFamily: "'Segoe UI', sans-serif", fontWeight: 700 }}>Guidelines</h1>
+        <strong>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <li>At least one author of each accepted paper must register on/before 5th May, 2025.</li>
+          <li>An Author: Indian/Foreign (Academia/Industry) registration will cover up to 2 papers for inclusion in the conference proceedings.</li>
+          <li>An Author: Indian/Foreign (Student) registration will cover only 1 paper for inclusion in the conference proceedings.</li>
+          <li>Tutorial is free for conference registrants.</li>
+          <li>Unregistered papers will not be included in the final program for presentation and submission to IEEE Xplore.</li>
+          <li>Please keep a copy of the Payment Transaction ID, generated by the payment gateway / by your bank. You may need these later in registration process or if you need to track your payment/registration.</li>
+          <li>The paid registration fee is non-refundable.</li>
+          <li>The eligible authors are requested to provide the scan copy of valid IEEE membership card / Student Institute ID proof during the registration process.</li>
+          <li>To complete the registration process, the authors must fill the Google Form by 05.05.2025.</li>
+          <li>Registering author must refer the appropriate registration fees for different author category.</li>
+          <li>Receipt will be provided in the name of registered author only.</li>
+          <li>Any one of the authors/co-authors can present the accepted paper.</li>
+          <li>The authors can pay the conference registration fee through NEFT/ RTGS/ IMPS/ Direct Deposit/ Swift Transfer to the following bank account.</li>
+          <li>Additional transaction fees may be charged by the payment gateway.</li>
+        </ul></strong>
+      </div>
+
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+        <p className="text-sm text-blue-800">
+          For any query, contact: <a href="mailto:neiecce.ieee@ee.nits.ac.in" className="text-blue-600 hover:underline">neiecce.ieee@ee.nits.ac.in</a>
+        </p>
+      </div>
+
+      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+        <p className="text-sm text-yellow-800">
+          At least one author of the accepted paper must register with appropriate conference fee to include the paper in the NE-IECCE 2025 conference program and must be presented for further submission to IEEE Xplore after quality check.
+        </p>
+      </div>
+    </div>
+
         </>
-    // {/* <Header/>
-    // <Navbar/>
-    // <div className="overflow-x-auto  m-20">
-    //   <h2 className="text-5xl text-blue-500  font-extrabold text-center font-sans mb-10 font">Registration <  span  className=" text-5xl text-orange-400   font-extrabold">Fee Details</span></h2>
-    //   <table className="min-w-full divide-y divide-gray-200  ">
-    //     <thead className="bg-gray-100">
-    //       <tr>
-    //         <th scope="col" rowSpan="2" className="text-centre uppercase px-4 py-7 text-xl font-Lato font-bold bg-blue-400">
-    //           Participants
-    //         </th>
-    //         <th scope="col" colSpan="2" className="text-centre text-centre  font-bold  text-xl uppercase font-Lato py-8   bg-green-300  style={{ backgroundColor: '#4797FA' }}">
-    //           Early Bird Registration
-    //         </th>
-    //         <th scope="col" colSpan="2" className="text-centre text-centre uppercase  text-xl font-Lato font-bold py-7 bg-blue-400">
-    //           Standard Registration
-    //         </th>
-    //       </tr>
-    //       <tr>
-    //         <th scope="col" className=" px-6 py-3 text-centre  text-lg font-medium bg-blue-200 uppercase tracking-wider">
-    //           IEEE Members
-    //         </th>
-    //         <th scope="col" className="px-6 py-3 text-centre text-lg font-medium  bg-blue-100 uppercase tracking-wider">
-    //           Non-IEEE Members
-    //         </th>
-    //         <th scope="col" className="px-6 py-4 text-centre  text-lg font-medium  bg-blue-200 uppercase tracking-wider">
-    //           IEEE Members
-    //         </th>
-    //         <th scope="col" className="px-6 py-4 text-centre text-lg font-medium  bg-blue-100 uppercase tracking-wider">
-    //           Non-IEEE Members
-    //         </th>
-    //       </tr>
-    //     </thead>
-    //     <tbody className="bg-white divide-y divide-gray-200">
-    //       Repeat the below tr for each row */}
-    //       {/* <tr>
-    //         <td className="   text-center whitespace-nowrap text-lg text-gray-500">
-    //           Academician/Scientists
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹9000
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹10000
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹11000
-    //         </td>
-    //         <td className="text-center py-4 whitespace-nowrap text-lg text-gray-500">
-    //           ₹12000
-    //         </td>
-    //       </tr>
-    //       <tr className=" bg-gray-100">
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           Students
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹4500
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹5000
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹5500
-    //         </td>
-    //         <td className="text-center py-4 whitespace-nowrap text-lg text-gray-500">
-    //           ₹6000
-    //         </td>
-    //       </tr>
-    //       <tr>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           Industry Person
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹10000
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹11000
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           ₹12000
-    //         </td>
-    //         <td className="text-center  py-4 whitespace-nowrap text-lg text-gray-500">
-    //           ₹13000
-    //         </td>
-    //       </tr>
-    //       <tr className=" bg-gray-100">
-    //         <td className="text-center py-4 whitespace-nowrap text-lg text-gray-500">
-    //           Foreign Author
-    //         </td>
-    //         <td className="text-center py-4  whitespace-nowrap text-lg text-gray-500">
-    //           $175
-    //         </td>
-    //         <td className="text-center py-4 whitespace-nowrap text-lg text-gray-500">
-    //           $200
-    //         </td>
-    //         <td className="text-center py-4 whitespace-nowrap text-lg text-gray-500">
-    //           $225
-    //         </td>
-    //         <td className="text-center whitespace-nowrap text-lg text-gray-500">
-    //           $250
-    //         </td >
-    //       </tr>
-    //       {/* ...other rows */}
-    //     {/* </tbody>
-    //   </table>
-    //   {/* Additional Information like Participation and Notes */}
-    //   {/* <div className="px-6 py-4  mt-14 bg-gray-50">
-    //     <h3 className="text-2xl  font-semibold leading-6 text-gray-900">Participation:</h3>
-    //     <p className="mt-1 text-lg text-gray-500">
-    //       For Tutorial & Industry Talks: ₹3000 / $100
-    //     </p>
-    //     <p className="mt-1 text-lg text-gray-500">
-    //       Conference Attendees: ₹5000 / $150
-    //     </p>
-    //   </div> */}
-    //   {/* <div className="px-6 py-4">
-    //     <h3 className="text-2xl font-medium leading-6 text-gray-900">Note:</h3>
-    //     <ul className="mt-1 list-disc list-inside text-md text-gray-500">
-    //       <li>For one student registration (early bird/standard), authors can submit only one article.</li> */}
-    //       {/* <li>For other participants (Academicians/ Scientists/Industry persons/Foreign Authors), authors can submit two articles for one registration (early bird/standard).</li>
-    //     </ul>
-    //   </div>
-    //   <p className="text-gray-600 text-center mt-6">* All above fees are exclusive of GST. GST charges will be added as per regulations.</p>
-    // </div> */} 
+ 
     
   );
 };

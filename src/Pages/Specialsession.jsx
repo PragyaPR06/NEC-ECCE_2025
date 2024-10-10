@@ -112,7 +112,7 @@ const Specialsession =()=>{
                 <strong>Well-Executed Special Session:</strong> Selection of a special session proposal does not guarantee final acceptance of the special session. The acceptance of a special session depends upon the quality of the papers submitted to the special session and a minimum of 5 accepted articles from at least 4 independent institutions is required for each session. If a session has too few papers, accepted papers will be allocated to regular sessions wherever possible. In case of indication of weakly organized special sessions, the conference organizers will support the organizers with advice but reserve measures including cancellation of the respective special session.
                 </li>
                 <li>
-                <strong>Complimentary Conference Registration:</strong> <span>One complimentary full registration</span>  will be provided to successful Special Sessions with at least 10 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions
+                <strong>Complimentary Conference Registration:</strong> <span>One complimentary full registration</span>  will be provided to successful Special Sessions with at least 6 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions
                 </li>
             </ul>
             <br></br>
@@ -125,14 +125,14 @@ const Specialsession =()=>{
         {/* Add ToastContainer */}
         <ToastContainer />
         <p className={styles2.helpsec}>
-         Please get in touch with the Special Session Chair <strong>Dr. S. Mansani </strong>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swapna@ee.nits.ac.in" style={{ color: 'blue' }}>
-  (swapna@ee.nits.ac.in)</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@ee.nits.ac.in" style={{ color: 'blue' }}>
+         Please get in touch with the Special Session Chair <a href="https://mail.google.com/mail/?view=cm&fs=1&to=swapna@ee.nits.ac.in" style={{ color: 'blue' }}>
+   swapna@ee.nits.ac.in / </a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mallikarjuna@ee.nits.ac.in" style={{ color: 'blue' }}>
+  mallikarjuna@ee.nits.ac.in</a> with cc to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=neiecce.ieee@ee.nits.ac.in" style={{ color: 'blue' }}>
   neiecce.ieee@ee.nits.ac.in</a> to discuss the inclusion of your ‘special session’ in the NE-IECCE-2025 programme.
          </p>
         </Fragment>
     );
-    
+   
 }
 
 export default Specialsession;
