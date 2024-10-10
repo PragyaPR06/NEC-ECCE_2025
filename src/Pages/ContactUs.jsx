@@ -16,15 +16,15 @@ const ContactUs = () => {
 
             <section className={styles4.primaryContacts}>
                 <section className={styles4.mainContact}>
-                    <p className={styles4.contactName}><strong>Dr. Amritesh Kumar</strong> </p>
-                   <h3> <p>Assistant Professor</p><p>
-NIT Silchar, Assam, India</p></h3>
+                    <p className={styles4.contactName}><strong><a href='http://eed.nits.ac.in/amritesh-kumar/'>Dr. Amritesh Kumar</a></strong> </p>
+                   <br></br> <p>Assistant Professor</p><p>
+NIT Silchar, Assam, India</p>
                     <br />
                     <a href='mailto:amritesh@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>amritesh@ee.nits.ac.in </a>
                 </section>
                 <section className={styles4.mainContact}>
-                    <p className={styles4.contactName}><strong>Dr. Asha Rani M A</strong> </p>
-                    <p>Assistant Professor</p><p>
+                    <p className={styles4.contactName}><strong><a href='http://eed.nits.ac.in/asha-rani/'>Dr. Asha Rani M A</a></strong> </p>
+                 <br></br>   <p>Assistant Professor</p><p>
                     NIT Silchar, Assam, India</p>
                     <br />
                     <a href='mailto:asharani@ee.nits.ac.in' className={styles4.contactEmail}><strong>Email : </strong>asharani@ee.nits.ac.in  </a>
