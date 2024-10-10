@@ -32,9 +32,17 @@
     padding-left: 4rem;
     
     list-style-type: disc;
-    span{
-      color: #f93a13;
-    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      70% { opacity: 0; }
+      100% { opacity: 1; }
+  }
+
+  span {
+      animation: blink 1s infinite;
+      color: red; /* You can change the color if you want */
+  }
 }
 
 .helpsec{
