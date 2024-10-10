@@ -5,11 +5,13 @@ import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Header from '../Components/Header/header';
 
+
 const Registrations = () => {
   return (
     <>
      <Header/>
         <Navbar />
+
     <div className="container mx-auto px-4 py-8 bg-gray-100">
       
       
@@ -98,6 +100,7 @@ const Registrations = () => {
         </p>
       </div>
     </div>
+
         </>
  
     

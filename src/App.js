@@ -19,6 +19,7 @@ import PaperSumbissionGuide from './Components/ForAuthors/PaperSumbissionGuide';
 import ImportantDates from './Components/ForAuthors/ImportantDates';
 import CameraReadySumb from './Components/ForAuthors/CameraReadySumb';
 import Specialsession from './Pages/Specialsession';
+import Tutorials from './Pages/Tutorials';
 
 
 export const App = () => {
@@ -44,6 +45,7 @@ export const App = () => {
               <Route exact path="/Specialsession" element={<Specialsession/>}/>
               <Route exact path="/accomodation" element={<Accomodation/>}/>
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
+              <Route exact path="/tutorial" element={<Tutorials/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>
