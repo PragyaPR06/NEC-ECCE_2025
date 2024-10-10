@@ -19,20 +19,22 @@ const Specialsession =()=>{
         <section className={styles2.instructions}>
             <h2 className={styles2.instructionsHeading}>Call for <span>Special Session (SS)</span></h2>
             <br />
-            <ul className={styles2.instructionsContent}>
+            <div className={styles2.instructionsContent}>
                 <p>
                 The Organizing Committee of NE- IECCE 2025 invites special sessions proposals on emerging, innovations and breakthroughs in highly specialized areas (within the conference’s scope) and which are not reflected in the regular conference tracks. The special session topic should be of sufficient significance and importance to attract the potential researchers and practitioners from both academia and industry. 
 
-                </p>
+                </p></div>
                 <br></br>
+
+                </section>
                 <section className={styles2.importantNotice}>
-            {/* <h2 className={styles2.instructionsHeading}>Call for <span>Special Session</span></h2> */}
-           
+            
+            
+            <h2 className={styles2.headd}>
+           <strong>Each proposal for Special Session should include following information :</strong> 
+            </h2>
             
             <ul className={styles2.submissionGuidelinesText}>
-            <p>
-           <strong>Each proposal for Special Session should include following information :</strong> 
-            </p>
                 <li>
                 Title of the proposed Special Session
                 </li>
@@ -64,8 +66,8 @@ const Specialsession =()=>{
                 </p>
                 <br />
                 
-            </ul>
-        </section>
+            
+       
         <br/>
         <hr />
         <section className={styles2.importantNotice}>
