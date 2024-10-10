@@ -35,14 +35,36 @@
         text-align: center;
         padding-left: 2.5rem;
         padding-right: 3.5rem;
+        
     }
-
-    .contactName{
+    .contactName {
         font-family: "Anek Tamil", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
+        padding: 10px;
+        
+        /* Rounded corners */
+        border-radius: 15px;
+    
+        /* Box shadow */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+        /* Optional background color for visibility */
+        background-color: #fff;
+    
+        /* Smooth transition for hover effect */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-
+    
+    .contactName:hover {
+        /* Move the box slightly down */
+        transform: translateY(5px);
+    
+        /* Increase shadow for a more pronounced effect */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    
+    
     .contactEmail{
         font-family: "Anek Tamil", sans-serif;
         font-weight: 500;
