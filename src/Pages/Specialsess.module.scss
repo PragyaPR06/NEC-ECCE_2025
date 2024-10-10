@@ -43,6 +43,16 @@
       animation: blink 1s infinite;
       color: red; /* You can change the color if you want */
   }
+
+  
+}
+.headd{
+  color: blue;
+    text-align: start;
+    padding-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .helpsec{
@@ -64,6 +74,7 @@
 .submissionTemplate button {
   align-items: center;
   appearance: none;
+  
   background-clip: padding-box;
   background-color: initial;
   background-image: none;
@@ -79,11 +90,11 @@
   font-weight: 800;
   justify-content: center;
   line-height: 1rem;
-  margin: 0;
+  margin-left: 3rem;
   min-height: 1rem;
   outline: none;
   overflow: visible;
-  padding: 1rem 1.5rem;
+  padding-left: 2rem;
   pointer-events: auto;
   position: relative;
   text-align: center;
