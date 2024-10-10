@@ -32,8 +32,18 @@
     padding-left: 4rem;
     
     list-style-type: disc;
+    span{
+      color: #f93a13;
+    }
 }
 
+.helpsec{
+  text-align: center;
+  padding: 1%;
+  font-weight: bolder;
+  color: #05006c;
+  font-size: large;
+}
 .submissionGuidelinesText p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;

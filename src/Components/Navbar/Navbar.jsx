@@ -82,7 +82,7 @@ const Navbar = () => {
           Registrations</li>
           </Link>
         
-        <Link to ="/StudentAwards">
+        <Link to ="/Travel">
         <li className={styles.navItem}>Travel</li>
         </Link>
         <Link to="/Sponsorship">
