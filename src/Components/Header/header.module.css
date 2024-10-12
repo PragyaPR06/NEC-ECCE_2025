@@ -7,7 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1.5rem;
+  padding: 0.2rem;
+  
 }
 
 .header_main {
@@ -15,16 +16,20 @@
   align-items: center;
 }
 
-.main_conference_logo img,
+.main_conference_logo img{
+  height: 6.8rem;
+  width: auto;
+  object-fit: contain;
+}
 .nits_logo img,
 .location_ieee_logo img {
-  height: 5.5rem;
+  height: 5rem;
   width: auto;
   object-fit: contain;
 }
 
 .header_text {
-  padding: 0 1rem;
+  
 }
 
 .pathway_extreme_header_info {
@@ -37,7 +42,7 @@
 }
 
 .pathway_extreme_header_info h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin: 0;
   text-align: center;
 }
