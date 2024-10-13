@@ -34,7 +34,7 @@ const CameraReadySumb = () => {
                     <br />
                     <p>2) Revised Version: Revise your paper based on reviewers’ comments/suggestions. The reviewer’s comments are available on the same Microsoft CMT Portal:<a style={{ color: 'blue', fontWeight: 600 }} target='_blank' rel='noreferrer' href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"> Reviewer Comments</a>. Authors should ensure that the reviewers’ and meta-reviewers’ comments have been addressed in the final manuscript.</p>
                     <br />
-                    <p>3) The maximum page limit is six pages, including references. Do not include an author biography at the end. If additional pages are necessary, up to 8 pages are permitted subject to an extra payment of Rs. 500 ($25) per additional page.</p>
+                    <p>3) The maximum page limit is six pages, including references. Do not include an author biography at the end. If additional pages are necessary, up to 8 pages are permitted subject to an extra payment of Rs. 2500 ($30) per additional page.</p>
                     <br />
                     <p>4) Similarity index with other papers should be less than 30% excluding references. The maximum file size allowed is 3 MB, and the file format should be PDF (.pdf) without encryption or passwords.</p>
                     <br />
