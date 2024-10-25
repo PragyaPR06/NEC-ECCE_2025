@@ -35,12 +35,12 @@
 
     @keyframes blink {
       0% { opacity: 1; }
-      70% { opacity: 0; }
+      50% { opacity: 0; }
       100% { opacity: 1; }
   }
 
   span {
-      animation: blink 1s infinite;
+      animation: blink 2s infinite;
       color: red; /* You can change the color if you want */
   }
 

@@ -38,7 +38,7 @@ const PaperSumbissionGuide = () => {
         <Navbar/>
         <br />  
         <section className={styles2.instructions}>
-            <h2 className={styles2.instructionsHeading}>Paper Submission <span>Guidelines</span></h2>
+            <h2 className={styles2.instructionsHeading}>Digest Submission <span>Guidelines</span></h2>
             <br />
             <ul className={styles2.instructionsContent}>
                 <p>
@@ -46,7 +46,7 @@ const PaperSumbissionGuide = () => {
                 </p>
                 <br />
                 <p className={styles2.submissionTemplate}>
-                    <strong>Templates for Manuscript Submission : </strong>
+                    <strong>Templates for Digest Submission : </strong>
                     <button onClick={handleWordClick}>MS Word</button>
                     <span>   |   </span>
                     <button onClick={handleLatexClick}>LaTeX</button>

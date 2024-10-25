@@ -5,7 +5,7 @@ const Tracks = () => {
     <div>
       <div className={styles.header}>
         <h1>
-          <b>Tracks</b>
+          <b>Conference Tracks</b>
         </h1>
       </div>
       <div className={styles.container}>
