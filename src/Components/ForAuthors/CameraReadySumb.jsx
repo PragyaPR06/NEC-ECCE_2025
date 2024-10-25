@@ -52,10 +52,8 @@ const CameraReadySumb = () => {
                     <p>4) For all other papers the copyright notice is: <strong>To be updated soon..</strong></p>
                     <br />
                     <p className={styles2.instructionsSubHeading}><strong> Step 3: PDF eXpress Check</strong></p>
-                    <ul>
-                        <li>Check Final Paper in PDF eXpress</li>
-                    </ul>
-                    <br />
+                    
+                   
                     <p>1) Log in to the IEEE PDF eXpress website
                     </p>
                     <br />

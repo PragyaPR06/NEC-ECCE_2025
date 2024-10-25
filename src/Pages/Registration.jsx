@@ -20,12 +20,12 @@ const Registrations = () => {
                     <th colSpan={2} className="border border-gray-400 px-4 py-2">
                       Early Bird Registration Fee
                       <br />
-                      <span className="text-purple-700">[Up to April 25, 2025]</span>
+                      <span className="text-purple-700">[Up to May 01, 2025]</span>
                     </th>
                     <th colSpan={2} className="border border-gray-400 px-4 py-2">
                       Standard Registration Fee
                       <br />
-                      <span className="text-purple-700">[Up to May 05, 2025]</span>
+                      <span className="text-purple-700">[After May 02, 2025]</span>
                     </th>
                   </tr>
                   <tr className="bg-yellow-100">

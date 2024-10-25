@@ -39,8 +39,8 @@ const handleLatexClick = () => {
         <section className={styles2.guidelines}>  
         <br />
             <header className={styles2.header}>
-                    <h1> Instruction For <span>Authors
-</span></h1>
+                    <p> Instruction For <span>Authors
+</span></p>
             </header>
             <section className={styles2.instructionsContent}>
             <p>NE-IECCE 2025 invites researchers, practitioners, and students worldwide to submit previously unpublished original papers for consideration to be presented at the conference. All submissions will be peer-reviewed.
@@ -80,14 +80,18 @@ const handleLatexClick = () => {
             <br />
             <ol className={styles2.submissionGuidelinesText}>
                 <li>
-                    1) All papers submitted to <strong>NE-IECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review.
+                    1) All papers submitted to <strong>NE-IECCE 2025</strong>  will undergo a plagiarism check. Papers with similarity scores of 30% or above may be rejected without further review, and no single source should exceed 10% similarity.
                 </li>
                 <li>
                     2) Acceptance of the digest does not guarantee acceptance of the final paper.
                 </li>
+                <li>
+                    3) Paper title and authors order should not be changed while submitting the final manuscript.
+
+                </li>
             </ol>
             <ul className={styles2.submissionGuidelinesText}>
-                <p> 3) The organizing committee of <strong>NE-IECCE 2025</strong> reserves the right to reject papers for the following reasons (one or more of):</p>
+                <p> 4) The organizing committee of NE-IECCE 2025 reserves the right to reject papers for the following reasons (one or more of):</p>
                 <p className={styles2.submissionGuidelinesTextConditions}>i) With poor language.</p>
                 <p className={styles2.submissionGuidelinesTextConditions}>ii) With poor technical content.</p>
                 <p className={styles2.submissionGuidelinesTextConditions}>iii) Not Addressing Reviewer's remarks.</p>
@@ -97,7 +101,7 @@ const handleLatexClick = () => {
         <br></br>
         <span className={styles2.submitButtonArea}>
             <button className={styles2.submitButton} onClick={handleClick}>
-                Submit Manuscript
+                Submit Digest
             </button>
         </span>
         </section> 
