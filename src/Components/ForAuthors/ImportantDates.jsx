@@ -64,20 +64,20 @@ const ImportantDates = () => {
       <div className={styles2.container}>
         <div className={styles2.left}>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Paper Submission Portal Opens:</h3>
+            <h3 className=" font-semibold">Digest Submission Portal Opens:</h3>
             <h2>October 07, 2024</h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Notification of Acceptance:</h3>
+            <h3 className=" font-semibold">Notification of Acceptance of Digest:</h3>
             <h2>April 07, 2025</h2>
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Early Bird Registration Ends:</h3>
-            <h2>April 25, 2025</h2>
+            <h2>May 01, 2025</h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Final camera Ready Paper Submission:</h3>
-            <h2>May 1, 2025</h2>
+            <h3 className=" font-semibold">Registration Deadline: </h3>
+            <h2>June 2, 2025</h2>
           </div>
           
          
@@ -85,16 +85,16 @@ const ImportantDates = () => {
         <div className={styles2.right}>
           
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Paper Submission Portal Closes:</h3>
+            <h3 className=" font-semibold">Digest Submission Portal Closes:</h3>
             <h2>January 31, 2025 </h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Registration Starts:</h3>
-            <h2>April 11, 2025</h2>
+            <h3 className=" font-semibold">Deadline for submission of Camera Ready Paper and Copyright form</h3>
+            <h2>May 01, 2025</h2>
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Standard Registration Ends:</h3>
-            <h2>May 05, 2025</h2>
+            <h2>May 02, 2025</h2>
           </div>
         
         </div>

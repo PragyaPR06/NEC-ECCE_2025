@@ -52,7 +52,26 @@ const CameraReadySumb = () => {
                     <p>4) For all other papers the copyright notice is: <strong>To be updated soon..</strong></p>
                     <br />
                     <p className={styles2.instructionsSubHeading}><strong> Step 3: PDF eXpress Check</strong></p>
-                    <p>After preparing the final revised manuscript, submit your manuscript to PDF eXpress using Conference ID (61459X) at the URL <a style={{ color: 'blue', fontWeight: 600 }} target='_blank' rel='noreferrer' href="https://ieee-pdf-express.org/Account/Login"> https://ieee-pdf-express.org/Account/Login</a>. If you do not have an account in PDF eXpress, click on the link “Create Account” and fill in your information (email address and password). If you are not familiar with PDF eXpress, you can get detailed instructions on using IEEE PDF eXpress at: <a style={{ color: 'blue', fontWeight: 600 }} target='_blank' rel='noreferrer' href="https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress"> Using IEEE PDF eXpress</a>.</p>
+                    <ul>
+                        <li>Check Final Paper in PDF eXpress</li>
+                    </ul>
+                    <br />
+                    <p>1) Log in to the IEEE PDF eXpress website
+                    </p>
+                    <br />
+                    <p>2) First-time users should do the following:  </p>
+                    <br />
+                    <p>3) Select the New Users</p>
+                    <br />
+                    <p>4) Enter the following:
+                    <h3>(i) 64154X is the conference ID for NE-IECCE 2025 </h3>
+                    <h3>(ii) Your email address </h3>
+                    <h3>(iii) A password </h3><br></br>
+                    <h3>Continue to enter information as prompted</h3>
+                    <h3>An online confirmation will be displayed, and an email confirmation will be sent verifying your account setup.</h3>
+                   </p>
+                    <br />
+                    <p>5) Previous users of PDF eXpress need to follow the above steps, but should enter the same password that was used for previous conferences. Verify that your contact information is valid. Use  641154X for the Conference ID.</p>
                     <p className={styles2.instructionsSubHeading}><strong> Step 4: Camera Ready Paper Submission</strong></p>
                     <p>Submit the Camera Ready Paper (after passing it through PDF express check) through the author console in CMT. Please change the file name of the PDF eXpress checked camera ready paper to PIDxxx (where xxx is your paper ID in CMT) before submission to CMT. Please note that authors are expected to retain the title of the original paper in the final paper. Also, the author list and order in the original paper cannot be changed in the final manuscript.</p>
                     <p className={styles2.instructionsSubHeading}><strong> Step 5: Submission of the Copyright Form</strong></p>

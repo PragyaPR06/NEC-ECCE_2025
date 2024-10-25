@@ -39,15 +39,17 @@ const Navbar = () => {
         <li className={`${styles.navItem} ${styles.dropdown}`}>
           For Authors<span className=' font-extrabold ' >&#9662;</span>
           <ul className={styles.dropdownContent}>
+          <Link to="/TracksPage">
+            <li>Conference Tracks</li>
+          </Link>
+          <Link to="/ImportantDates">
+            <li>Important Dates</li>
+            </Link>
             <Link to="/CallForPapers">
             <li> Call for Papers</li>      
             </Link>
-            <Link to="/ImportantDates">
-            <li>Important Dates</li>
-            </Link>
-            <Link to="/PaperSumbissionGuide">
-            <li>Paper submission guidelines</li>
-            </Link>
+            
+            
             <Link to="/CameraReadySumb">
             <li>Camera-Ready submission guidelines </li>
             </Link>

@@ -20,6 +20,7 @@ import ImportantDates from './Components/ForAuthors/ImportantDates';
 import CameraReadySumb from './Components/ForAuthors/CameraReadySumb';
 import Specialsession from './Pages/Specialsession';
 import Tutorials from './Pages/Tutorials';
+import TracksPage from './Pages/TrackssPage';
 
 
 export const App = () => {
@@ -39,6 +40,7 @@ export const App = () => {
               <Route exact path="/committee" element={<Committee/>}/>
               <Route exact path="/KeynoteSpeakers" element={<KeynoteSpeakers/>}/>
               <Route exact path="/ProgramDetails" element={<ProgramDetails/>}/>
+              <Route exact path="/TracksPage" element={<TracksPage/>}/>
               <Route exact path="/Travel" element={<StudentAwards/>}/>
               <Route exact path="/Registrations" element={< Registrations/>}/>
               <Route exact path="/Sponsorship" element={<Sponsorship/>}/>

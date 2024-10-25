@@ -2,51 +2,52 @@
       { 
         "id":"1",
 
-        "name": "Paper Submission Portal Opens",
+        "name": "Digest Submission Portal Opens",
         "date": "October 07, 2024",
-        "description": "Paper Submission Portal Opens"
+        "description": "Digest Submission Portal Opens"
       },
       {
         "id":"2",
-        "name": "Paper Submission Portal Closes",
+        "name": "Digest Submission Portal Closes",
         "date": "January 31, 2025",
-        "description": "Paper Submission Portal Closes"
+        "description": "Digest Submission Portal Closes"
 
       },
       {
         "id":"3", 
-        "name": "Notification of Acceptance",
+        "name": "Notification of Acceptance of Digest",
 
         "date": "April 07, 2025",
 
-        "description": "Notification of Acceptance"
+        "description": "Notification of Acceptance of Digest"
       },
       {
         "id":"4",
-        "name": "Registration Starts",
-        "date": "April 11, 2025",
-        "description": "Registration Starts"
+        "name": "Deadline for submission of Camera Ready Paper and Copyright form:",
+        "date": "May 01, 2025",
+        "description": "Deadline for submission of Camera Ready Paper and Copyright form:"
       },
       {
         "id":"5",
 
         "name": "Early Bird Registration Ends",
-        "date": "April 25, 2025",
+        "date": "May 01, 2025",
         "description": "Early Bird Registration Ends"
       },
       {
         "id":"6",
-        "name": "Final Camera Ready Paper Submission",
-        "date": "May 1, 2025",
-        "description": "Final Camera Ready Paper Submission"
+        "name": "Standard Registration Ends",
+        "date": "May 02, 2025",
+        "description": "Standard Registration Ends"
+
       },
       {
         "id":"7",
-        "name": "Standard Registration Ends",
-        "date": "May 05, 2025",
-        "description": "Standard Registration Ends"
-
+        "name": "Registration Deadline: ",
+        "date": "June 2, 2025",
+        "description": "Registration Deadline:"
       }
+      
     ]
   
   
