@@ -89,11 +89,11 @@ const ImportantDates = () => {
             <h2>January 31, 2025 </h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Deadline for submission of Camera Ready Paper and Copyright form</h3>
+            <h3 className=" font-semibold">Deadline for submission of Camera Ready Paper and Copyright form:</h3>
             <h2>May 01, 2025</h2>
           </div>
           <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Standard Registration Ends:</h3>
+            <h3 className=" font-semibold">Standard Registration Starts:</h3>
             <h2>May 02, 2025</h2>
           </div>
         
