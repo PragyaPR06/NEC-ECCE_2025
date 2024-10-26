@@ -12,7 +12,7 @@ const Sponsorship = () =>{
         
 
             <div className={styles.sponsorship}>
-                <img src="/sponsors/sponsorship-3.jpg" alt="sponsorship pdf" ></img></div>
+                <img src="/sponsors/sponsorr.jpg" alt="sponsorship pdf" ></img></div>
                 <div className="text-center">
   <h2 className="font-bold text-blue-500 text-2xl mb-4">
     You can download the complete sponsorship brochure from below:
