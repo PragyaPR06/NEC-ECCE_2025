@@ -1,9 +1,16 @@
 .sponsorship{
     
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-bottom: 10px;
+    // padding-left: 400px;
+    // padding-right: 400px;
+    // padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:-5vw;
     img{
         object-fit:contain;
+        // min-height: 100%;
+        max-width: 50vw;
     }
 }
