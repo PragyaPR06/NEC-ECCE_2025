@@ -14,7 +14,7 @@ const Sponsorship = () =>{
             <div className={styles.sponsorship}>
                 <img src="/sponsors/sponsorr.jpg" alt="sponsorship pdf" ></img></div>
                 <div className="text-center">
-  <h2 className="font-bold text-blue-500 text-2xl mb-4">
+  <h2 className="font-bold text-blue-500 md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
     You can download the complete sponsorship brochure from below:
   </h2>
   <a href="/pdfs/sponsorship.pdf" download>
@@ -25,7 +25,7 @@ const Sponsorship = () =>{
 </div>
 <br></br>
 <div className="text-center">
-  <h2 className="font-bold text-blue-500 text-2xl mb-4">
+  <h2 className="font-bold text-blue-500 md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
   Interested sponsors can fill the google form:
   </h2>
   <a href="https://forms.gle/qAUrprYpcsEGeTUW8" >
