@@ -105,7 +105,7 @@ const Aboutus = () =>{
                     <div className={styles.info}>
                         <h3>Kakochang Water Falls, Kaziranga</h3>
                         <h4>Distance: 400 kilometers from Silchar</h4>
-                        <h4>Time: Apprx 12 hrs</h4>
+                        <h4>Time: Approx. 12 hrs</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
