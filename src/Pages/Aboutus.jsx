@@ -82,6 +82,20 @@ const Aboutus = () =>{
                     </div> 
                     <div className={styles.info}>
                         <h3>Tumjang Peak, Haflong</h3>
+                        <h4>Distance: 85km , via NH37</h4>
+                         <h4>Time: 2 hrs 38 min</h4>
+                       
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <div className={styles.img}>
+                        <img src='/tourism/son-beel.png' alt='Son-Beel, Karimganj'/>
+                    </div> 
+                    <div className={styles.info}>
+                        <h3>Son Beel,The Second Largest Wetland in Asia</h3>
+                        <h4>Distance: 85km, via NH37</h4>
+                         <h4>Time: 2 hrs 38 min</h4>
+                       
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -90,14 +104,42 @@ const Aboutus = () =>{
                     </div> 
                     <div className={styles.info}>
                         <h3>Kakochang Water Falls, Kaziranga</h3>
+                        <h4>Distance: 400 kilometers from Silchar</h4>
+                        <h4>Time: Apprx 12 hrs</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
                     <div className={styles.img}>
-                        <img src='/tourism/sikkim.jpg' alt='Ravalanga Buddha Park, Sikkim'/>
+                        <img src='/tourism/borail.jpg' alt='Borail Eco-Camp/Borail Wildlife sanctuary
+</h3>'/>
                     </div> 
                     <div className={styles.info}>
-                        <h3>Ravangla Buddha Park, Sikkim</h3>
+                        <h3>Borail Eco-Camp/Borail Wildlife sanctuary
+</h3>
+                        <h4>Distance: 42 Km , Via  NH306</h4>
+                        <h4>Time: 1 hrs 30 min </h4>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <div className={styles.img}>
+                        <img src='/tourism/borakhai.jpg' alt='Borakhai Tea Gardens'/>
+                    </div> 
+                    <div className={styles.info}>
+                        <h3>Borakhai Tea Gardens
+</h3>
+                        <h4>Distance: 1.5 Km, Walking distance</h4>
+                        <h4>Time: 15 min </h4>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <div className={styles.img}>
+                        <img src='/tourism/durtlang.jpg' alt='Durtlang hills'/>
+                    </div> 
+                    <div className={styles.info}>
+                        <h3>Durtlang Hills, Mizoram
+</h3>
+                        <h4>Distance: 180 km from Silchar</h4>
+                        <h4>Time: Approx. 6 hours </h4>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -106,6 +148,8 @@ const Aboutus = () =>{
                     </div> 
                     <div className={styles.info}>
                         <h3>Maa Kamakhya Mandir, Guwahati</h3>
+                        <h4>Distance: 300 kilometers from Silchar</h4>
+                        <h4>Time: Approx. 10hours.</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -114,6 +158,8 @@ const Aboutus = () =>{
                     </div> 
                     <div className={styles.info}>
                         <h3>Seven Sister Falls, Cherrapunji</h3>
+                        <h4>Distance:  250 kilometers from Silchar</h4>
+                        <h4>Time: Approx. 9hours</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -122,10 +168,13 @@ const Aboutus = () =>{
                     </div> 
                     <div className={styles.info}>
                         <h3>Living Roots Bridge, Meghalaya</h3>
+                        <h4>Distance:200 kilometers from Silchar</h4>
+                        <h4>Time: Approx 8 hrs </h4>
                     </div>
                 </div>
             </div>
         </div>
+        <br></br>
         </>
     )
 }
