@@ -149,7 +149,7 @@ const Aboutus = () =>{
                     <div className={styles.info}>
                         <h3>Maa Kamakhya Mandir, Guwahati</h3>
                         <h4>Distance: 300 kilometers from Silchar</h4>
-                        <h4>Time: Approx. 10hours.</h4>
+                        <h4>Time: Approx. 10 hours.</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -159,7 +159,7 @@ const Aboutus = () =>{
                     <div className={styles.info}>
                         <h3>Seven Sister Falls, Cherrapunji</h3>
                         <h4>Distance:  250 kilometers from Silchar</h4>
-                        <h4>Time: Approx. 9hours</h4>
+                        <h4>Time: Approx. 9 hours</h4>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -169,7 +169,7 @@ const Aboutus = () =>{
                     <div className={styles.info}>
                         <h3>Living Roots Bridge, Meghalaya</h3>
                         <h4>Distance:200 kilometers from Silchar</h4>
-                        <h4>Time: Approx 8 hrs </h4>
+                        <h4>Time: Approx. 8 hrs </h4>
                     </div>
                 </div>
             </div>
