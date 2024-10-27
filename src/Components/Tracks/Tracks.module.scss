@@ -1,12 +1,15 @@
 .header {
-  display: flex;
-  justify-content: center;
-  font-size: clamp(24px, 5vw, 36px);
-  color: blue;
-  font-family: "Anek Tamil", sans-serif;
-  font-weight: 900;
-  padding-bottom: 2rem;
-  text-align: center;
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(24px, 5vw, 36px);
+    color: blue;
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 900;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+ 
   span{
     color: orange;
   }
