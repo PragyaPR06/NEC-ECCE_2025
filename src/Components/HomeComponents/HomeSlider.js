@@ -14,15 +14,15 @@ const HomeSlider = () => {
       {/* Overlay */}
       <div className="bg-black bg-opacity-40 absolute inset-0 flex flex-col items-center justify-center z-50 pointer-events-none">
         <div className="text-white text-center p-4 md:p-8">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2 md:mb-4">
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2 md:mb-4">
             IEEE North-East India International
-          </h1>
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2">
+          </p>
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2">
             Energy Conversion Conference and Exhibition
-          </h1>
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2 md:mb-4">
+          </p>
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-2 md:mb-4">
             (NE-IECCE 2025)
-          </h1>
+          </p>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-4">
             4-6 July 2025
           </p>
