@@ -9,11 +9,9 @@ const Aboutus = () =>{
         <>
         <Header/>
         <Navbar/>
-        <div className={styles.header}>
-            <h1>About Us</h1>
-        </div>
+        
         <hr></hr>
-        <br></br><br></br>
+        <br></br>
         <div className={styles.nit}>
             <div className={styles.header}>
                 <h2>About <span>NIT Silchar</span></h2>
