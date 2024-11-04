@@ -61,10 +61,19 @@
     ]
   },
   {
+    "name": "Students Award Chair ",
+    "members": [
+      {"name": "Prof. Akshay Rathor", "affiliation": "SIT Singapore, Singapore"},
+      {"name": "Prof. Avanish Tripathi", "affiliation": "IIT Delhi, India"},
+      {"name": "Dr. Dipti Xasena ", "affiliation": "MNIT Jaipur, India"},
+      {"name": "Dr. Phaneendra Babu Bobba", "affiliation": "GRIET Hyderabad, India"}
+    ]
+  },
+  {
     "name":"Plenary & Women in Engineering Chairs",
     "members":[
       {"name": "Kalpana R", "affiliation": "NIT Karnataka, Surathkal, India"},
-      {"name": "A N Archana", "affiliation": "Tata Elxsi, Trivandrum, India"},
+      {"name": "Dr. Pampa Sinha", "affiliation": "KIIT, Bhubaneswar, India"},
       {"name": "Dhivya Sampath Kumar", "affiliation": "SIT Singapore, Singapore"}
     ]
   },
@@ -74,6 +83,9 @@
       {"name": "Prof. Sujit K Biswas", "affiliation": "Past Chair, IEEE IAS Kolkata Chapter, India"},
       {"name": "Prof. Chitralekha Mahanta", "affiliation": "IIT Guwahati, India"},
       {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur, India"},
+      {"name": "Dr. Anurag Sharma", "affiliation": "Newcastle Uni, UK"},
+      {"name": "Dr. Ashish Ranjan ", "affiliation": "NIT Manipur, India"},
+      {"name": "Dr. Shailendra Singh", "affiliation": "NIT Agartala, India"},
       {"name": "Dr. Arvind Jain", "affiliation": "NIT Agartala, India"},
       {"name": "Dr. Bikram Das", "affiliation": "NIT Agartala, India"},
       {"name": "Dr. Srinivas Bhaskar Karanki", "affiliation": "IIT Bhubaneswar, India"},
@@ -124,10 +136,8 @@
       {"name": "Dr. Anmol Ratna Saxena", "affiliation": "NIT Delhi, India"},
       {"name": "Dr. Piyali Das", "affiliation": "NERIST, India"},
       {"name": "Dr. Pukhrambam Devachandra Singh", "affiliation": "NERIST, India"},
-      {"name": "Dr. M. Chakkarapani", "affiliation": "RGPIT Sivasagar, India"},
       {"name": "Dr. Sreejith. S", "affiliation": "NIT Silchar, India"},
       {"name": "Dr. Saheli Ray", "affiliation": "NIT Silchar, India"},
-      {"name": "Dr. Risha Mal", "affiliation": "IIT Guwahati, India"},
       {"name": "Dr. Ambrish Devanshu", "affiliation": "NIT Silchar, India"}
     ]
   },
@@ -152,7 +162,9 @@
   {
     "name": "Student Activity Chairs",
     "members": [
-      {"name": "Prof. Ratna Dahiya", "affiliation": "NIT Kurukshetra, India"},
+      {"name": "Dr. B. Shakila", "affiliation": "NIT Nagaland, India"},
+      {"name": "Dr. Sree Lakshmi Gundebommu", "affiliation": "NIT Kurukshetra, India"},
+      {"name": "Prof. Ratna Dahiya", "affiliation": "CVRCOE, Hyderabad, India"},
       {"name": "Dr. D. K. Raju", "affiliation": "NIT Silchar, India"},
       {"name": "Dr. T. Pradhan", "affiliation": "NIT Silchar, India"}
     ]
@@ -168,7 +180,6 @@
   {
     "name": "International Advisory Committee",
     "members": [
-      {"name": "Prof. Saifur Rahman", "affiliation": "Virginia Tech, Virginia, USA"},
       {"name": "Prof. Akshay Kumar Rathore", "affiliation": "Singapore Institute of Technology, Singapore"},
       {"name": "Prof. Ambrish Chandra", "affiliation": "ETS, Montreal, Quebec, Canada"},
       {"name": "Prof. Frede Blaabjerg", "affiliation": "Alborg University, Denmark"},
@@ -176,6 +187,7 @@
       {"name": "Prof. Subhashish Bhattacharya", "affiliation": "North Carolina State University, USA"},
       {"name": "Prof. Tarlochan Sidhu", "affiliation": "Ontario Tech University, Canada"},
       {"name": "Prof. Kashem Muttaqi", "affiliation": "UOW Australia, Australia"},
+      {"name": "Prof. Subhas Mukhopadhyay", "affiliation": "Macquarie University, Australia"},
       {"name": "Dr. Vinod Khadkikar", "affiliation": "Khalifa University, UAE"},
       {"name": "Dr. Vijay Sood", "affiliation": "Ontario Tech University, Canada"},
       {"name": "Dr. Rabiul Islam", "affiliation": "UOW Australia, Australia"},
