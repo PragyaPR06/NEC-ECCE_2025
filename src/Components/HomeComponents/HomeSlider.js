@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
+import Card from './Card';
 
 const HomeSlider = () => {
   return (
@@ -31,7 +32,9 @@ const HomeSlider = () => {
           </p>
         </div>
       </div>
-      
+      <div className="absolute top-[75%]   left-0 transform -translate-y-1/2 z-50 ">
+  <Card />
+</div>
       {/* Swiper component */}
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
@@ -65,6 +68,7 @@ const HomeSlider = () => {
             <img src='/HomeSlider/conference6.jpg' className='h-full w-full object-cover' alt='Conference panel'/>
           </div>
         </SwiperSlide>
+
         {/* Add more SwiperSlides as needed */}
       </Swiper>
     </div>
