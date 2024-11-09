@@ -22,6 +22,7 @@ const Home = () => {
       <Tracks/>
       <Timeline />
       <Timer/>
+      
     </div>
   )
 };
