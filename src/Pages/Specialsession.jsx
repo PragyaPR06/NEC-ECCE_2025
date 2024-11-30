@@ -75,7 +75,7 @@ const Specialsession =()=>{
             <br />
             <ol className={styles2.submissionGuidelinesText}>
                 <li>
-                Last date to submit proposal:  <strong><span className={styles2.textCut}>November 30, 2024  </span> December 10, 2024</strong>  
+                Last date to submit proposal:  <strong><span className={styles2.textCut}>November 30, 2024  </span>  December 10, 2024</strong>  
                 </li>
                 <li>
                 Notification of acceptance of Special Session: <strong> December 15, 2024</strong>  
