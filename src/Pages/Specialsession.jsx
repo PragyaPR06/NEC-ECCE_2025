@@ -78,7 +78,7 @@ const Specialsession =()=>{
                 Last date to submit proposal:  <strong><span className={styles2.textCut}>November 30, 2024</span> December 15, 2024</strong>  
                 </li>
                 <li>
-                Last date to submit papers in Special Session: <strong>January 31, 2025</strong>
+                Last date to submit papers in Special Session: <strong><span className={styles2.textCut}>December 10, 2024</span> January 31, 2025</strong>
                 </li>
             </ol>
             
@@ -114,7 +114,7 @@ const Specialsession =()=>{
                 <strong>Well-Executed Special Session:</strong> Selection of a special session proposal does not guarantee final acceptance of the special session. The acceptance of a special session depends upon the quality of the papers submitted to the special session and a minimum of 6 accepted articles from at least 4 independent institutions is required for each session. If a session has too few papers, accepted papers will be allocated to regular sessions wherever possible. In case of indication of weakly organized special sessions, the conference organizers will support the organizers with advice but reserve measures including cancellation of the respective special session.
                 </li>
                 <li>
-                <strong>Complimentary Conference Registration:</strong> <span>One Complimentary  [Author: Indian or Foreign (Academia/Industry)] Registration</span>  will be provided to successful Special Sessions with at least 6 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions.
+                <strong>Complimentary Conference Registration:</strong> <span className={styles2.blink}>One Complimentary  [Author: Indian or Foreign (Academia/Industry)] Registration</span>  will be provided to successful Special Sessions with at least 6 papers. The successful SS organizers must register for and attend the conference, and chair the corresponding sessions.
                 </li>
             </ul>
             <br></br>
