@@ -81,7 +81,7 @@ const Specialsession =()=>{
                 Notification of acceptance of Special Session: <strong> December 15, 2024</strong>  
                 </li>
                 <li>
-                Last date to submit papers in Special Session: <strong> January 31, 2025</strong>
+                Last date to submit digests in Special Session: <strong> January 31, 2025</strong>
                 </li>
             </ol>
             
