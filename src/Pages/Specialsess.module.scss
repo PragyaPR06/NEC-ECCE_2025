@@ -43,7 +43,7 @@
       100% { opacity: 1; }
   }
 
-  span {
+  .blink {
       animation: blink 2s infinite;
       color: red; /* You can change the color if you want */
   }
