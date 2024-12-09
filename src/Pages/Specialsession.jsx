@@ -110,7 +110,7 @@ const Specialsession =()=>{
 
                 </li>
                 <li>
-                <strong>Restrictions:</strong> During the review process, Special Session Organizers must take into account that an individual cannot be (co‐) author of more than two papers submitted to the same Special Session
+                <strong>Restrictions:</strong> During the review process, Special Session Organizers must take into account that an individual cannot be (co‐) author of more than two papers submitted to the same Special Session, from one organizations maximum 2 organizers can be participated in one special session, maximum number of organizers in one session can be 4 and minimum 2
 
                 </li>
                 <li>
