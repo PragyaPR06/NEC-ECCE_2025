@@ -221,20 +221,19 @@
       {"name": "Prof. Jagdish Kumar", "affiliation": "PEC Chandigarh, India"},
       {"name": "Dr. Jaison Mathew", "affiliation": "GEC Trissur, India"},
       {"name": "Prof. Vishal Verma", "affiliation": "DTU, India"},
-      
-    
-        {"name": "Prof. Dheeraj Joshi", "affiliation": "DTU, India"},
-        {"name": "Dr. Vineet Saini", "affiliation": "DST, India"},
-        {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection, India"},
-        {"name": "Prof. Sivaji Bandhyopadhyay", "affiliation": "Jadavpur University, India"},
-        {"name": "Prof. Saravana Ilango", "affiliation": "NIT Tiruchirappalli, India"},
-        {"name": "Dr. Taimoor Khan", "affiliation": "NIT Silchar, India"},
-        {"name": "Dr. Suvendu Samanta", "affiliation": "IIT Kanpur, India"},
-        {"name": "Mr. Jitesh Choudhary", "affiliation": "CDAC Silchar, India"},
-        {"name": "Dr. V. Sandeep", "affiliation": "NIT Andhra Pradesh, India"},
-        {"name": "Prof. Ardhendu Saha", "affiliation": "NIT Agartala, India"},
-        {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur, India"},
-        {"name": "Dr. Papia Ray", "affiliation": "VSSUT, Burla, India"}
+      {"name": "Prof. Dheeraj Joshi", "affiliation": "DTU, India"},
+      {"name": "Dr. Vineet Saini", "affiliation": "DST, India"},
+      {"name": "Prof. F. A. Talukdar", "affiliation": "Chair, IEEE Silchar Subsection, India"},
+      {"name": "Prof. Sivaji Bandhyopadhyay", "affiliation": "Jadavpur University, India"},
+      {"name": "Prof. Saravana Ilango", "affiliation": "NIT Tiruchirappalli, India"},
+      {"name": "Dr. Taimoor Khan", "affiliation": "NIT Silchar, India"},
+      {"name": "Dr. Suvendu Samanta", "affiliation": "IIT Kanpur, India"},
+      {"name": "Mr. Jitesh Choudhary", "affiliation": "CDAC Silchar, India"},
+      {"name": "Dr. V. Sandeep", "affiliation": "NIT Andhra Pradesh, India"},
+      {"name": "Prof. Ardhendu Saha", "affiliation": "NIT Agartala, India"},
+      {"name": "Dr. Kundan Kumar", "affiliation": "NIT Manipur, India"},
+      {"name": "Dr. Papia Ray", "affiliation": "VSSUT, Burla, India"},
+      {"name": "Dr. K Biju", "affiliation": "APJ Abdul Kalam Technological University,Govt. of Kerala"}
       ]
     }
 ]
