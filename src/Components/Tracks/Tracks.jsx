@@ -55,16 +55,17 @@ const Tracks = () => {
             <h3 className=" font-semibold">SS 1 :</h3>
             <h2>Advances in Control and Operation of Inverter-Dominated Power Distribution System</h2>
           </div></div>
-          <div className={styles.bg2}>
-          <div className={styles.lcard}>
-            <h3 className=" font-semibold">SS 2 :</h3>
-            <h2>Protection Solutions for Inverter Based Resource Dominated Smart Power System (PS-IBR-SPS)</h2>
-          </div></div>
+          
           <div className={styles.bg3}>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">SS 3:</h3>
             <h2>Transformative Solar Energy Solutions for Next-Generation Power and Mobility
 </h2>
+          </div></div>
+          <div className={styles.bg5}>
+          <div className={styles.lcard}>
+            <h3 className=" font-semibold">SS 5:</h3>
+            <h2> Artificial Intelligence and Machine Learning for Smart, Resilient, and Sustainable Energy Systems</h2>
           </div></div>
           <div className={styles.bg7}>
           <div className={styles.lcard}>
@@ -75,17 +76,18 @@ const Tracks = () => {
          
         </div>
         <div className={styles.right}>
+        <div className={styles.bg2}>
+          <div className={styles.lcard}>
+            <h3 className=" font-semibold">SS 2 :</h3>
+            <h2>Protection Solutions for Inverter Based Resource Dominated Smart Power System (PS-IBR-SPS)</h2>
+          </div></div>
         <div className={styles.bg4}>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">SS 4:</h3>
             <h2>Stationary and Mobile battery storage for Advancing grid
             Resilience and flexibiliTy </h2>
           </div></div>
-          <div className={styles.bg5}>
-          <div className={styles.lcard}>
-            <h3 className=" font-semibold">SS 5:</h3>
-            <h2> Artificial Intelligence and Machine Learning for Smart, Resilient, and Sustainable Energy Systems</h2>
-          </div></div>
+          
           <div className={styles.bg6}>
           <div className={styles.lcard}>
             <h3 className=" font-semibold">SS 6:</h3>
