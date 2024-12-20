@@ -74,6 +74,8 @@ const Navbar = () => {
           </ul>
         </li>
          
+      
+         
          
         <Link to="/programDetails">
         <li className={styles.navItem}>
@@ -83,10 +85,20 @@ const Navbar = () => {
         <li className={styles.navItem}>
           Registrations</li>
           </Link>
+
+
+          <li className={`${styles.navItem} ${styles.dropdown}`}>
+          Travel/Accomodation<span className=' font-extrabold ' >&#9662;</span>
+          <ul className={styles.dropdownContent}>
+            <Link to="/Travel">
+            <li> Travel</li>      
+            </Link>
+            <Link to="/Accomodation">
+            <li>Accomodation</li>
+            </Link>
+          </ul>
+        </li>
         
-        <Link to ="/Travel">
-        <li className={styles.navItem}>Travel</li>
-        </Link>
         <Link to="/Sponsorship">
         <li className={styles.navItem}>
           Sponsorship</li>
