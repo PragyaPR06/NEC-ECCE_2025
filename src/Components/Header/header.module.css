@@ -26,11 +26,7 @@
   height: 5rem;
   width: auto;
   object-fit: contain;
-}
-
-.header_text {
-  
-}
+} 
 
 .pathway_extreme_header_info {
   color: green;
@@ -63,12 +59,34 @@
   gap: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     overflow-x: auto;
+    width: auto;
   }
 
   .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0.1rem; */
+    
+  }
+  .pathway_extreme_header_info h2{
+    font-size: 0.66rem;
+  }
+
+  .main_conference_logo img{
+    height: 6rem;
+    padding-bottom: 3rem;
+    width: 6rem;
+    object-fit: contain;
+  }
+
+  .pathway_extreme_header_subinfo h5{
+    font-size: 0.6rem;
+  }
+  /* .header_content {
     flex-wrap: nowrap;
     justify-content: flex-start;
     min-width: max-content;
@@ -91,17 +109,20 @@
   }
 
   .pathway_extreme_header_info h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     white-space: nowrap;
   }
 
   .pathway_extreme_header_subinfo {
     font-size: 0.7rem;
     white-space: nowrap;
-  }
+  } */
 
-  .important_logos {
+  /* .important_logos {
     flex-direction: row;
     align-items: center;
-  }
+  } */
+   .important_logos{
+    display: none;
+   }
 }
