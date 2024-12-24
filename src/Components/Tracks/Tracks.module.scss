@@ -30,7 +30,36 @@
   gap: 1rem;
 }
 
+.bg1{
+  background-color: rgb(174, 251, 251);
+  border-radius: 0.5rem;
+}
+.bg2{
+  background-color: rgb(158, 245, 171);
+  border-radius: 0.5rem;
+}
+.bg3{
+  background-color: rgba(244, 134, 248, 0.373);
+  border-radius: 0.5rem;
+}
+.bg4{
+  background-color: rgb(244, 128, 89);
+  border-radius: 0.5rem;
+}
+.bg5{
+  background-color: rgb(174, 198, 251);
+  border-radius: 0.5rem;
+}
+.bg6{
+  background-color: rgb(239, 221, 103);
+  border-radius: 0.5rem;
+}
+.bg7{
+  background-color: rgb(90, 177, 248);
+  border-radius: 0.5rem;
+}
 .lcard {
+ 
   font-size: clamp(0.9rem, 2vw, 1.2rem);
   padding: 1.5rem;
   display: flex;
