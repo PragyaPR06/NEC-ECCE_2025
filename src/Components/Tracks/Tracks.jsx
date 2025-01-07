@@ -85,7 +85,7 @@ const Tracks = () => {
           <div className={styles.lcard}>
             <h3 className=" font-semibold">SS 4:</h3>
             <h2>Stationary and Mobile battery storage for Advancing grid
-            Resilience and flexibiliTy </h2>
+            Resilience and flexibiliTy (SMART)</h2>
           </div></div>
           
           <div className={styles.bg6}>
