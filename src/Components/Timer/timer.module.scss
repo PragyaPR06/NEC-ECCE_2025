@@ -1,25 +1,65 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
-    padding:2rem 0rem;
-}
- .row{
+    padding: 2rem 0rem;
+  }
+  
+  .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Keep boxes in a single row */
     gap: 20px;
-}
-
-.box{
+  }
+  
+  .box {
     padding: 30px;
     border-radius: 0.5rem;
-    box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
-}
-
-.box .number{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align text for consistency */
+    min-width: 100px; /* Ensure consistent box sizing */
+  }
+  
+  .box .number {
     font-size: 60px;
     font-weight: 700;
-}
-.box .text{
+  }
+  
+  .box .text {
     display: flex;
     justify-content: center;
-}
+    font-size: 16px; /* Default text size */
+  }
+  
+  /* Media Query for max-width 800px */
+  @media (max-width: 800px) {
+    .row {
+      gap: 10px; /* Reduce gap between boxes for smaller screens */
+    }
+    .box {
+      padding: 20px; /* Reduce padding */
+      min-width: 80px; /* Adjust box width for smaller screens */
+    }
+    .box .number {
+      font-size: 40px; /* Reduce number font size */
+    }
+    .box .text {
+      font-size: 14px; /* Reduce text font size */
+    }
+  }
+  
+  /* Additional Media Query for max-width 500px */
+  @media (max-width: 500px) {
+    .row {
+      gap: 5px; /* Further reduce gap */
+    }
+    .box {
+      padding: 15px; /* Further reduce padding */
+      min-width: 70px; /* Smaller box width for compact view */
+    }
+    .box .number {
+      font-size: 30px; /* Further reduce number font size */
+    }
+    .box .text {
+      font-size: 12px; /* Further reduce text font size */
+    }
+  }
+  

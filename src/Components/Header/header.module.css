@@ -11,6 +11,7 @@
   max-width: 1400px;
   margin: 0 auto;
   gap: 1rem; /* Reduced gap */
+
 }
 
 .header_main {
@@ -30,7 +31,7 @@
   height: 5rem;
   width: auto;
   object-fit: contain;
-}
+
 
 .pathway_extreme_header_info {
   color: green;
@@ -117,67 +118,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     padding: 0.5rem;
   }
 
   .header_content {
     flex-direction: column;
-    gap: 1rem;
-  }
 
-  .header_main {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .main_conference_logo img {
-    height: 4rem;
-  }
-
-  .nits_logo img,
-  .location_ieee_logo img {
-    height: 3rem;
-  }
-
-  .pathway_extreme_header_info h2 {
-    font-size: 1rem;
-  }
-
-  .pathway_extreme_header_subinfo {
-    font-size: 0.9rem;
-  }
-
-  .where_when_section {
-    gap: 1rem;
-  }
-
-  .info_item h3 {
-    font-size: 0.7rem;
-  }
-
-  .info_item p {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header_content {
-    padding: 0 0.5rem;
-  }
-
-  .pathway_extreme_header_info h2 {
-    font-size: 0.9rem;
-  }
-
-  .pathway_extreme_header_subinfo {
-    font-size: 0.8rem;
-  }
-
-  .where_when_section {
-    flex-direction: column;
-    gap: 0.5rem;
   }
 
   .separator {
