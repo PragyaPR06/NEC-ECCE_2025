@@ -7,9 +7,9 @@ const Header = () => {
       <div className={styles.header_content}>
         <div className={styles.header_main}>
           <div className={styles.main_conference_logo}>
-        <a href="https://ne-iecce2025.org">
-            <img src={require("./ne-iecce-2025_main_logo.jpg")} alt="ne-iecce-2025_logo" />
-          </a>
+            <a href="https://ne-iecce2025.org">
+              <img src={require("./ne-iecce-2025_main_logo.jpg")} alt="ne-iecce-2025_logo" />
+            </a>
           </div>
           <div className={styles.header_text}>
             <div className={styles.pathway_extreme_header_info}>
@@ -17,16 +17,16 @@ const Header = () => {
               <div className={styles.pathway_extreme_header_subinfo}>
                 <h5>(NE-IECCE 2025)</h5>
               </div>
-              <hr></hr>
-              <div className={`${styles.where_when_section} mt-2 flex justify-center items-center space-x-8`} style={{ marginLeft: '-50px' }}>
-                <div className="text-center">
-                  <h3 className="text-green-600 text-xs font-bold">WHERE</h3>
-                  <p className="text-gray-700 font-semibold text-sm">NIT Silchar, Assam, India</p>
+              <hr className={styles.divider} />
+              <div className={styles.where_when_section}>
+                <div className={styles.info_item}>
+                  <h3>WHERE</h3>
+                  <p>NIT Silchar, Assam, India</p>
                 </div>
-                <div className="w-px h-8 bg-gray-300"></div>
-                <div className="text-center">
-                  <h3 className="text-green-600 text-xs font-bold">WHEN</h3>
-                  <p className="text-gray-700 font-semibold text-sm">July 04-06, 2025</p>
+                <div className={styles.separator}></div>
+                <div className={styles.info_item}>
+                  <h3>WHEN</h3>
+                  <p>July 04-06, 2025</p>
                 </div>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Header = () => {
         <div className={styles.important_logos}>
           <div className={styles.nits_logo}>
             <a href="http://www.nits.ac.in/" target="_blank" rel="noreferrer">
-            <img src={require("./nits-logo.png")} alt="nits-logo" />
+              <img src={require("./nits-logo.png")} alt="nits-logo" />
             </a>
           </div>
           <div className={styles.location_ieee_logo}>
@@ -48,3 +48,4 @@ const Header = () => {
 }
 
 export default Header;
+
