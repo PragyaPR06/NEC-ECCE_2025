@@ -61,7 +61,7 @@ const Registrations = () => {
               </table>
             </strong>
           </div>
-          <p className="text-red-600 text-sm mt-2">*Extra 18% will be charged at the time of payment for GST</p>
+         
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-6 mb-8">
