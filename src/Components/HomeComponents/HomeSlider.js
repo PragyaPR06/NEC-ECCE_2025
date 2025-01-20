@@ -69,6 +69,7 @@ const HomeSlider = () => {
           </div>
         </SwiperSlide>
 
+
         {/* Add more SwiperSlides as needed */}
       </Swiper>
     </div>
