@@ -1,13 +1,106 @@
-.header{
+/* Header */
+.header {
     text-align: center;
     font-family: "Anek Tamil", sans-serif;
     font-weight: 900;
-    font-style: normal;
-    font-variation-settings: "wdth" 97;
     color: blue;
     font-size: 50px;
-}
-
-.header span {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .header span {
     color: orange;
-}
+  }
+  
+  /* Profile Section */
+  .profileSection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  /* Reverse layout for alternating profiles */
+  .profileSection.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Profile Image */
+  .profileImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profileImage img {
+    width: 350px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fits well within the dimensions */
+    border-radius: 15px; /* Optional: Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for better visuals */
+  }
+  
+  /* Profile Details */
+  .profileDetails {
+    flex: 1;
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  .profileDetails .speakerName {
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: rgb(1, 1, 1);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .profileDetails p {
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .keynoteSpeakerInfo {
+    text-align: justify;
+    text-align-last: center;
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 500;
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    margin: auto;
+    word-wrap: break-word;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profileSection {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .profileSection.reverse {
+      flex-direction: column;
+    }
+  
+    .profileImage,
+    .profileDetails {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .profileImage img {
+      max-width: 80%;
+    }
+  }
+  
