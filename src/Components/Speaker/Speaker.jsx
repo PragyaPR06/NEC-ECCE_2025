@@ -18,7 +18,7 @@ const Speaker = () => {
               <div className="bg-white rounded-lg p-4 shadow-lg">
                 <div className="object-cover md:object-fill lg:object-contain relative ">
                   <img
-                    src="/Speaker/speak2.jpeg"
+                    src="/speaker/speak2.jpeg"
                     alt="Keynote Speaker"
                     className="w-full h-full object-cover"
                   />
@@ -35,7 +35,7 @@ const Speaker = () => {
               <div className="bg-white rounded-lg p-4 shadow-lg">
                 <div className="relative w-full rounded-lg object-cover md:object-fill lg:object-contain mb-4">
                   <img
-                    src="/Speaker/speak1.jpeg"
+                    src="/speaker/speak1.jpeg"
                     alt="Tutorial Speaker"
                     className="w-full h-full object-cover"
                   />
