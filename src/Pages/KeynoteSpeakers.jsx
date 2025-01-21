@@ -7,7 +7,7 @@ const KeynoteSpeakers = () => {
   const speakers = [
     {
       id: 1,
-      name: "Sairaj Dhople",
+      name: "Prof. Sairaj Dhople",
       info: "Department of Electrical and Computer Engineering University of Minnesota Minneapolis, MN, USA",
       description:
         "Sairaj V. Dhople received the B.S., M.S., and Ph.D. degrees in electrical engineering, in 2007, 2009, and 2012, respectively, from the University of Illinois, Urbana-Champaign, Urbana, IL, USA. He is currently an Assistant Professor with the Department of Electrical and Computer Engineering, University of Minnesota, Minneapolis, MN, USA, where he is affiliated with the Power and Energy Systems research group. His research interests include modeling, analysis, and control of power electronics and power systems with a focus on renewable integration.",
@@ -16,7 +16,7 @@ const KeynoteSpeakers = () => {
     },
     {
       id: 2,
-      name: "SN Singh",
+      name: "Prof. SN Singh",
       info: "Ph.D. Electrical (Power Systems), Indian Institute of Technology, Kanpur",
       description:
         "Prof. S. N. Singh is currently the Director of Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior, on leave from his role as Professor (HAG) at IIT Kanpur. He holds M.Tech. and Ph.D. degrees in Electrical Engineering from IIT Kanpur. Prior to this, he served in roles at IIT Roorkee, Asian Institute of Technology (Bangkok), and as Vice-Chancellor of Madan Mohan Malaviya University of Technology (2017–2020).Prof. Singh is a Fellow of IEEE, INAE, IET, and other prestigious institutions. He has received numerous accolades, including the IEEE Educational Activity Board Award (2013) and IEEE IAS Outstanding Educator/Mentor Award (2021). His research interests span power system optimization, renewable energy integration, and FACTS technology.With over 500 publications, 40 Ph.D. supervisions, and multiple textbooks to his credit, his contributions to education and research are globally recognized. His NPTEL video lectures on HVDC Transmission and Power System Operation & Control are widely followed. Prof. Singh has also held key positions in IEEE, including Chairman of IEEE UP Section and Vice-Chair for R10 Technical Activities.",
@@ -24,7 +24,7 @@ const KeynoteSpeakers = () => {
     },
     {
         id: 3,
-        name: "Jian Sun",
+        name: "Prof. Jian Sun",
         info: " Professor, Department of Electrical, Computer, and Systems Engineering (ECSE), Rensselaer Polytechnic Institute. Director, New York State Center for Future Energy Systems (CFES)",
         description:
           "Sun received his Dr.-Ing. degree from the University of Paderborn, Germany. Before joining Rensselaer in 2002, he was a Principal Engineer at Rockwell Collins and a Post-Doc Fellow at Georgia Institute of Technology. He is a Professor in the ECSE Department and Director of the Center for Future Energy Systems (CFES), funded by New York State. Sun's research focuses on power electronics, particularly in renewable energy, HVDC transmission, and power systems. He developed the small-signal sequence impedance theory, which has addressed real-world stability issues and influenced new grid codes and industry standards. As Director of CFES, he oversees research, education, and industry collaborations. Sun is a Fellow of IEEE, served as Editor-in-Chief of IEEE Power Electronics Letters, and holds several awards, including the Modeling and Control Technical Achievements Award and the R. David Middlebrook Achievement Award. He has over 200 publications and holds 11 US patents and 1 European patent.",
@@ -33,7 +33,7 @@ const KeynoteSpeakers = () => {
       },
       {
         id: 4,
-        name: "Subhas Mukhopadhyay",
+        name: "Prof. Subhas Mukhopadhyay",
         info: "Professor of Mechanical/Electronics Engineering with the School of Engineering, Macquarie University, NSW 2109, Australia",
         description:
           "Dr. Subhas Chandra Mukhopadhyay is a Professor of Mechanical/Electronics Engineering at Macquarie University, Australia, where he also leads the Mechatronics Engineering Programme and serves as Director of International Engagement. His research focuses on sensors, instrumentation, wireless sensor networks, IoT, mechatronics, robotics, and drones. He has authored 14 patents, 10 books, over 450 papers, and edited 18 conference proceedings and 40 journal special issues. A Fellow of IEEE (USA), IET (UK), and IETE (India), he is an editor for IEEE Sensors Journal, IEEE Transactions on Instrumentation and Measurements, and IEEE Review of Biomedical Engineering. Dr. Mukhopadhyay founded and chairs the IEEE Instrumentation and Measurement Society and IEEE Sensors Council New South Wales Chapters. He was a Distinguished Lecturer for the IEEE Sensors Council (2017-2022) and has delivered over 450 talks. He has organized 20+ international conferences, including as General Chair for IEEE Sensors Conferences in 2009 and 2021.",
