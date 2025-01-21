@@ -46,8 +46,8 @@ const KeynoteSpeakers = () => {
         info: " Professor, CRDT, Indian Institute of Technology Delhi",
         description:
           "Prof Virendra Kumar Vijay is most acclaimed and internationally known professor in biogas and rural technologies. His concepts on linking higher educational institutes for village development and biogas purification and bottling technology were well adopted by Government of India and launched as programs by concerned ministry in the government. Prof. Vijay and his team developed the concept and vision of Unnat Bharat Abhiyan ( Movement for Progressive India), which was adopted by MoE, GOI in 2014. The program aims to create a virtuous cycle between society and an inclusive academic system by providing knowledge of educational institutes, experience of voluntary organizations and resources of government to support holistic rural development. He got patent on biogas small scale biogas upgradation technology which has been licensed to 7 industries and many gaushalas in field areas. He has been operating India’s first biogas car for last 6 years which has crossed more than 50000 km run on biogas. Based on the data by Indian Institute of technology Delhi on performance of engine, emission de-rating and degradation on use of upgraded biogas in the car, Bureau of Indian Standard has formulated biomethane (bio-CNG) standard in India in 2013 (IS:16087).",
-        image:
-          "https://media.licdn.com/dms/image/v2/C4D03AQGWsNjDvvA6XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516998416552?e=1743033600&v=beta&t=TvSbL3EWD7azVGZx_8q4dwQflHqzFsG8R_gV_LnSxkM",
+        image:"/speaker/iitd.jpg"
+          // "https://media.licdn.com/dms/image/v2/C4D03AQGWsNjDvvA6XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516998416552?e=1743033600&v=beta&t=TvSbL3EWD7azVGZx_8q4dwQflHqzFsG8R_gV_LnSxkM",
       },
       {
         id: 6,
