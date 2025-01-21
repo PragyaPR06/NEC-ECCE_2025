@@ -7,7 +7,7 @@ import Committee from './Pages/Committee';
 // import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Aboutus from './Pages/Aboutus';
 import CallForPaper from './Pages/CallForPaper';
-import StudentAwards from './Pages/StudentAwards';
+// import StudentAwards from './Pages/StudentAwards';
 import Registrations from './Pages/Registration';
 import ContactUs from './Pages/ContactUs';
 import Sponsorship from './Pages/Sponsorship';
@@ -22,7 +22,7 @@ import Specialsession from './Pages/Specialsession';
 import Tutorials from './Pages/Tutorials';
 import TracksPage from './Pages/TrackssPage';
 import Travel from './Pages/Travel';
-
+import Speaker from './Components/Speaker/Speaker';
 
 export const App = () => {
   return (
@@ -49,6 +49,7 @@ export const App = () => {
               <Route exact path="/accomodation" element={<Accomodation/>}/>
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
               <Route exact path="/tutorial" element={<Tutorials/>}/>
+              <Route exact path="/Speaker" element={<Speaker/>}/>
             </Routes>
             <Footer/>
       </BrowserRouter>

@@ -9,6 +9,7 @@ import SubLineComponent from '../Components/SubLine/SubLine';
 import Sponsor from '../Components/Sponsors/Sponsors';
 import Header from '../Components/Header/header';
 import Buttons from '../Components/ButtonsunderSlider/Buttons';
+import Speaker from '../Components/Speaker/Speaker';
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,9 @@ const Home = () => {
       <HomeSlider />
       <Buttons/>
       <Sponsor/>
+      <br></br>
+      <br></br>
+      <Speaker/>
       <AboutUsComponent/>
       <Tracks/>
       <Timeline />
