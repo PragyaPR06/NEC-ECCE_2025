@@ -83,7 +83,7 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     .profileSection {
       flex-direction: column;
       text-align: center;

@@ -12,7 +12,7 @@ const KeynoteSpeakers = () => {
       description:
         "Sairaj V. Dhople received the B.S., M.S., and Ph.D. degrees in electrical engineering, in 2007, 2009, and 2012, respectively, from the University of Illinois, Urbana-Champaign, Urbana, IL, USA. He is currently an Assistant Professor with the Department of Electrical and Computer Engineering, University of Minnesota, Minneapolis, MN, USA, where he is affiliated with the Power and Energy Systems research group. His research interests include modeling, analysis, and control of power electronics and power systems with a focus on renewable integration.",
       image:
-        "https://ieeexplore.ieee.org/mediastore/IEEE/content/freeimages/63/10413575/10294199/dhopl-3327234-small.gif",
+        "../speaker/Sairaj_Dhople.jpg",
     },
     {
       id: 2,
