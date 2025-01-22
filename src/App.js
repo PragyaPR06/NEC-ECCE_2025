@@ -23,6 +23,7 @@ import Tutorials from './Pages/Tutorials';
 import TracksPage from './Pages/TrackssPage';
 import Travel from './Pages/Travel';
 import Speaker from './Components/Speaker/Speaker';
+import StudentAwards from './Pages/Awards/StudentAwards';
 
 export const App = () => {
   return (
@@ -50,6 +51,8 @@ export const App = () => {
               <Route exact path="/ContactUs" element={<ContactUs/>}/>
               <Route exact path="/tutorial" element={<Tutorials/>}/>
               <Route exact path="/Speaker" element={<Speaker/>}/>
+              <Route exact path="/studentAwards" element={<StudentAwards/>}/>
+
             </Routes>
             <Footer/>
       </BrowserRouter>

@@ -11,7 +11,7 @@ const ProgramDetails = () => {
         <section className={styles3.header}>
             <br /><br />
                 <h1>Coming <span>Soon !!</span></h1>
-                <br /><br /><br /><br /><br />
+                <br /><br /><br />
             </section>
         </Fragment>
         );
