@@ -24,6 +24,7 @@ const Tutorials = () => {
     },
     {
         id: 3,
+        topic:"Design and Engineering of High Power Converters",
         name: "Dr. Sujit K. Biswas",
         info: " Dean (Academic) & Professor, Dept. of Electrical Engg. St. Thomas’ College of Engineering and Technology, Kolkata, India. Former Professor & Head, Dept. of Electrical Engg., Jadavpur University, Kolkata, India",
         description:
@@ -62,6 +63,7 @@ const Tutorials = () => {
             <img src={speaker.image} alt={speaker.name} />
           </div>
           <div className={styles3.profileDetails}>
+            <h2 className={styles3.topic}>{speaker.topic}</h2>
             <h3 className={styles3.speakerName}>{speaker.name}</h3>
             <h3 className={styles3.keynoteSpeakerInfo}>{speaker.info}</h3>
             <p className={styles3.speakerDescription}>
