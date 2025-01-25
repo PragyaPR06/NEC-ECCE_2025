@@ -51,10 +51,18 @@
     padding: 20px;
   }
   
-  .profileDetails .speakerName {
+  .profileDetails .topic {
     font-family: "Anek Tamil", sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
+    color: rgb(1, 1, 1);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .profileDetails .speakerName {
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 550;
+    font-size: 1.5rem;
     color: rgb(1, 1, 1);
     margin-bottom: 15px;
     text-align: center;
