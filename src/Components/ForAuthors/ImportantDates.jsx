@@ -68,35 +68,33 @@ const ImportantDates = () => {
             <h2>October 07, 2024</h2>
           </div>
           <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Digest Submission Portal Closes:</h3>
+            <h2><span className="line-through">January 31, 2025</span> February 15,2025</h2>
+          </div>
+          <div className={styles2.lcard}>
             <h3 className=" font-semibold">Notification of Acceptance of Digest:</h3>
             <h2>April 07, 2025</h2>
-          </div>
-          <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Early Bird Registration Ends:</h3>
-            <h2>May 01, 2025</h2>
-          </div>
-          <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Registration Deadline: </h3>
-            <h2>June 2, 2025</h2>
-          </div>
-          
-         
-        </div>
-        <div className={styles2.right}>
-          
-          <div className={styles2.lcard}>
-            <h3 className=" font-semibold">Digest Submission Portal Closes:</h3>
-            <h2>January 31, 2025 </h2>
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Deadline for submission of Camera Ready Paper and Copyright form:</h3>
             <h2>May 01, 2025</h2>
           </div>
+          
+         
+        </div>
+        <div className={styles2.right}>
+        <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Early Bird Registration Ends:</h3>
+            <h2>May 01, 2025</h2>
+          </div>   
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Standard Registration Starts:</h3>
             <h2>May 02, 2025</h2>
           </div>
-        
+          <div className={styles2.lcard}>
+            <h3 className=" font-semibold">Registration Deadline: </h3>
+            <h2>June 2, 2025</h2>
+          </div>
         </div>
       </div>
     </div>

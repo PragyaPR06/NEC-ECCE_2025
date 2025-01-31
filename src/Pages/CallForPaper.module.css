@@ -180,11 +180,18 @@
     padding-right: 3rem;
 }
 
-.submissionLink{
+.submissionLink {
   padding-top: 1rem;
   
+  
 }
-
+@media (max-width: 768px) { 
+  .submissionLink{
+  padding-top: 0.8rem;  
+  word-wrap: break-word; 
+  max-width: 100%; 
+}
+}
 .submitDigestText{
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
