@@ -10,7 +10,7 @@ const Brochure = () =>{
         <Header/>
         <Navbar />
             <div className={styles.brochure}>
-                <img src="/buttons/brochure.jpeg" alt="brochure pdf" ></img></div>
+                <img src="/buttons/brochure.jpg" alt="brochure pdf" ></img></div>
                 <div className="text-center">
   <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
     You can download the complete Brochure from below:
