@@ -11,21 +11,22 @@ const Timeline = () => {
         {data.map((element) => {
           return (
             <div key={element.id} className="container flex-col justify-center items-center pl-5 md:w-[50vw] w-[200px]">
-              <div className="w-3 h-3 rounded-full bg-gray-500 flex items-center justify-center absolute ml-[-6px] mt-[8px]"></div>
-              <div className="border-l-2 h-[20vh] pl-5">
-                <h2 className="font-bold text-[1.5rem]">
-                  {element.modifiedDate ? (
-                    <>
-                      <span className="line-through">{element.date}</span>{" "}
-                      <span className="text-blue-800">{element.modifiedDate}</span>
-                    </>
-                  ) : (
-                    element.date
-                  )}
-                </h2>
-                <h3 className="text-[1rem]">{element.description}</h3>
-              </div>
-            </div>
+  <div className="w-3 h-3 rounded-full bg-gray-500 flex items-center justify-center absolute ml-[-6px] mt-[8px]"></div>
+  <div className="border-l-2 h-[28vh] sm:h-[20vh] pl-5">
+    <h2 className="font-bold text-[1.5rem]">
+      {element.modifiedDate ? (
+        <>
+          <span className="line-through">{element.date}</span>{" "}
+          <span className="text-blue-800 block sm:inline">{element.modifiedDate}</span>
+        </>
+      ) : (
+        element.date
+      )}
+    </h2>
+    <h3 className="text-[1rem]">{element.description}</h3>
+  </div>
+</div>
+
           );
         })}
       </div>
