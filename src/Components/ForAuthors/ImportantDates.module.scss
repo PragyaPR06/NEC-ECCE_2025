@@ -1,97 +1,131 @@
-.header{
+.header {
   display: flex;
   justify-content: center;
-  font-size: clamp(12px,10vw,36px);
+  font-size: clamp(12px, 10vw, 36px);
   color: blue;
   font-family: "Anek Tamil", sans-serif;
   font-weight: 900;
-  font-weight: bolder;
   padding-bottom: 2rem;
 }
-.container{
+
+.importantDeadlines {
+  padding: 2rem;
+}
+
+.instructionsHeading {
+  color: blue;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.instructionsHeading span {
+  color: orange;
+}
+
+.container {
   display: grid;
   grid-template-columns: 40vw 40vw;
   justify-content: center;
   grid-template-rows: 50% auto auto auto;
   gap: 60px;
   padding-top: 10px;
-  font-size:small;
+  font-size: small;
 }
 
-.container .left,.container .right{
+.container .left,
+.container .right {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.container .left .lcard,.container .right .lcard{
-  font-size:clamp(.9rem,4vw,1.2rem);
+
+.container .left .lcard,
+.container .right .lcard {
+  font-size: clamp(0.9rem, 4vw, 1.2rem);
   padding-left: 2rem;
   display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   flex-direction: column;
   height: 10vh;
   min-height: 7rem;
   border-radius: 0.5rem;
-  box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
-.container .left .lcard:hover,.container .right .lcard:hover{
-   transform:translate(0.5rem,-0.5rem);
-   box-shadow:-5px 5px  10px slategray ;
+.container .left .lcard:hover,
+.container .right .lcard:hover {
+  transform: translate(0.5rem, -0.5rem);
+  box-shadow: -5px 5px 10px slategray;
 }
 
-/*BREAKPOINTS*/
+/* BREAKPOINTS */
 /* For small devices */
-@media screen and (max-width: 400px) {
-.container {
-  margin-inline: 1rem;
-  display: grid;
-  grid-template-columns:320px;
-  justify-content: center;
-  gap: 8px;
-  justify-content: center;
-}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-inline: 1rem;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    gap: 16px; /* Increased gap for better spacing */
+    justify-content: center;
+  }
+
+  /* Alternating left and right layout */
+  .container .left,
+  .container .right {
+    width: 100%;
+  }
+
+  /* Make the items alternate vertically */
+  .container .left:nth-child(odd),
+  .container .right:nth-child(even) {
+    order: 1;
+  }
+
+  .container .right:nth-child(odd),
+  .container .left:nth-child(even) {
+    order: 2;
+  }
+
+  /* Adjust card layout for mobile */
+  .container .left .lcard,
+  .container .right .lcard {
+    font-size: clamp(0.9rem, 5vw, 1.2rem);
+    padding: 1rem;
+    height: auto;
+    margin-bottom: 22px; /* Added margin between cards */
+  }
 }
 
-.instructionsHeading{
-    color: blue;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
+.instructionsContent {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding-left: 3rem;
 }
 
-.instructionsHeading span{
-    color: orange;
+.submitDigestText {
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
 }
 
-.instructionsContent{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    padding-left: 3rem;
+.submissionGuidelinesText {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  padding-left: 3rem;
 }
 
-.submitDigestText{
-    color: blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 650;
+.submissionGuidelinesText p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
 }
 
-.submissionGuidelinesText{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    padding-left: 3rem;
-}
-
-.submissionGuidelinesText p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-}
-.submissionGuidelinesTextConditions{
+.submissionGuidelinesTextConditions {
   padding-left: 1.5rem;
 }
 
@@ -108,7 +142,7 @@
   display: inline-block;
   flex-direction: row;
   flex-shrink: 0;
-  font-family: Eina01,sans-serif;
+  font-family: Eina01, sans-serif;
   font-size: 1rem;
   font-weight: 800;
   justify-content: center;
@@ -179,9 +213,7 @@
   transition-timing-function: ease-in;
 }
 
-    /* .submission-template button:active:not(:disabled) {
-    color: #ccc;
-    } */
+/* .submission-template button:active:not(:disabled) { color: #ccc; } */
 
 .submissionTemplate button:active:not(:disabled):after {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
@@ -191,37 +223,38 @@
   top: 4px;
 }
 
-.submitButton{
-    position: absolute;
-    color: white;
-    background-color: blue;
-    border: none;
-    border-radius: 1rem;
-    padding: 0.5rem;
-    box-shadow: 0 0 0.1rem 0.1rem rgb(0,0,0);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    min-height:1.5rem; 
-    min-width: 4rem;
+.submitButton {
+  position: absolute;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 0.1rem 0.1rem rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 1.5rem;
+  min-width: 4rem;
 }
 
-.submitButton:hover{
-    background-color: rgb(1, 1, 117);
-    transition: 0.5s;
+.submitButton:hover {
+  background-color: rgb(1, 1, 117);
+  transition: 0.5s;
 }
 
 .submitButton:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #05006c;
-    transition: 0.5s;
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #05006c;
+  transition: 0.5s;
 }
 
 .button:active {
-    background-color: rgb(1, 1, 117);
+  background-color: rgb(1, 1, 117);
 }
-.submitButtonArea{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
+
+.submitButtonArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
 }
