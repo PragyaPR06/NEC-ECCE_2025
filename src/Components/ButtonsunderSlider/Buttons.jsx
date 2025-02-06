@@ -5,6 +5,8 @@ const VerticalButtons = () => {
     display: 'block',
     width: '100%',
     padding: '1rem',
+    paddingLeft:'1.3rem',
+    marginLeft:'2rem',
     marginBottom: '1rem',
     textAlign: 'center',
     textDecoration: 'none',
