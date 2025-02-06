@@ -12,6 +12,10 @@ const AboutUsComponent = () => {
                     {/* <div className={styles.anekTamilAboutUsInfo}>IEEE NEI-ECCE 2025</div> */}
                     <p className={styles.anekTamilAboutUsPara}>
                     <span>IEEE NE-IECCE 2025,</span> the first Flagship Annual International Conference of IEEE Kolkata Section & Silchar Subsection Industry Applications Society Chapter in association with the Department of Electrical Engineering aims to provide a unique platform to researchers, practitioners, industry delegates, technocrats, and policymakers from academia and industry to share and promote recent research accomplishments and innovations for the sustainable development of industry and society. To cater the future industry demands of Sustainable Energy Conversion and Transport Electrification, this conference aims to put forth the experts working in this area to share their research findings which have a significant impact on modern smart grid, sustainable electric transportation, and control.
+                    <span style={{  color: 'red', 
+                                    fontFamily: 'Anek Tamil, sans-serif',  
+                                    fontWeight: 600 ,
+                                     }}> All the accepted and presented papers in NE-IECCE 2025 will be submitted to IEEE for possible publication/inclusion in IEEE Xplore Digital Library and will be eligible for further review for publication in IAS Transactions and Magazine.</span>
                     </p>
                     <br />
                     
