@@ -12,7 +12,7 @@ const Timeline = () => {
           return (
             <div key={element.id} className="container flex-col justify-center items-center pl-5 md:w-[50vw] w-[200px]">
   <div className="w-3 h-3 rounded-full bg-gray-500 flex items-center justify-center absolute ml-[-6px] mt-[8px]"></div>
-  <div className="border-l-2 h-[28vh] sm:h-[20vh] pl-5">
+  <div className="border-l-2 h-[40vh] sm:h-[20vh] pl-5">
     <h2 className="font-bold text-[1.5rem]">
       {element.modifiedDate ? (
         <>
