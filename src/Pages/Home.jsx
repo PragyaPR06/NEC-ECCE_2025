@@ -15,6 +15,7 @@ const Home = () => {
     <div>
       <Header/>
       <Navbar/>
+      <hr />
       <SubLineComponent />
       <HomeSlider />
       <Buttons/>
