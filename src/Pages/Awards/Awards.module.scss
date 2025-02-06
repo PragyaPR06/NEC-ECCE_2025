@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 97;
+    color: blue;
+    font-size: clamp(24px, 5vw, 50px);
+}
+
+.header span {
+    color: orange;
+}
+
+.studentAwardSection {
+    padding-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    img {
+        object-fit: contain;
+        width: 100%;  // Ensures full width for mobile
+        max-width: 80vw; // Caps width on larger screens
+        height: auto; 
+    }
+
+    @media (max-width: 768px) {
+        img {
+            max-width: 90vw; // Makes the flyer more visible on small screens
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+    padding: 0 5%; // Adds spacing on smaller screens
+}
+
+// h2 {
+//     font-size: clamp(14px, 3vw, 24px);
+// }
+
+button {
+    width: 100%;
+    max-width: 200px; // Keeps the button a reasonable size
+    text-align: center;
+}

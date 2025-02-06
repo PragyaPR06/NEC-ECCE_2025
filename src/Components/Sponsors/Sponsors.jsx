@@ -12,7 +12,7 @@ const Sponsor = () =>{
             <hr></hr>
             <div className={styles.icons}>
             <div className={styles.logo1}>
-          <img src={require("./logo1.jpeg")} alt="ne-iecce-2025_logo" width="200rem" height="200rem"/>
+          <img src={require("./logo1.png")} alt="ne-iecce-2025_logo" width="200rem" height="200rem"/>
         </div>
         <div className={styles.logo2}>
         <img src={require("./logo2.png")} alt="ne-iecce-2025_logo" width="200rem" height="200rem"/>
@@ -41,7 +41,7 @@ const Sponsor = () =>{
             </h1>  <hr></hr>
             <div className={styles.icons}>
             <div className={styles.logo1}>
-          <img src={require("./logo1.jpeg")} alt="ne-iecce-2025_logo" width="250rem" height="250rem"/>
+          <img src={require("./logo1.png")} alt="ne-iecce-2025_logo" width="250rem" height="250rem"/>
         </div>
         <div className={styles.logo2}>
         <img src={require("./logo5.png")} alt="ne-iecce-2025_logo" width="250rem" height="250rem"/>

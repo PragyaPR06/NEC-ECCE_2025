@@ -78,8 +78,9 @@
 
     .generalQueriesInnerText{
         font-family: "Anek Tamil", sans-serif;
-        font-size: 1.3rem;
+        font-size: clamp(1rem, 2.5vw, 1.3rem);
         color: #17252A;
+        text-align: justify;
         font-weight: 600;
     }   
     .generalQueriesInnerText a{
