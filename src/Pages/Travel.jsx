@@ -43,9 +43,9 @@ export default function Travel() {
         </div>
     </div>
 <br></br>
-<div className={styles.img1}>
+{/* <div className={styles.img1}>
                     <img src='/tourism/map.jpg' alt='Conference at NIT Silchar'/>
-                </div>
+                </div> */}
     <div  className={styles.card}>
         <div class={styles.card_header}>
             <strong><h2>2. Air Connectivity</h2></strong>
