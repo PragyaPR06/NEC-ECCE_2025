@@ -69,7 +69,7 @@ const StudentAwards = () =>{
             </ul>
             </section>
             <section className={styles.lowerText}>
-            <p>&#128197; Submit Your Digest by: 15th February 2025</p><br />
+            <p>&#128197; Submit Your Digest by: 10th March 2025</p><br />
             <p>&#128205; Conference Dates: 4th – 6th July 2025</p>
             </section>
             <section className={styles.nearFooterText}>
