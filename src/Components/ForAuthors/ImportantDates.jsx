@@ -69,7 +69,7 @@ const ImportantDates = () => {
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Digest Submission Portal Closes:</h3>
-            <h2><span className="line-through"> February 15, 2025</span> February 28,2025</h2>
+            <h2><span className="line-through"> February 28, 2025</span> March 10,2025</h2>
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Notification of Acceptance of Digest:</h3>
