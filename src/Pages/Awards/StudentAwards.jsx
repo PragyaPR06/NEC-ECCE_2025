@@ -40,32 +40,45 @@ const StudentAwards = () =>{
                 </div>
             </section><br /><hr /><br />
             <section className={styles.eligibility}>
-            <h2 className={styles.instructionsHeading}>Eligibility</h2>
+            <h2 className={styles.instructionsHeading}>Eligibility Criteria:</h2>
+            <p className={styles.anekTamilAboutUsPara}>To qualify for the NE-IECCE 2025 Student Travel Award, applicants must:</p>
             <ul className={styles.submissionGuidelinesText}>
                 <li>
-                Enrolled Full-time students from the engineering institutes/Universities in North-East India in the relevant fields (Engineering, Technology, etc.)
+                <span className={styles.boldText}>Be enrolled as a Full-time</span> students from the engineering institutes/Universities in North-East India in the relevant fields (Engineering, Technology, etc.)
                 </li>
                 <li>
-                <span className={styles.boldText}>Only accepted, registered and physically presented papers</span> at the NE-IECCE 2025 Conference are eligible for the travel grant.
+                Hold an active <span className={styles.boldText}>IEEE</span> student membership
+                {/* <span className={styles.boldText}>Only accepted, registered and physically presented papers</span> at the NE-IECCE 2025 Conference are eligible for the travel grant. */}
                 </li>
-                <li>
+                <li>Hold an active <span className={styles.boldText}>IEEE IAS</span> student membership.</li>
+                <li>Be the first author of an accepted paper with the final version uploaded.</li>
+                <li>Complete the registration on or before the <span className={styles.boldText}>specified deadline.</span></li>
+                <li>Attend the conference in person and present the accepted paper.</li>
+                {/* <li>
                 You must provide a <span className={styles.boldText}>bonafide certificate issued by the competent authority (Head of the Department/Institute) </span>as proof of student status.
-                </li>
+                </li> */}
             </ul>
             </section>
             <br /><hr /><br />
             <section className={styles.eligibility}>
-            <h2 className={styles.instructionsHeading}>How to Apply:</h2>
+            <h2 className={styles.instructionsHeading}>Application Process:</h2>
+            <p className={styles.anekTamilAboutUsPara}>Upon paper acceptance, students must submit their application via the Google form (link to be provided)<br/><br />
+            Before filling out the application, the following documents should be prepared:</p>
             <ul className={styles.submissionGuidelinesText}>
                 <li>
-                Submit your digest via the <span className={styles.boldText}>NE-IECCE 2025 Submission Portal.</span>
+                <span className={styles.boldText}>Endorsement letter from the HoD (with seal) </span>justifying the need for the travel award.
+                {/* Submit your digest via the <span className={styles.boldText}>NE-IECCE 2025 Submission Portal.</span> */}
                 </li>
                 <li>
-                Complete the <span className={styles.boldText}>Student Travel Grant Application Form</span> available on the conference website. (Will be updated soon on website..)
+                A copy of <span className={styles.boldText}>CV.</span>
+                {/* Complete the <span className={styles.boldText}>Student Travel Grant Application Form</span> available on the conference website. (Will be updated soon on website..) */}
                 </li>
                 <li>
-                Provide necessary documents, including your <span className={styles.boldText}>college ID card  </span>and a brief statement on why you want to attend the conference and why you should be selected for this award. (Will be updated soon on website..)
+                PDF(s) of the final accepted paper(s).
+                {/* Provide necessary documents, including your <span className={styles.boldText}>college ID card  </span>and a brief statement on why you want to attend the conference and why you should be selected for this award. (Will be updated soon on website..) */}
                 </li>
+                <li>A copy of your <span className={styles.boldText}>college ID </span>card.</li>
+                <li>A brief statement on why you want to attend the conference and why you should be selected for this award.</li>
             </ul>
             </section>
             <section className={styles.lowerText}>
