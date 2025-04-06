@@ -17,7 +17,9 @@ const Timeline = () => {
       {element.modifiedDate ? (
         <>
           <span className="line-through">{element.date}</span>{" "}
-          <span className="text-blue-800 block sm:inline">{element.modifiedDate} <strong className="text-red-800 block sm:inline" >(Hard Deadline)</strong></span>
+          <span className="text-blue-800 block sm:inline">{element.modifiedDate} </span>
+          {/* <span className="text-blue-800 block sm:inline">{element.modifiedDate} <strong className="text-red-800 block sm:inline" >(Hard Deadline)</strong></span> */}
+          
         </>
       ) : (
         element.date
