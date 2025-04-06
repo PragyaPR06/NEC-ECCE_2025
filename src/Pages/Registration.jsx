@@ -70,7 +70,7 @@ const Registrations = () => {
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
               <li>At least one author of each accepted paper must register on/before 2nd June, 2025.</li>
               <li>Each(one) Author: Indian/Foreign (Academia/Industry) registration will cover up to 2 papers for inclusion in the conference proceedings.</li>
-              <li>Each(one) Author: Indian/Foreign (Student) registration will cover only 1 paper for inclusion in the conference proceedings.</li>
+              <li>An Author: Indian/Foreign (Student) registration will cover only 1 paper for inclusion in the conference proceedings.</li>
               <li>Tutorial is free for conference Author registrants.</li>
               <li>Registering author must refer the appropriate registration fees for different author category.</li>
               <li>The authors can pay the conference registration fee through NEFT/ RTGS/ IMPS/ Direct Deposit/ Swift Transfer to the following bank account (Will be updated). Additional transaction fees may be charged by the payment gateway.</li>
