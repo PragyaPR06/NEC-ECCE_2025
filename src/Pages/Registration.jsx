@@ -200,7 +200,7 @@ const Registrations = () => {
                 <tr class="bg-gray-50 font-medium">
                   <td class="border border-red-500 p-2">Step 2</td>
                   <td class="border border-red-500 p-2" colSpan="2">
-                    Please save the payment receipt (PDF format) of the money transferred to the 7<sup>th</sup> ICEPE 2025 account.
+                    Please save the payment receipt (PDF format) of the money transferred to the <sup></sup> NE-IECCE 2025 account.
                   </td>
                 </tr>
                 <tr class="bg-gray-50 font-medium">
