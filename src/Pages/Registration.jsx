@@ -222,7 +222,7 @@ If your paper ID is 103 and your name is Saurabh Ganguly, the file should be nam
           {/* Updated Register Button */}
           <div class="text-center mt-6">
             <a
-              href="https://your-google-form-link.com"
+              href="https://forms.gle/5RFPF6yQfs4jbKvm9"
               target="_blank"
               rel="noopener noreferrer"
             >
