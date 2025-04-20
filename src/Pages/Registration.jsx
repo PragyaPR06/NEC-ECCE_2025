@@ -72,7 +72,7 @@ const Registrations = () => {
     • One Author: Indian/Foreign (Student) registration will cover only 1 paper for inclusion in the conference proceedings. For each additional paper beyond the first two, a separate registration must be completed accordingly.<br />
     • Each registration is valid for submission of 6 pages only. An additional paper and over-length pages are subject to extra fees per page.<br />
     • Author: Indian/Foreign (Student) registration are not eligible for North-East India Travel Award.<br />
-    • For North-East India Travel Award authors must register under Author: Indian/Foreign (Academia/Industry). Details are available on <a href="https://ne-iecce2025.org/studentAwards" target="_blank" className="text-blue-600 underline">https://ne-iecce2025.org/studentAwards</a><br />
+    • For North-East India Travel Award authors must register under Author: Indian/Foreign (Academia/Industry). Details are available on <a href="https://ne-iecce2025.org/studentAwards"  className="text-blue-600 underline">https://ne-iecce2025.org/studentAwards</a><br />
     • Tutorial is free for conference Author registrants.<br />
     • Registering participants must refer the appropriate registration fees for different category.<br />
     • Accompanying Person will not have access to Technical Events<br />
@@ -200,13 +200,19 @@ const Registrations = () => {
                 <tr class="bg-gray-50 font-medium">
                   <td class="border border-red-500 p-2">Step 2</td>
                   <td class="border border-red-500 p-2" colSpan="2">
-                    Please save the payment receipt (PDF format) of the money transferred to the <sup></sup> NE-IECCE 2025 account.
+                  Please save the payment receipt in PDF format after transferring the fee to the account IEEE IAS JT Chapter.
+Name the PDF file using the following format:
+PaperIDNumber_RegisteringAuthorName_2025
+Example:
+If your paper ID is 103 and your name is Saurabh Ganguly, the file should be named:
+103_SGanguly_2025.pdf
+
                   </td>
                 </tr>
                 <tr class="bg-gray-50 font-medium">
                   <td class="border border-red-500 p-2">Step 3</td>
                   <td class="border border-red-500 p-2" colSpan="2">
-                    Fill out the online Google registration form.
+                  Fill out the online registration form by clicking link below:
                   </td>
                 </tr>
               </tbody>
