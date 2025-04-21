@@ -58,6 +58,14 @@ const KeynoteSpeakers = () => {
         image:
           "https://ethw.org/w/images/d/d2/Kouki_Matsuse.jpg",
       },
+      {
+        id: 7,
+        name: "Dr. Gourab Majumdar",
+        info: "Senior Fellow, Power Device Works, Mitsubishi Electric Corporation, Japan | Fellow IEEE",
+        description:
+          "Dr. Gourab Majumdar is a Senior Fellow at Mitsubishi Electric Corporation, Japan, and a globally renowned power electronics expert. An alumnus of IIT Delhi and Kyushu Institute of Technology (Ph.D.), he is credited with inventing the Intelligent Power Module (IPM) and has significantly contributed to power semiconductor technologies. A recipient of Japan’s National Invention Award and the Monozukuri Grand Prix, he has authored numerous publications and holds several international patents. Dr. Majumdar is an IEEE Fellow and has been actively involved in advancing semiconductor innovation through both industry and academia. In 2018, he became a naturalized Japanese citizen and adopted the name Dr. Gourab Suzuki.",
+        image: "https://media.licdn.com/dms/image/v2/C4E03AQHPSI5EzOl5yA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1638862760292?e=1750291200&v=beta&t=8KmgDPbqwB_Syw_mMqS9W3zR5rA2CPJxIbK8652a0co",
+      },
   ];
 
   return (

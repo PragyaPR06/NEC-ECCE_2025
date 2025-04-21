@@ -5,6 +5,7 @@ import styles from './Awards.module.scss'
 
 const StudentAwards = () =>{
   return(
+
       <>
       <Header/>
       <Navbar />
@@ -122,6 +123,7 @@ const StudentAwards = () =>{
             </div>
 <br></br>
       </>
+
   )
 };
 
