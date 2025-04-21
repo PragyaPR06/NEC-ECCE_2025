@@ -77,7 +77,7 @@ const ImportantDates = () => {
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Deadline for submission of Camera Ready Paper and Copyright form:</h3>
-            <h2>May 01, 2025</h2>
+            <h2>May 05, 2025</h2>
           </div>
           
          
