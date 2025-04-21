@@ -5,7 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+      
+      keyframes: {
+        blink: {
+          '0%, 66%': { opacity: '1' },
+          '66.0001%, 100%': { opacity: '0' }
+        }
+      },
+      animation: {
+        blink: 'blink 1.5s infinite'
+      },
             fontFamily: {
               'anek': ['"Anek Tamil"', 'sans-serif'],
             },
