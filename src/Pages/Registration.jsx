@@ -67,6 +67,7 @@ const Registrations = () => {
         <div className="bg-white shadow-md rounded-lg p-6 mb-8">
           <h1 className="text-4xl font-bold mb-4 text-blue-600" style={{ fontFamily: "'Segoe UI', sans-serif", fontWeight: 700 }}>Guidelines</h1>
           <strong>
+
           <p className="text-gray-700 space-y-2">
   • <span className="text-red-600">One Author: Indian/Foreign (Academia/Industry)</span> registration will cover up to 2 papers for inclusion in the conference proceedings. For each <span className="text-red-600">additional paper</span> beyond the first two, a separate registration must be completed accordingly.<br />
   • One <span className="text-red-600">Author: Indian/Foreign (Student) </span>registration will cover only 1 paper for inclusion in the conference proceedings. For each <span  className="text-red-600">additional paper beyond the first registered paper</span>, a separate registration must be completed accordingly.<br />
@@ -225,7 +226,10 @@ const Registrations = () => {
   </div>
           
         </div>
+
         </div>
+        </div>
+        
 
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
           <p className="text-sm text-yellow-800">
