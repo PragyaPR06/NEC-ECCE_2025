@@ -113,6 +113,7 @@ const Registrations = () => {
           <p>
           NE-IECCE organizing team reserve the right to charge the full author registration fee, if any registered student is unable to produce a valid IEEE student membership Card and student ID Card.
           </p>
+          <p className='mt-5 text-red-600'>Payment gateway charges are extra.</p>
         </div>
 
         {/* Steps to Register Section */}
