@@ -76,6 +76,10 @@ const KeynoteSpeakers = () => {
         Keynote <span>Speakers</span>
         <br />
       </section>
+      {/* Important update */}
+<div className={styles3.importantUpdate}>
+  🚨 <strong>Important Update:</strong> The keynote session will be held in <u>physical mode only</u>.
+</div>
       <hr />
       {speakers.map((speaker, index) => (
         <section
