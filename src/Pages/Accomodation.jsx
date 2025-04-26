@@ -53,7 +53,7 @@ const Accomodation = () => {
             <br />
             <br />
 
-            <section className={styles2.importantNotice}>
+            {/* <section className={styles2.importantNotice}>
                 <h2 className={styles2.headd}>
                     <strong>Institute Guest House Accommodation (Limited room available):</strong>
                 </h2>
@@ -67,7 +67,7 @@ const Accomodation = () => {
             <br />
             <hr />
             <br />
-            <hr />
+            <hr /> */}
             <section className={styles2.importantNotice}>
                 <h2 className={styles2.instructionsHeading}>Hotel Accommodation for <span> NE-IECCE 2025</span></h2>
                 <br />
@@ -75,52 +75,207 @@ const Accomodation = () => {
                     <p className={styles2.submissionGuidelinesTextHead}> 
                     <strong >4- Star Hotels:</strong>
                     </p><br />
-                    <h2>Borail View Regency</h2>
-                    <h3>Distance from NITS Campus:<span> 9.1 kms</span> </h3>
-                    <h3>Contact Person:<span style={{ color: 'blue' }}> Krishna (7099093388)</span> </h3>
-                    <h3>Website:
-                        <a href='https://borailviewregency.com/' style={{ color: 'blue' }}>  https://borailviewregency.com/</a>
-                    </h3>
-                    <br />
-                    <h2>Hotel Cachar Club</h2>
-                    <h3>Distance from NITS Campus:<span> 9.2 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> Bishu (7092308219)</span> </h3>
-                    <h3>Website:
-                        <a href='https://hotelcacharclub.com/' style={{ color: 'blue' }}> https://hotelcacharclub.com/</a>
-                    </h3>
-                    <br />
-                    <h2>Sagarika Resort</h2>
-                    <h3>Distance from NITS Campus:<span> 11.4 kms</span> </h3>
-                    <h3>Location: <span> Rongpur Part III, Rongpur, Silchar, Assam 788009</span></h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> 8812063645</span> </h3>
-                    <br /><br />
-                    <p className={styles2.submissionGuidelinesTextHead}> 
-                    <strong>3- Star Hotels:</strong><br /><br />
-                    </p>
-                    <h2>Grand Regency</h2>
-                    <h3>Distance from NITS Campus:<span> 6.1 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> : Pinak Das (6001411667)</span> </h3>
-                    <br />
-                    <h2>Sagarika Regency</h2>
-                    <h3>Distance from NITS Campus:<span> 8.6 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> Chandra Mohan Singha (7002704736)</span> </h3>
-                    <br />
-                    <br />
-                    <p className={styles2.submissionGuidelinesTextHead}> 
-                    <strong>Budget Hotels:</strong><br /><br />
-                    </p>
-                    <h2>Apurva Hotel</h2>
-                    <h3>Distance from NITS Campus:<span> 6.5 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> Rajesh Debnath, Pritesh Chakraborty (8811981017, 6001091731)
-</span> </h3>
-                    <br />
-                    <h2>Hotel JC International</h2>
-                    <h3>Distance from NITS Campus:<span> 9.2 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> 03842- 354091/ 8453349836 (M)</span> </h3>
-                    <br />
-                    <h2>Barak View Residency</h2>
-                    <h3>Distance from NITS Campus:<span> 10 kms</span> </h3>
-                    <h3>Contact Person: <span style={{ color: 'blue' }}> Chandra Mohan Singha (7002704736)</span> </h3>
+                    <div className="space-y-8">
+
+                    {/* Hotel Cachar Club */}
+                    <div>
+                        <h2>Hotel Cachar Club</h2>
+                        <h3>Distance from NITS Campus: <span>8 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 6901276803</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> fo@hotelcacharclub.com</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.hotelcacharclub.com" target="_blank" rel="noopener noreferrer">
+                                Official Website
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/hotel_cachar_club-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/cachar-club-hotel-in-silchar-5466182556942398963/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* Borail View Regency */}
+                    <div>
+                        <h2>Borail View Regency</h2>
+                        <h3>Distance from NITS Campus: <span>10 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 3842351096 / (+91) 3842351097</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> borailviewregency1@gmail.com</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/borail_view_regency-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/borail-view-regency-hotel-in-silchar-8156435534934008312/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* Sagarika Regency */}
+                    <div>
+                        <h2>Sagarika Regency</h2>
+                        <h3>Distance from NITS Campus: <span>8 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 8472893800 / (+91) 6002981238</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> sagarikaregencysil@gmail.com</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/sagarika-regency-hotel-in-silchar-4931253788648888183" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/sagarika_regency-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* Sagarika Resort */}
+                    <div>
+                        <h2>Sagarika Resort</h2>
+                        <h3>Distance from NITS Campus: <span>11 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 8811854943 / (+91) 9957086868</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> Not Available</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/sagarika_resort-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/sagarika-resort-hotel-in-silchar-5716635739050095849/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    </div>
+
+
+                                        <p className={styles2.submissionGuidelinesTextHead}> 
+                                        <strong>Budget Hotels:</strong><br /><br />
+                                        </p>
+                                        <div className="space-y-8">
+
+                    {/* Apurva Hotel */}
+                    <div>
+                        <h2>Apurva Hotel</h2>
+                        <h3>Distance from NITS Campus: <span>6 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 8811981017 / (+91) 6001091731</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> apurvahotel202401@gmail.com</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/apurva_hotel-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/apurva-hotel-in-silchar-1532686291064831334/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* Grand Regency */}
+                    <div>
+                        <h2>Grand Regency</h2>
+                        <h3>Distance from NITS Campus: <span>6 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 9395901315 / (+91) 6003124565</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> Not Available</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/grand-regency-hotel-in-silchar-571027423243040107" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/hotel_grand_regency-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* The Bishal */}
+                    <div>
+                        <h2>The Bishal</h2>
+                        <h3>Distance from NITS Campus: <span>7 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 9957608965 / 0384-2316116</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> Not Available</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/the_bishal_a_luxury_hotel-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/the-bishal-a-luxury-hotel-in-silchar-5596051753979735400/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    {/* Barak View Residency */}
+                    <div>
+                        <h2>Barak View Residency</h2>
+                        <h3>Distance from NITS Campus: <span>9 kms</span></h3>
+                        <h3>For Instant Booking: <span style={{ color: 'blue' }}> (+91) 7099071087 / (+91) 9665519834</span></h3>
+                        <h3>Email: <span style={{ color: 'blue' }}> barakviewresidencysilchar@gmail.com</span></h3>
+                        <h3>Online Booking:</h3>
+                        <div className="flex justify-center">
+                        <ul className="list-disc list-inside text-blue-600 text-left">
+                            <li>
+                            <a href="https://www.makemytrip.com/hotels/barak_view_residency-details-silchar.html" target="_blank" rel="noopener noreferrer">
+                                MakeMyTrip
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://www.goibibo.com/hotels/barak-view-residency-hotel-in-silchar-8071832816357155309/" target="_blank" rel="noopener noreferrer">
+                                Goibibo
+                            </a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    </div>
+
                 </ul>
                 <br />
                 <br />
