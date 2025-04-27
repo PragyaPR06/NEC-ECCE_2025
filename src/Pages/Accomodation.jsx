@@ -73,11 +73,14 @@ const Accomodation = () => {
                 <br />
                 <ul className={styles2.submissionGuidelinesText}>
                     <p className={styles2.submissionGuidelinesTextHead}> 
-                    <strong >4- Star Hotels:</strong>
+                    <strong className="flex justify-center text-6xl">4-Star Hotels:</strong>
+
                     </p><br />
                     <div className="space-y-8">
 
-                    {/* Hotel Cachar Club */}
+                <div className='m-9'>
+                    
+                     {/* Hotel Cachar Club */}
                     <div>
                         <h2>Hotel Cachar Club</h2>
                         <h3>Distance from NITS Campus: <span>8 kms</span></h3>
@@ -86,11 +89,11 @@ const Accomodation = () => {
                         <h3>Online Booking:</h3>
                         <div className="flex justify-center">
                         <ul className="list-disc list-inside text-blue-600 text-left">
-                            <li>
+                            {/* <li>
                             <a href="https://www.hotelcacharclub.com" target="_blank" rel="noopener noreferrer">
                                 Official Website
                             </a>
-                            </li>
+                            </li> */}
                             <li>
                             <a href="https://www.makemytrip.com/hotels/hotel_cachar_club-details-silchar.html" target="_blank" rel="noopener noreferrer">
                                 MakeMyTrip
@@ -175,10 +178,16 @@ const Accomodation = () => {
                     </div>
 
                     </div>
+                    </div>
+
+<div>
 
 
                                         <p className={styles2.submissionGuidelinesTextHead}> 
-                                        <strong>Budget Hotels:</strong><br /><br />
+                                        <div className='space-y-20'>
+                                        <strong className=" space-y-6 flex justify-center text-6xl">Budget Hotels:</strong><br /><br />
+                                        </div>
+                                
                                         </p>
                                         <div className="space-y-8">
 
@@ -275,16 +284,18 @@ const Accomodation = () => {
                     </div>
 
                     </div>
+                    </div>
 
                 </ul>
                 <br />
                 <br />
+
             </section>
 
             {/* Add ToastContainer */}
             <ToastContainer />
             <p className={styles2.helpsec}>
-                For any query related to accommodation, please contact Dr. C. Bhattacharya (+91-9435730356)
+                For any query related to accommodation, please contact Mr. Sayantan Chowdhury (+91 8981350767)
             </p>
         </Fragment>
     );
