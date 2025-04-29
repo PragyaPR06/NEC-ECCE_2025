@@ -150,7 +150,7 @@ const Registrations = () => {
       <tbody>
         <tr className="border-b border-white">
           <td className="p-2 font-bold text-blue-600">Account Name:</td>
-          <td className="p-2">IEEE IAS JT CHAPTER</td>
+          <td className="p-2">IEEE IAS JT CHAPTER (IEEE SILCHAR SUBSECTION)</td>
         </tr>
         <tr className="border-b border-white">
           <td className="p-2 font-bold text-blue-600">Account No.:</td>
