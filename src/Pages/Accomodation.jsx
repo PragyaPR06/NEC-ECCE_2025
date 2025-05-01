@@ -73,7 +73,7 @@ const Accomodation = () => {
                 <br />
                 <ul className={styles2.submissionGuidelinesText}>
                     <p className={styles2.submissionGuidelinesTextHead}> 
-                    <strong className="flex justify-center text-6xl">4-Star Hotels:</strong>
+                    <strong className="flex justify-center text-orange-700">4-Star Hotels:</strong>
 
                     </p><br />
                     <div className="space-y-8">
@@ -185,7 +185,7 @@ const Accomodation = () => {
 
                                         <p className={styles2.submissionGuidelinesTextHead}> 
                                         <div className='space-y-20'>
-                                        <strong className=" space-y-6 flex justify-center text-6xl">Budget Hotels:</strong><br /><br />
+                                        <strong className=" space-y-6 flex justify-center  text-orange-700">Budget Hotels:</strong><br /><br />
                                         </div>
                                 
                                         </p>
