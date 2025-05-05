@@ -3,26 +3,27 @@ import styles2 from "./Accomodation.module.scss";
 
 import Header from '../Components/Header/header';
 import Navbar from "../Components/Navbar/Navbar";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Accomodation = () => {
 
     // Function to show toast notification
-    const handleComingSoon = () => {
-        toast.success("Coming Soon!", {
-            position: "bottom-center",
-            autoClose: 3000, // Toast will disappear after 3 seconds
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            style:{
-                fontWeight:"bold",
-                color:"darkgreen"
-            },
-        });
-    };
+    // const handleComingSoon = () => {
+    //     toast.success("Coming Soon!", {
+    //         position: "bottom-center",
+    //         autoClose: 3000, // Toast will disappear after 3 seconds
+    //         hideProgressBar: false,
+    //         closeOnClick: true,
+    //         pauseOnHover: true,
+    //         draggable: true,
+    //         style:{
+    //             fontWeight:"bold",
+    //             color:"darkgreen"
+    //         },
+    //     });
+    // };
 
     return (
         <Fragment>
@@ -48,7 +49,10 @@ const Accomodation = () => {
             <br />
 
             <p className={styles2.submissionTemplate}>
-                <button onClick={handleComingSoon}>Google Form Link</button>
+                {/* <button onClick={handleComingSoon}>Google Form Link</button> */}
+                <a href="https://forms.gle/KhAALRHdnkiENmiX8" target="_blank" rel="noopener noreferrer">
+                    <button>Google Form Link</button>
+                </a>
             </p>
             <br />
             <br />
