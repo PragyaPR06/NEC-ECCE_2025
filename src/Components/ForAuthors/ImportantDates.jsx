@@ -89,7 +89,7 @@ const ImportantDates = () => {
           </div>   
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Standard Registration Starts:</h3>
-            <h2>May 06, 2025</h2>
+            <h2>May 13, 2025</h2>
           </div>
           <div className={styles2.lcard}>
             <h3 className=" font-semibold">Registration Deadline: </h3>
