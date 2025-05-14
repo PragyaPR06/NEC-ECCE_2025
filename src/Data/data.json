@@ -27,24 +27,19 @@
         "date": "May 12, 2025",
         "description": "Deadline for submission of Camera Ready Paper and Copyright form"
       },
-      {
-        "id":"5",
-        "name": "Early Bird Registration Ends",
-        "date": "May 12, 2025",
-        "description": "Early Bird Registration Ends"
-      },
+      
       {
         "id":"6",
-        "name": "Standard Registration Starts",
+        "name": "Standard Regis",
         "date": "May 13, 2025",
-        "description": "Standard Registration Starts"
+        "description": "Standard Registration Started"
 
       },
       {
         "id":"7",
-        "name": "Registration Deadline: ",
+        "name": " Standard Registration Deadline: ",
         "date": "June 2, 2025",
-        "description": "Registration Deadline"
+        "description": " Standard Registration Deadline"
       }
       
     ]

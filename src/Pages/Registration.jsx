@@ -129,9 +129,9 @@ const Registrations = () => {
     href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?saralID=-911722557"
     target="_blank"
     rel="noopener noreferrer"
-    className="relative overflow-hidden text-white font-bold py-3 px-6 rounded-full shadow-md transition-colors duration-500 ease-in-out bg-red-600 group w-64 h-12 flex items-center justify-center"
+    className="relative overflow-hidden text-white font-bold py-3 px-7 rounded-full shadow-md transition-colors duration-500 ease-in-out bg-red-600 group w-65 h-12 flex items-center justify-center"
   >
-    <span className="relative z-10 text-center w-full whitespace-nowrap">Early Bird Registration Link</span>
+    <span className="relative z-10 text-center w-full whitespace-nowrap">Standard Registration payment Link</span>
     <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-green-600 to-green-800 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></span>
   </a>
 </div>
@@ -208,7 +208,9 @@ const Registrations = () => {
    <div className="mt-6 text-sm leading-relaxed">
     <p className="text-red font-semibold">Step 3</p>
     <p>
-      After paying the registration fee, please finalize your registration by filling out the Google form by clicking the link below:
+      •  <span className="text-md text-red-700 animate-blink">After paying the registration fee, please finalize your registration by filling out the Google form by clicking the link below:</span><br />
+    
+      
     </p>
     <div className="flex justify-center">
   <a
@@ -217,10 +219,11 @@ const Registrations = () => {
     rel="noopener noreferrer"
     className="relative overflow-hidden text-white font-bold py-3 px-6 rounded-full shadow-md transition-colors duration-500 ease-in-out bg-red-600 group w-64 h-12 flex items-center justify-center"
   >
-    <span className="relative z-10 text-center w-full whitespace-nowrap">Google Form Link</span>
+    <span className="relative z-10 text-center w-full whitespace-nowrap">Google Form Link For Registration</span>
     <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-green-600 to-green-800 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></span>
   </a>
 </div>
+ Note: It is mandatory to fill out this form after paying the registration fee.
 
 
 
