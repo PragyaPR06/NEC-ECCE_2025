@@ -31,15 +31,15 @@ const KeynoteSpeakers = () => {
         image:
           "https://faculty.rpi.edu/sites/default/files/2021-12/Jian%2520Sun%2520Photo.jpg",
       },
-      {
-        id: 4,
-        name: "Prof. Subhas Mukhopadhyay",
-        info: "Professor of Mechanical/Electronics Engineering with the School of Engineering, Macquarie University, NSW 2109, Australia",
-        description:
-          "Dr. Subhas Chandra Mukhopadhyay is a Professor of Mechanical/Electronics Engineering at Macquarie University, Australia, where he also leads the Mechatronics Engineering Programme and serves as Director of International Engagement. His research focuses on sensors, instrumentation, wireless sensor networks, IoT, mechatronics, robotics, and drones. He has authored 14 patents, 10 books, over 450 papers, and edited 18 conference proceedings and 40 journal special issues. A Fellow of IEEE (USA), IET (UK), and IETE (India), he is an editor for IEEE Sensors Journal, IEEE Transactions on Instrumentation and Measurements, and IEEE Review of Biomedical Engineering. Dr. Mukhopadhyay founded and chairs the IEEE Instrumentation and Measurement Society and IEEE Sensors Council New South Wales Chapters. He was a Distinguished Lecturer for the IEEE Sensors Council (2017-2022) and has delivered over 450 talks. He has organized 20+ international conferences, including as General Chair for IEEE Sensors Conferences in 2009 and 2021.",
-        image:
-          "https://researchers.mq.edu.au/files-asset/17788419/Subhas.jpg?w=160&f=webp",
-      },
+      // {
+      //   id: 4,
+      //   name: "Prof. Subhas Mukhopadhyay",
+      //   info: "Professor of Mechanical/Electronics Engineering with the School of Engineering, Macquarie University, NSW 2109, Australia",
+      //   description:
+      //     "Dr. Subhas Chandra Mukhopadhyay is a Professor of Mechanical/Electronics Engineering at Macquarie University, Australia, where he also leads the Mechatronics Engineering Programme and serves as Director of International Engagement. His research focuses on sensors, instrumentation, wireless sensor networks, IoT, mechatronics, robotics, and drones. He has authored 14 patents, 10 books, over 450 papers, and edited 18 conference proceedings and 40 journal special issues. A Fellow of IEEE (USA), IET (UK), and IETE (India), he is an editor for IEEE Sensors Journal, IEEE Transactions on Instrumentation and Measurements, and IEEE Review of Biomedical Engineering. Dr. Mukhopadhyay founded and chairs the IEEE Instrumentation and Measurement Society and IEEE Sensors Council New South Wales Chapters. He was a Distinguished Lecturer for the IEEE Sensors Council (2017-2022) and has delivered over 450 talks. He has organized 20+ international conferences, including as General Chair for IEEE Sensors Conferences in 2009 and 2021.",
+      //   image:
+      //     "https://researchers.mq.edu.au/files-asset/17788419/Subhas.jpg?w=160&f=webp",
+      // },
       {
         id: 5,
         name: "Prof. Virendra Kumar Vijay",
