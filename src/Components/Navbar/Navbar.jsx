@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -84,10 +85,21 @@ const Navbar = () => {
       
          
          
-        <Link to="/programDetails">
-        <li className={styles.navItem}>
-          Program Details</li>
-        </Link>
+       <li className={`${styles.navItem} ${styles.dropdown}`}>
+          Event Details<span className=' font-extrabold ' >&#9662;</span>
+          <ul className={styles.dropdownContent}>
+            <Link to="/programDetails">
+            <li> Program Schedule</li>      
+            </Link>
+            <Link to="/WIE">
+            <li>WIE Events</li>
+            </Link>
+            <Link to="/SYP">
+            <li>SYP Events</li>
+            </Link>
+          </ul>
+        </li>
+        
         <Link to="/Registrations">
         <li className={styles.navItem}>
           Registrations</li>

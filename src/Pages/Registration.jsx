@@ -244,7 +244,7 @@ const Registrations = () => {
         </div>
 
       
-      </div>
+      
     </>
   );
 };

@@ -24,7 +24,8 @@ import TracksPage from './Pages/TrackssPage';
 import Travel from './Pages/Travel';
 import Speaker from './Components/Speaker/Speaker';
 import StudentAwards from './Pages/Awards/StudentAwards';
-
+import WIE from './Pages/wie';
+import SYP from './Pages/syp';
 export const App = () => {
   return (
     <div>
@@ -33,6 +34,8 @@ export const App = () => {
             
             <Routes>
               <Route exact path="/" element={<Home />} />
+              <Route exact path="/SYP" element={<SYP />} />
+               <Route exact path="/WIE" element={<WIE />} />
               <Route exact path="/Aboutus" element={<Aboutus/>}/>
               <Route exact path="/Brochure" element={<Brochure/>}/>
               <Route exact path="/CallForPapers" element={<CallForPaper/>}/> 
