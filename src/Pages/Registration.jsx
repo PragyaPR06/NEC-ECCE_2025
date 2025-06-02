@@ -248,7 +248,7 @@ const Registrations = () => {
         </div>
 
       
-{/*       </div> */}
+
     </>
   );
 };

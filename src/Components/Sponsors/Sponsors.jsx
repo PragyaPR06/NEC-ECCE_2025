@@ -36,7 +36,7 @@ const Sponsor = () =>{
             <div className={styles.FinancialSponsors}>
             <h1 className={styles.header}>
                 <b>
-                Financial Co-Sponsors
+               Financial Sponsors
                 </b>
             </h1>  <hr></hr>
             <div className={styles.icons}>
@@ -48,6 +48,56 @@ const Sponsor = () =>{
         </div>
         </div>
             </div>
+            <br></br><br></br>
+
+             <div className={styles.our_sponsors}>
+    <h1 className={styles.header}>
+     <b>Our Sponsors</b>
+    </h1>
+    <hr/>
+
+  
+    <div className={styles.first_row}>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image1.png")} alt="Sponsor 1" />
+      </div>
+      <div className={styles.logo_item2}>
+      
+        <img src={require("./images/image2.png")} alt="Sponsor 2" />
+        </div>
+     
+      <div clasNameclassNames={styles.logo_item}>
+        <img src={require("./images/image3.png")} alt="Sponsor 3" />
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image4.png")} alt="Sponsor 4" />
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image5.png")} alt="Sponsor 5" />
+      </div>
+     
+    </div>
+
+   
+    <div className={styles.second_row}>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image7.png")} alt="Sponsor 7" width="200" height="150"/>
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image8.png")} alt="Sponsor 8" width="200" height="150"/>
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image9.jpg")} alt="Sponsor 9" width="200" height="150"/>
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image10.png")} alt="Sponsor 10" width="200" height="150"/>
+      </div>
+      <div className={styles.logo_item}>
+        <img src={require("./images/image11.png")} alt="Sponsor 11" width="200" height="150"/>
+      </div>
+    </div>
+  </div> 
+            
         </>
     )
 }
