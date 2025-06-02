@@ -13,7 +13,7 @@ module.exports = {
         }
       },
       animation: {
-        blink: 'blink 1.5s infinite'
+        blink: 'blink 2s infinite'
       },
             fontFamily: {
               'anek': ['"Anek Tamil"', 'sans-serif'],

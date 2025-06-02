@@ -93,7 +93,7 @@ const StudentAwards = () =>{
                 <li>PDF(s) of the final camera-ready paper(s) [IEEE PDF eXpress check].</li>
                 <li>Full paper registration transaction details.</li>
                 <li>Active IEEE Student Membership & IEEE Industry Application Society (IAS) Student Membership (Required only when shortlisted for award).</li>
-                <li> Fill out the online Student Travel Award form by clicking link below:
+                <li> <strong>Fill out the online Student Travel Award form by clicking link below:</strong>
 
                                         </li>
             </ul>
