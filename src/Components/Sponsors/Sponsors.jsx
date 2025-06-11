@@ -66,16 +66,17 @@ const Sponsor = () =>{
         <img src={require("./images/image2.png")} alt="Sponsor 2" />
         </div>
      
-      <div clasNameclassNames={styles.logo_item}>
-        <img src={require("./images/image3.png")} alt="Sponsor 3" />
+      
+    
+       <div className={styles.logo_item}>
+        <img src={require("./images/sbilife.jpg")} alt="Sponsor 5" />
       </div>
-      <div className={styles.logo_item}>
+       <div className={styles.logo_item}>
         <img src={require("./images/image4.png")} alt="Sponsor 4" />
       </div>
       <div className={styles.logo_item}>
         <img src={require("./images/image5.png")} alt="Sponsor 5" />
       </div>
-     
     </div>
 
    

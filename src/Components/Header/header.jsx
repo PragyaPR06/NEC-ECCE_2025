@@ -35,7 +35,7 @@ const Header = () => {
         <div className={styles.important_logos}>
           <div className={styles.nits_logo}>
             <a href="http://www.nits.ac.in/" target="_blank" rel="noreferrer">
-            <img src={require("./nits-logo.png")} alt="nits-logo" />
+            <img src={require("./NITS.jpg")} alt="nits-logo" />
             </a>
           </div>
           <div className={styles.location_ieee_logo}>
