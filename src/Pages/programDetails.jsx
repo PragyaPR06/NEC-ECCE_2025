@@ -8,11 +8,25 @@ const ProgramDetails = () => {
         <Fragment>
         <Header/>
         <Navbar/>
-        <section className={styles3.header}>
-            <br /><br />
-                <h1>Coming <span>Soon !!</span></h1>
-                <br /><br /><br />
-            </section>
+         <div className={styles3.schedule}>
+                        <img src="/schedule/Schedule_final-images-0.jpg" alt="brochure pdf" ></img></div>
+                        <div className={styles3.schedule}>
+                        <img src="/schedule/Schedule_final-images-1.jpg" alt="brochure pdf" ></img></div>
+                        <div className={styles3.schedule}>
+                        <img src="/schedule/Schedule_final-images-2.jpg" alt="brochure pdf" ></img></div>
+                        <div className={styles3.schedule}>
+                        <img src="/schedule/Schedule_final-images-3.jpg" alt="brochure pdf" ></img></div>
+
+                        <div className="text-center">
+  <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
+    You can download the complete program schedule from below:
+  </h2>
+  <a href="/pdfs/Schedule_final.pdf" download>
+    <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
+      Download schedule
+    </button>
+  </a>
+</div>
         </Fragment>
         );
 };
