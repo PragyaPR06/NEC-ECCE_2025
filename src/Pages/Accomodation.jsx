@@ -299,7 +299,7 @@ const Accomodation = () => {
             {/* Add ToastContainer */}
             <ToastContainer />
             <p className={styles2.helpsec}>
-               For any query related to travel please contact Mr. Rupam(+918749981590)
+               For any query related to accommodation please contact Mr. Sayantan Chowdhury(+918981350767)
             </p>
         </Fragment>
     );

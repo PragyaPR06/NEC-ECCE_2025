@@ -137,6 +137,9 @@ export default function Travel() {
                 </tbody>
             </table>
         </div>
+          <p className={styles.helpsec}>
+                       For any query related to travel please contact Mr. Rupam(+918749981590)
+                    </p>
     </div>
     </div>
 
