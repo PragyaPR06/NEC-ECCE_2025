@@ -7,6 +7,7 @@ const KeynoteSpeakers = () => {
   const speakers = [
     {
       id: 1,
+      topic:"Title: Interoperability of Grid forming Controls for Inverter based Resources",
       name: "Prof. Sairaj Dhople",
       info: "Department of Electrical and Computer Engineering University of Minnesota Minneapolis, MN, USA",
       description:
@@ -16,6 +17,7 @@ const KeynoteSpeakers = () => {
     },
     {
       id: 2,
+      topic:"Title: ANN Based Wind and SPV Power Forecasting",
       name: "Prof. SN Singh",
       info: "Ph.D. Electrical (Power Systems), Indian Institute of Technology, Kanpur",
       description:
@@ -24,6 +26,7 @@ const KeynoteSpeakers = () => {
     },
     {
         id: 3,
+        topic:"Title: Power Supplies Design for Data Center Power System Stability",
         name: "Prof. Jian Sun",
         info: " Professor, Department of Electrical, Computer, and Systems Engineering (ECSE), Rensselaer Polytechnic Institute. Director, New York State Center for Future Energy Systems (CFES)",
         description:
@@ -51,6 +54,7 @@ const KeynoteSpeakers = () => {
       },
       {
         id: 6,
+        topic:"Title: Technical Trends of Electric Motor and Drives for Industrial Applications",
         name: "Dr. Kouki Matsuse",
         info: "Professor Emeritus, Department of Electronics and Bioinformatics, Meiji University, Japan",
         description:
@@ -60,11 +64,12 @@ const KeynoteSpeakers = () => {
       },
       {
         id: 7,
+        topic:"Title: Silicon and Wide Bandgap Power Semiconductors/Modules for Power Conversion: Trends, New Technologies, and Challenges",
         name: "Dr. Gourab Majumdar",
         info: "Senior Fellow, Power Device Works, Mitsubishi Electric Corporation, Japan | Fellow IEEE",
         description:
           "Dr. Gourab Majumdar is a Senior Fellow at Mitsubishi Electric Corporation, Japan, and a globally renowned power electronics expert. An alumnus of IIT Delhi and Kyushu Institute of Technology (Ph.D.), he is credited with inventing the Intelligent Power Module (IPM) and has significantly contributed to power semiconductor technologies. A recipient of Japan’s National Invention Award and the Monozukuri Grand Prix, he has authored numerous publications and holds several international patents. Dr. Majumdar is an IEEE Fellow and has been actively involved in advancing semiconductor innovation through both industry and academia. In 2018, he became a naturalized Japanese citizen and adopted the name Dr. Gourab Suzuki.",
-        image: "https://media.licdn.com/dms/image/v2/C4E03AQHPSI5EzOl5yA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1638862760292?e=1750291200&v=beta&t=8KmgDPbqwB_Syw_mMqS9W3zR5rA2CPJxIbK8652a0co",
+        image: "/speaker/doc.jpg",
       },
   ];
 
@@ -92,6 +97,7 @@ const KeynoteSpeakers = () => {
             <img src={speaker.image} alt={speaker.name} />
           </div>
           <div className={styles3.profileDetails}>
+          <h2 className={styles3.topic}>{speaker.topic}</h2>
             <h3 className={styles3.speakerName}>{speaker.name}</h3>
             <h3 className={styles3.keynoteSpeakerInfo}>{speaker.info}</h3>
             <p className={styles3.speakerDescription}>

@@ -7,6 +7,7 @@ const Tutorials = () => {
   const speakers = [
     {
       id: 1,
+      topic:"Title: Power Architecture and Control of Indian Railway Traction Converter",
       name: "Dr. Avanish Tripathi",
       info: "Assistant Professor, Department of Energy Science and Engineering, IIT Delhi",
       description:
@@ -16,6 +17,7 @@ const Tutorials = () => {
     },
     {
       id: 2,
+      topic:"Title: Interconnection and Interoperability of Distributed Energy Resources",
       name: "Dr. Sivaneasan Bala Krishnan",
       info: "Associate Professor, Deputy Director, SIT Teaching and Learning Academy",
       description:
@@ -24,7 +26,7 @@ const Tutorials = () => {
     },
     {
         id: 3,
-        topic:"Design and Engineering of High Power Converters",
+        topic:"Title: Design and Engineering of High Power Converters",
         name: "Dr. Sujit K. Biswas",
         info: " Dean (Academic) & Professor, Dept. of Electrical Engg. St. Thomas’ College of Engineering and Technology, Kolkata, India. Former Professor & Head, Dept. of Electrical Engg., Jadavpur University, Kolkata, India",
         description:
@@ -34,6 +36,7 @@ const Tutorials = () => {
       },
       {
         id: 4,
+        topic:"Title: Aerospace Electrification and Condition Monitoring",
         name: "Dr. Sivakumar Nadarajan",
         info: "PhD (Electrical and Power Engineering), National University of Singapore, Singapore",
         description:
