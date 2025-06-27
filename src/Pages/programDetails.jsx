@@ -9,13 +9,13 @@ const ProgramDetails = () => {
         <Header/>
         <Navbar/>
          <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-0.jpg" alt="brochure pdf" ></img></div>
+                        <img src="/schedule/Schedule_final-images-0.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-1.jpg" alt="brochure pdf" ></img></div>
+                        <img src="/schedule/Schedule_final-images-1.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-2.jpg" alt="brochure pdf" ></img></div>
+                        <img src="/schedule/Schedule_final-images-2.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-3.jpg" alt="brochure pdf" ></img></div>
+                        <img src="/schedule/Schedule_final-images-3.png" alt="brochure pdf" ></img></div>
 
                         <div className="text-center">
   <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
