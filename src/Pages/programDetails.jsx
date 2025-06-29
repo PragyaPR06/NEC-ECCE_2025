@@ -8,20 +8,42 @@ const ProgramDetails = () => {
         <Fragment>
         <Header/>
         <Navbar/>
-         <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-0.png" alt="brochure pdf" ></img></div>
+         {/* <div className={styles3.schedule}> */}
+                        {/* <img src="/schedule/Schedule_final-images-0.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
                         <img src="/schedule/Schedule_final-images-1.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
                         <img src="/schedule/Schedule_final-images-2.png" alt="brochure pdf" ></img></div>
                         <div className={styles3.schedule}>
-                        <img src="/schedule/Schedule_final-images-3.png" alt="brochure pdf" ></img></div>
+                        <img src="/schedule/Schedule_final-images-3.png" alt="brochure pdf" ></img></div> */}
 
-                        <div className="text-center">
+                        <div className="text-center mt-8">
   <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
     You can download the complete program schedule from below:
   </h2>
   <a href="/pdfs/Schedule_final.pdf" download>
+    <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
+      Download schedule
+    </button>
+  </a>
+</div>
+
+            <div className="text-center">
+  <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
+    You can download the Poster Presentation schedule from below:
+  </h2>
+  <a href="/pdfs/PosterSchedule.pdf" download>
+    <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
+      Download schedule
+    </button>
+  </a>
+</div>
+
+           <div className="text-center">
+  <h2 className="font-bold text-blue-500  md:text-2xl text-[clamp(10px,3vw,18px)] mb-4">
+    You can download the Oral Presentation schedule from below:
+  </h2>
+  <a href="/pdfs/OralSchedule.pdf" download>
     <button className="bg-blue-500 text-white font-bold py-2 px-4 my-5 rounded hover:bg-blue-700">
       Download schedule
     </button>
