@@ -2,34 +2,50 @@
   color: blue;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 2.6rem;
-}
-
-.instructionsSubHeading {
-  margin-top: 1rem;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  word-wrap: break-word;
 }
 
 .instructionsHeading span {
   color: orange;
 }
 
+.instructionsSubHeading {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  word-wrap: break-word;
+}
+
 .instructions {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; 
-  margin: 2rem 8rem 1rem;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;       
+  margin: 2rem auto;      
+  padding: 0 1.5rem;       
+  box-sizing: border-box;
 }
 
 .instructionsContent {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.3rem;
-  line-height: 2.5rem;
-  padding-left: 3rem;
+  font-size: 1.35rem;
+  line-height: 2.3rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.instructionsContent p,
+.instructionsContent a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .submitDigestText {
@@ -41,9 +57,10 @@
 
 .submitButtonArea {
   display: flex;
-  justify-content: center; /* Center the button horizontally */
+  justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 .submitButton {
@@ -51,26 +68,56 @@
   background-color: blue;
   border: none;
   border-radius: 1rem;
-  padding: 0.5rem 1rem; /* Adjusted padding for better button size */
+  padding: 0.6rem 1.2rem;
   box-shadow: 0 0 0.1rem 0.1rem rgb(0, 0, 0);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  min-height: 1.5rem;
-  min-width: 4rem;
+  font-size: 1.1rem;
   cursor: pointer;
+  transition: 0.3s;
 }
 
-.submitButton:hover {
+.submitButton:hover,
+.submitButton:active {
   background-color: rgb(1, 1, 117);
-  transition: 0.5s;
 }
 
 .submitButton:focus {
-  outline-color: transparent;
-  outline-style: solid;
+  outline: none;
   box-shadow: 0 0 0 4px #05006c;
-  transition: 0.5s;
 }
 
-.submitButton:active {
-  background-color: rgb(1, 1, 117);
+/* 🔽 Media Queries */
+@media (max-width: 768px) {
+  .instructionsHeading {
+    font-size: 2rem;
+  }
+
+  .instructionsSubHeading {
+    font-size: 1.4rem;
+  }
+
+  .instructionsContent {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructionsHeading {
+    font-size: 1.7rem;
+  }
+
+  .instructionsSubHeading {
+    font-size: 1.2rem;
+  }
+
+  .instructionsContent {
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+  }
+
+  .submitButton {
+    width: 100%;
+    font-size: 1rem;
+  }
 }
