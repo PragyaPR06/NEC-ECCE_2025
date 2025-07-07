@@ -11,9 +11,9 @@ const ScrollingText = () => {
        <div className='flex '>
        <div className='p-0 m-0 items-center '><img src="/new.webp" alt="Notification" className=" items-center pt-1 " width='30px' /></div>
 
-       <div style={{padding: 0, fontSize: 20}}> <a style={{color: 'red'}} href="/CallForPapers">You can download program schedule form here <a href="/pdfs/Schedule_final.pdf" download>
+       <div style={{padding: 0, fontSize: 20}}> <a style={{color: 'red'}}>You can download the book of Abstract of NE IECCE 2025 here <a href="/pdfs/Schedule_final.pdf" download>
     <button className="bg-blue-500 text-white font-bold py-.5 px-.75 my-.75 rounded hover:bg-blue-700">
-      Download schedule
+      Download Abstract
     </button>
   </a> </a>  <span>  <strong>. All papers presented in NE-IECCE 2025 will go to IEEE Xplore and will be eligible for further review for publication in IAS Transactions and Magazine. </strong></span>
 
