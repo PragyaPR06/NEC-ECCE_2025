@@ -1,6 +1,8 @@
 import React from 'react';
 
 const VerticalButtons = () => {
+
+  
   const buttonStyle = {
     display: 'block',
     width: '100%',
@@ -17,7 +19,7 @@ const VerticalButtons = () => {
     cursor: 'pointer',
     transition: 'opacity 0.3s ease',
   };
-
+ 
   const buttons = [
     { text: 'Brochure', path: '/Brochure', color: 'linear-gradient(to right, #3b82f6, #1d4ed8)' },
     { text: 'Digest Submission', path: '/PaperSumbissionGuide', color: 'linear-gradient(to right, #14b8a6, #0d9488)' },
